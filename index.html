@@ -1,0 +1,1007 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>The Gaffer's Desk</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Gaffer's Desk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#EDF1EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A120F" media="(prefers-color-scheme: dark)">
+<meta name="description" content="Live FPL squad console: the current XI, the transfers to make this week, and how the team has changed all season.">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --ground:#EDF1EC; --surface:#FFFFFF; --surface-2:#F5F8F4; --raise:#FFFFFF;
+    --line:rgba(16,28,23,0.14); --line-2:rgba(16,28,23,0.30);
+    --ink:#101C17; --ink-2:#47564F; --ink-3:#78877F;
+    --accent:#0B6E4F; --accent-soft:#DCEDE4; --accent-ink:#FFFFFF;
+    --signal:#A85F0B; --signal-soft:#FBEEDA;
+    --danger:#A32F22; --danger-soft:#F8E6E2;
+    --turf-a:#DCE9DE; --turf-b:#D4E4D7;
+    --shadow:0 1px 2px rgba(16,28,23,.05), 0 12px 28px -18px rgba(16,28,23,.35);
+  }
+  @media (prefers-color-scheme:dark){
+    :root:not([data-theme="light"]){
+      --ground:#0A120F; --surface:#111C17; --surface-2:#0D1713; --raise:#16231D;
+      --line:rgba(231,237,232,0.13); --line-2:rgba(231,237,232,0.30);
+      --ink:#E7EDE8; --ink-2:#A3B0A8; --ink-3:#78877F;
+      --accent:#35C98A; --accent-soft:#12291F; --accent-ink:#06120D;
+      --signal:#E0A244; --signal-soft:#2A2113;
+      --danger:#E27C66; --danger-soft:#2E1A16;
+      --turf-a:#0F1E17; --turf-b:#0C1813;
+      --shadow:0 1px 2px rgba(0,0,0,.5), 0 14px 32px -20px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --ground:#0A120F; --surface:#111C17; --surface-2:#0D1713; --raise:#16231D;
+    --line:rgba(231,237,232,0.13); --line-2:rgba(231,237,232,0.30);
+    --ink:#E7EDE8; --ink-2:#A3B0A8; --ink-3:#78877F;
+    --accent:#35C98A; --accent-soft:#12291F; --accent-ink:#06120D;
+    --signal:#E0A244; --signal-soft:#2A2113;
+    --danger:#E27C66; --danger-soft:#2E1A16;
+    --turf-a:#0F1E17; --turf-b:#0C1813;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 14px 32px -20px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--ground); color:var(--ink);
+    font-family:'Barlow',system-ui,-apple-system,sans-serif;
+    font-size:15px; line-height:1.5; -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,h4{font-family:'Barlow Condensed','Arial Narrow',sans-serif; margin:0; text-wrap:balance;}
+  .mono{font-family:'IBM Plex Mono',ui-monospace,monospace; font-variant-numeric:tabular-nums;}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 20px 90px;}
+
+  /* ---------- masthead ---------- */
+  header.top{border-bottom:1px solid var(--line-2); background:var(--surface-2);}
+  .top .inner{max-width:1120px; margin:0 auto; padding:22px 20px 0;}
+  .crest{display:flex; align-items:flex-end; justify-content:space-between; gap:20px; flex-wrap:wrap;}
+  .eyebrow{
+    font-family:'IBM Plex Mono',ui-monospace,monospace; font-size:10.5px; font-weight:600;
+    letter-spacing:.16em; text-transform:uppercase; color:var(--accent); margin:0 0 6px;
+  }
+  h1{font-size:clamp(34px,5.4vw,50px); font-weight:700; line-height:.94; letter-spacing:.005em;}
+  .whoami{margin:6px 0 0; color:var(--ink-2); font-size:15px;}
+  .gwbadge{
+    display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+    border:1px solid var(--line-2); border-radius:8px; padding:9px 14px; background:var(--surface);
+  }
+  .gwbadge .n{font-family:'Barlow Condensed',sans-serif; font-size:30px; font-weight:700; line-height:1; color:var(--accent);}
+  .gwbadge .lb{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--ink-3); display:block;}
+  .gwbadge .cd{font-family:'IBM Plex Mono',monospace; font-size:14px; font-weight:600; color:var(--ink);}
+  .gwbadge .cd.urgent{color:var(--danger);}
+  .gwbadge .cd.gone{color:var(--ink-3);}
+
+  /* stat rail */
+  .rail{display:grid; grid-template-columns:repeat(auto-fit,minmax(132px,1fr)); gap:1px;
+        background:var(--line); border:1px solid var(--line); border-radius:9px; overflow:hidden; margin:20px 0 0;}
+  .stat{background:var(--surface); padding:11px 14px;}
+  .stat .k{font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .stat .v{font-family:'Barlow Condensed',sans-serif; font-size:25px; font-weight:700; line-height:1.15; margin-top:2px;}
+  .stat .v.accent{color:var(--accent);}
+  .stat .v.sig{color:var(--signal);}
+  .stat .sub{font-size:12px; color:var(--ink-3); line-height:1.3;}
+
+  /* tabs */
+  nav.tabs{display:flex; gap:2px; margin:18px 0 -1px; flex-wrap:wrap;}
+  .tab{
+    appearance:none; cursor:pointer; background:transparent; border:1px solid transparent; border-bottom:none;
+    font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:600; letter-spacing:.09em;
+    text-transform:uppercase; color:var(--ink-3); padding:10px 17px; border-radius:8px 8px 0 0;
+  }
+  .tab:hover{color:var(--ink);}
+  .tab:focus-visible{outline:2px solid var(--accent); outline-offset:-3px;}
+  .tab[aria-selected="true"]{background:var(--ground); border-color:var(--line-2); color:var(--ink);
+    position:relative; box-shadow:inset 0 2px 0 var(--accent);}
+  .tab .cnt{
+    display:inline-block; margin-left:7px; background:var(--signal); color:#fff;
+    border-radius:100px; padding:0 6px; font-size:10px; line-height:16px; vertical-align:1px;
+  }
+
+  section[role="tabpanel"]{padding-top:28px;}
+  section[hidden]{display:none;}
+  .lede{color:var(--ink-2); max-width:68ch; margin:0 0 22px;}
+  h2.sec{font-size:26px; font-weight:700; letter-spacing:.01em; margin:0 0 4px; text-transform:uppercase;}
+  h3.sub{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600; margin:30px 0 11px;
+    display:flex; align-items:center; gap:10px;}
+  h3.sub::after{content:""; flex:1; height:1px; background:var(--line);}
+
+  /* ---------- pitch ---------- */
+  .fieldwrap{display:grid; grid-template-columns:1fr 320px; gap:20px; align-items:start;}
+  @media (max-width:940px){ .fieldwrap{grid-template-columns:1fr;} }
+  .pitch{
+    border:1px solid var(--line-2); border-radius:11px; padding:20px 14px;
+    background:repeating-linear-gradient(180deg,var(--turf-a) 0 44px,var(--turf-b) 44px 88px);
+    display:flex; flex-direction:column; gap:16px; position:relative; overflow:hidden;
+  }
+  .pitch::before{
+    content:""; position:absolute; inset:9px; border:1px solid var(--line);
+    border-radius:6px; pointer-events:none;
+  }
+  .line{display:flex; justify-content:center; gap:9px; flex-wrap:wrap; position:relative;}
+  .card{
+    appearance:none; cursor:pointer; text-align:left; font-family:inherit; color:var(--ink);
+    background:var(--surface); border:1px solid var(--line-2); border-radius:7px;
+    padding:7px 9px 8px; width:104px; box-shadow:var(--shadow);
+    transition:transform .13s ease, border-color .13s ease;
+  }
+  .card:hover{transform:translateY(-2px); border-color:var(--accent);}
+  .card:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .card[aria-pressed="true"]{border-color:var(--accent); box-shadow:0 0 0 2px var(--accent-soft), var(--shadow);}
+  .card .nm{font-weight:600; font-size:13.5px; line-height:1.2; display:block;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .card .cl{font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.07em;
+    color:var(--ink-3); display:block; margin-top:1px;}
+  .card .pr{font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:600;
+    color:var(--accent); display:block; margin-top:3px;}
+  .card .fx{display:flex; gap:2px; margin-top:5px;}
+  .fdr{
+    flex:1; height:4px; border-radius:1px; background:var(--line-2);
+  }
+  .fdr[data-d="1"],.fdr[data-d="2"]{background:var(--accent);}
+  .fdr[data-d="3"]{background:var(--ink-3);}
+  .fdr[data-d="4"]{background:var(--signal);}
+  .fdr[data-d="5"]{background:var(--danger);}
+  .badge{
+    position:absolute; top:-6px; right:-6px; width:19px; height:19px; border-radius:50%;
+    display:grid; place-items:center; font-family:'IBM Plex Mono',monospace; font-size:9.5px;
+    font-weight:600; border:1px solid var(--surface);
+  }
+  .card{position:relative;}
+  .badge.c{background:var(--accent); color:var(--accent-ink);}
+  .badge.v{background:var(--ink-3); color:var(--surface);}
+  .badge.out{background:var(--danger); color:#fff;}
+  .card.flagged{border-color:var(--signal);}
+  .card.leaving{opacity:.55;}
+  .card.leaving .nm{text-decoration:line-through;}
+
+  .benchstrip{
+    border:1px solid var(--line-2); border-radius:11px; background:var(--surface-2);
+    padding:14px; margin-top:16px;
+  }
+  .benchstrip .hd{display:flex; align-items:baseline; justify-content:space-between; gap:10px; margin-bottom:11px;}
+  .benchstrip .hd span{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.11em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .benchrow{display:flex; gap:9px; flex-wrap:wrap;}
+  .ord{
+    position:absolute; top:-6px; left:-6px; width:19px; height:19px; border-radius:50%;
+    background:var(--ink); color:var(--ground); display:grid; place-items:center;
+    font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600; border:1px solid var(--surface);
+  }
+
+  /* detail panel */
+  .detail{
+    border:1px solid var(--line-2); border-radius:11px; background:var(--surface);
+    padding:18px; box-shadow:var(--shadow); position:sticky; top:14px;
+  }
+  .detail .ph{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .detail h4{font-size:25px; font-weight:700; line-height:1.05; margin:4px 0 2px;}
+  .detail .meta{font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:var(--ink-3); letter-spacing:.04em;}
+  .dgrid{display:grid; grid-template-columns:1fr 1fr; gap:1px; background:var(--line);
+    border:1px solid var(--line); border-radius:7px; overflow:hidden; margin:15px 0;}
+  .dgrid div{background:var(--surface); padding:8px 10px;}
+  .dgrid .k{font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .dgrid .v{font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:700; line-height:1.2;}
+  .ticker{display:flex; flex-direction:column; gap:4px;}
+  .tick{display:grid; grid-template-columns:34px 1fr auto; gap:9px; align-items:center;
+    font-family:'IBM Plex Mono',monospace; font-size:11.5px; padding:5px 8px;
+    border:1px solid var(--line); border-radius:5px; background:var(--surface-2);}
+  .tick .g{color:var(--ink-3); letter-spacing:.05em;}
+  .tick .o{color:var(--ink); letter-spacing:.03em;}
+  .pip{width:20px; height:20px; border-radius:4px; display:grid; place-items:center;
+    font-size:10.5px; font-weight:600; color:#fff;}
+  .pip[data-d="1"],.pip[data-d="2"]{background:var(--accent); color:var(--accent-ink);}
+  .pip[data-d="3"]{background:var(--ink-3);}
+  .pip[data-d="4"]{background:var(--signal);}
+  .pip[data-d="5"]{background:var(--danger);}
+  .empty{color:var(--ink-3); font-size:14px; line-height:1.6;}
+  .newsline{border-left:3px solid var(--signal); background:var(--signal-soft);
+    padding:9px 12px; border-radius:0 5px 5px 0; font-size:13.5px; margin-top:14px;}
+
+  /* ---------- moves ---------- */
+  .move{
+    border:1px solid var(--line-2); border-radius:11px; background:var(--surface);
+    box-shadow:var(--shadow); margin-bottom:16px; overflow:hidden;
+  }
+  .move.done{opacity:.62;}
+  .movehd{display:flex; align-items:center; gap:11px; padding:13px 17px;
+    border-bottom:1px solid var(--line); background:var(--surface-2); flex-wrap:wrap;}
+  .prio{font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600; letter-spacing:.1em;
+    text-transform:uppercase; padding:3px 8px; border-radius:3px; background:var(--danger); color:#fff;}
+  .movehd .t{font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:700; flex:1; min-width:170px;}
+  .swap{display:grid; grid-template-columns:1fr 40px 1fr; gap:10px; align-items:center; padding:17px;}
+  @media (max-width:620px){ .swap{grid-template-columns:1fr; } .arrow{transform:rotate(90deg); margin:0 auto;} }
+  .slot{border:1px solid var(--line); border-radius:8px; padding:12px 13px; background:var(--surface-2);}
+  .slot.o{border-left:3px solid var(--danger);}
+  .slot.i{border-left:3px solid var(--accent);}
+  .slot .lb{font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.12em;
+    text-transform:uppercase; font-weight:600; margin-bottom:4px;}
+  .slot.o .lb{color:var(--danger);} .slot.i .lb{color:var(--accent);}
+  .slot .n{font-family:'Barlow Condensed',sans-serif; font-size:23px; font-weight:700; line-height:1;}
+  .slot .m{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-3); margin-top:3px;}
+  .slot .st{display:flex; gap:13px; margin-top:9px; flex-wrap:wrap;}
+  .slot .st b{display:block; font-family:'Barlow Condensed',sans-serif; font-size:17px; font-weight:700;}
+  .slot .st i{font-style:normal; font-family:'IBM Plex Mono',monospace; font-size:8.5px;
+    letter-spacing:.08em; text-transform:uppercase; color:var(--ink-3);}
+  .arrow{display:grid; place-items:center; color:var(--ink-3); font-size:20px;}
+  .why{padding:0 17px 15px; font-size:14.5px; color:var(--ink-2); line-height:1.55;}
+  .why b{color:var(--ink);}
+  .movefoot{display:flex; align-items:center; gap:12px; padding:12px 17px;
+    border-top:1px solid var(--line); background:var(--surface-2); flex-wrap:wrap;}
+  .cost{font-family:'IBM Plex Mono',monospace; font-size:12px; color:var(--ink-2);}
+  .cost b{color:var(--accent);}
+  .btn{
+    appearance:none; cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:11px;
+    font-weight:600; letter-spacing:.07em; text-transform:uppercase; padding:7px 14px;
+    border-radius:6px; border:1px solid var(--line-2); background:var(--surface); color:var(--ink-2);
+    margin-left:auto;
+  }
+  .btn:hover{border-color:var(--accent); color:var(--accent);}
+  .btn:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+  .btn[aria-pressed="true"]{background:var(--accent); border-color:var(--accent); color:var(--accent-ink);}
+
+  .callout{border:1px solid var(--line-2); border-left:4px solid var(--accent); border-radius:0 9px 9px 0;
+    background:var(--surface); padding:16px 19px; box-shadow:var(--shadow); margin:20px 0;}
+  .callout.sig{border-left-color:var(--signal);}
+  .callout h4{font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.11em;
+    text-transform:uppercase; color:var(--accent); font-weight:600; margin-bottom:7px;}
+  .callout.sig h4{color:var(--signal);}
+  .callout p{margin:0 0 8px; font-size:14.5px; color:var(--ink-2);} .callout p:last-child{margin:0;}
+  .chiprow{display:flex; gap:7px; flex-wrap:wrap; margin-top:11px;}
+  .chip{font-family:'IBM Plex Mono',monospace; font-size:10.5px; padding:4px 10px; border-radius:100px;
+    border:1px solid var(--line-2); color:var(--ink-2); background:var(--surface-2);}
+
+  /* ---------- timeline ---------- */
+  .tl{position:relative; padding-left:26px;}
+  .tl::before{content:""; position:absolute; left:7px; top:6px; bottom:6px; width:2px; background:var(--line);}
+  .ev{position:relative; margin-bottom:20px;}
+  .ev::before{content:""; position:absolute; left:-23px; top:15px; width:11px; height:11px;
+    border-radius:50%; background:var(--accent); border:2px solid var(--ground);}
+  .ev.upcoming::before{background:var(--signal);}
+  .evcard{border:1px solid var(--line-2); border-radius:10px; background:var(--surface);
+    box-shadow:var(--shadow); overflow:hidden;}
+  .evhd{display:flex; align-items:center; gap:12px; padding:13px 16px; flex-wrap:wrap;
+    background:var(--surface-2); border-bottom:1px solid var(--line);}
+  .evhd .gw{font-family:'Barlow Condensed',sans-serif; font-size:22px; font-weight:700; line-height:1;}
+  .state{font-family:'IBM Plex Mono',monospace; font-size:9px; font-weight:600; letter-spacing:.1em;
+    text-transform:uppercase; padding:3px 8px; border-radius:3px;}
+  .state.upcoming{background:var(--signal-soft); color:var(--signal);}
+  .state.complete{background:var(--accent-soft); color:var(--accent);}
+  .evhd .hl{font-size:14px; color:var(--ink-2); flex:1 1 220px;}
+  .evbody{padding:15px 16px;}
+  .movelist{display:flex; flex-direction:column; gap:6px; margin-bottom:13px;}
+  .mv{display:flex; align-items:center; gap:9px; flex-wrap:wrap;
+    font-family:'IBM Plex Mono',monospace; font-size:12px; padding:7px 11px;
+    border:1px solid var(--line); border-radius:6px; background:var(--surface-2);}
+  .mv .o{color:var(--danger); text-decoration:line-through;}
+  .mv .i{color:var(--accent); font-weight:600;}
+  .mv .tag{margin-left:auto; font-size:9px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-3);}
+  .evbody ul{margin:0; padding-left:18px; color:var(--ink-2); font-size:14px;}
+  .evbody li{margin-bottom:5px;}
+  .evstats{display:flex; gap:18px; flex-wrap:wrap; margin-top:13px; padding-top:12px; border-top:1px solid var(--line);}
+  .evstats div{font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--ink-3);}
+  .evstats b{display:block; font-family:'Barlow Condensed',sans-serif; font-size:19px;
+    font-weight:700; color:var(--ink); line-height:1.2;}
+
+  footer{max-width:1120px; margin:0 auto; padding:22px 20px 40px; border-top:1px solid var(--line);
+    color:var(--ink-3); font-size:12px; font-family:'IBM Plex Mono',monospace; line-height:1.75;}
+
+
+  /* ---------- confirm bar + verdict ---------- */
+  .confirmbar{
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+    border:1px solid var(--line-2); border-left:4px solid var(--signal); border-radius:0 10px 10px 0;
+    background:var(--surface); padding:15px 18px; box-shadow:var(--shadow); margin:0 0 22px;
+  }
+  .confirmbar.on{border-left-color:var(--accent); background:var(--accent-soft);}
+  .confirmbar .txt{flex:1 1 240px;}
+  .confirmbar .t{font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:700; line-height:1.1;}
+  .confirmbar .s{font-size:13.5px; color:var(--ink-2); margin-top:2px;}
+  .bigbtn{
+    appearance:none; cursor:pointer; font-family:'IBM Plex Mono',monospace; font-size:12px;
+    font-weight:600; letter-spacing:.08em; text-transform:uppercase; padding:11px 20px;
+    border-radius:7px; border:1px solid var(--accent); background:var(--accent); color:var(--accent-ink);
+  }
+  .bigbtn:hover{filter:brightness(1.08);}
+  .bigbtn:focus-visible{outline:2px solid var(--ink); outline-offset:2px;}
+  .bigbtn.undo{background:transparent; color:var(--accent);}
+  .verdict{
+    border:1px solid var(--line-2); border-radius:11px; background:var(--surface);
+    box-shadow:var(--shadow); overflow:hidden; margin-bottom:20px;
+  }
+  .verdict .vh{padding:18px 20px 16px; border-bottom:1px solid var(--line); background:var(--surface-2);}
+  .verdict .vtag{font-family:'IBM Plex Mono',monospace; font-size:9.5px; font-weight:600;
+    letter-spacing:.12em; text-transform:uppercase; color:var(--accent);}
+  .verdict h3{font-size:27px; font-weight:700; line-height:1.05; margin:5px 0 7px;}
+  .verdict .vb{margin:0; color:var(--ink-2); font-size:14.5px; max-width:70ch;}
+  .evid{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1px; background:var(--line);}
+  .evid div{background:var(--surface); padding:13px 16px;}
+  .evid .k{font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.11em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .evid .v{font-family:'Barlow Condensed',sans-serif; font-size:23px; font-weight:700; line-height:1.15; margin:2px 0 3px;}
+  .evid .n{font-size:12.5px; color:var(--ink-3); line-height:1.45;}
+  .watch{padding:16px 20px; border-top:1px solid var(--line);}
+  .watch h4{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600; margin-bottom:9px;}
+  .watch ul{margin:0; padding-left:18px; color:var(--ink-2); font-size:14px;}
+  .watch li{margin-bottom:7px;}
+  .stamp{font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--accent); letter-spacing:.04em;}
+  .mv .ok{color:var(--accent); font-weight:600;}
+
+
+
+  /* ---------- price movement ---------- */
+  .card .pr .mv{font-size:9.5px; margin-left:3px; font-weight:600;}
+  .mv.up{color:var(--accent);} .mv.dn{color:var(--danger);}
+  .pricebox{
+    display:grid; grid-template-columns:1fr 1fr 1fr; gap:1px; background:var(--line);
+    border:1px solid var(--line); border-radius:7px; overflow:hidden; margin:13px 0 0;
+  }
+  .pricebox div{background:var(--surface); padding:9px 10px;}
+  .pricebox .k{font-family:'IBM Plex Mono',monospace; font-size:8.5px; letter-spacing:.1em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .pricebox .v{font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; margin-top:2px;}
+  .pricenote{font-size:12px; color:var(--ink-3); margin:7px 0 0; line-height:1.45;}
+
+
+  /* ---------- points table ---------- */
+  .ptswrap{border:1px solid var(--line-2); border-radius:11px; background:var(--surface);
+    box-shadow:var(--shadow); overflow:hidden;}
+  .ptsscroll{overflow-x:auto; -webkit-overflow-scrolling:touch;}
+  table.pts{border-collapse:separate; border-spacing:0; width:100%; min-width:460px;}
+  table.pts th, table.pts td{padding:9px 11px; text-align:center; border-bottom:1px solid var(--line);
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; white-space:nowrap;}
+  table.pts thead th{background:var(--surface-2); color:var(--ink-3); font-size:9.5px;
+    letter-spacing:.11em; text-transform:uppercase; font-weight:600;}
+  table.pts th.who, table.pts td.who{position:sticky; left:0; z-index:1; text-align:left;
+    background:var(--surface); min-width:132px; border-right:1px solid var(--line);}
+  table.pts thead th.who{z-index:2; background:var(--surface-2);}
+  table.pts tbody tr:last-child td{border-bottom:none;}
+  .who .n{font-family:'Barlow',sans-serif; font-weight:600; font-size:14px; display:block; letter-spacing:0;}
+  .who .c{font-size:9.5px; letter-spacing:.07em; color:var(--ink-3);}
+  td.gwc{font-weight:600; font-size:13.5px;}
+  td.gwc.benched{color:var(--ink-3);}
+  td.gwc.blank{color:var(--ink-3); opacity:.4;}
+  td.gwc .bn{display:inline-block; margin-left:4px; font-size:9px; font-weight:600; line-height:14px;
+    color:var(--accent-ink); background:var(--accent); border-radius:3px; padding:0 4px; vertical-align:1px;}
+  td.gwc .cx{font-size:9px; color:var(--signal); margin-left:3px; font-weight:600;}
+  td.tot{font-family:'Barlow Condensed',sans-serif; font-size:20px; font-weight:700;}
+  td.tot.banked{color:var(--accent);}
+  td.bon{font-weight:600; color:var(--accent);}
+  td.bon.zero{color:var(--ink-3); opacity:.45;}
+  table.pts tfoot td{background:var(--surface-2); font-weight:600; border-bottom:none; border-top:1px solid var(--line-2);}
+  .ptslegend{display:flex; gap:7px 18px; flex-wrap:wrap; padding:12px 16px; border-top:1px solid var(--line);
+    background:var(--surface-2); font-size:12.5px; color:var(--ink-3);}
+  .ptslegend b{color:var(--ink-2); font-weight:600;}
+  .ptslegend .bn{display:inline-block; font-size:9px; font-weight:600; line-height:14px; font-family:'IBM Plex Mono',monospace;
+    color:var(--accent-ink); background:var(--accent); border-radius:3px; padding:0 4px;}
+
+  .gwstrip{display:grid; grid-template-columns:repeat(auto-fill,minmax(196px,1fr)); gap:11px;}
+  .gwcard{border:1px solid var(--line-2); border-radius:10px; background:var(--surface);
+    padding:13px 15px 14px; box-shadow:var(--shadow);}
+  .gwcard .hd{display:flex; align-items:center; justify-content:space-between; gap:8px;}
+  .gwcard .g{font-family:'Barlow Condensed',sans-serif; font-size:19px; font-weight:700; line-height:1;}
+  .gwcard .p{font-family:'Barlow Condensed',sans-serif; font-size:38px; font-weight:700;
+    line-height:1; color:var(--accent); margin-top:6px;}
+  .gwcard .vs{font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--ink-3); margin-top:5px;}
+  .gwcard .vs b.up{color:var(--accent);} .gwcard .vs b.dn{color:var(--danger);}
+  .gwcard .rows{margin-top:11px; padding-top:10px; border-top:1px solid var(--line);
+    display:flex; flex-direction:column; gap:4px;}
+  .gwcard .rows div{display:flex; justify-content:space-between; gap:10px;
+    font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--ink-3);}
+  .gwcard .rows span{color:var(--ink-2); text-align:right;}
+
+  .pastrow{display:grid; grid-template-columns:repeat(auto-fit,minmax(116px,1fr)); gap:1px;
+    background:var(--line); border:1px solid var(--line); border-radius:9px; overflow:hidden;}
+  .pastrow > div{background:var(--surface); padding:11px 13px;}
+  .pastrow .s{font-family:'IBM Plex Mono',monospace; font-size:9.5px; letter-spacing:.08em;
+    color:var(--ink-3); font-weight:600;}
+  .pastrow .p{font-family:'Barlow Condensed',sans-serif; font-size:23px; font-weight:700; line-height:1.15;}
+  .pastrow .r{font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:var(--ink-3);}
+  .pastrow > div.best{background:var(--accent-soft);}
+  .pastrow > div.best .p{color:var(--accent);}
+  .pastrow > div.best .s::after{content:" · best"; color:var(--accent);}
+
+  /* ---------- phone ---------- */
+  @media (max-width:760px){
+    body{font-size:15.5px;}
+    .wrap{padding:0 13px 70px;}
+    .top .inner{padding:16px 13px 0;}
+    h1{font-size:clamp(30px,9vw,40px);}
+    .crest{gap:13px;}
+    .gwbadge{width:100%; justify-content:space-between; padding:10px 13px;}
+    .rail{grid-template-columns:1fr 1fr;}
+    .stat .v{font-size:22px;}
+    /* tabs become a full-width segmented control that stays put while scrolling */
+    nav.tabs{
+      position:sticky; top:0; z-index:20; gap:0; margin:14px -13px -1px;
+      padding:7px 13px 0; background:var(--surface-2);
+      box-shadow:0 6px 14px -12px rgba(0,0,0,.5);
+    }
+    .tab{flex:1; text-align:center; padding:11px 6px; font-size:11px; letter-spacing:.05em;}
+    /* pitch: cards size to the row instead of a fixed width */
+    .pitch{padding:14px 8px; gap:11px;}
+    .line{gap:6px;}
+    .card{width:auto; flex:1 1 0; min-width:90px; max-width:130px; padding:7px 7px 8px;}
+    .card .nm{font-size:12.5px;}
+    .benchrow .card{flex:1 1 40%; min-width:0;}
+    .detail{position:static;}
+    .fieldwrap{gap:14px;}
+    .evid{grid-template-columns:1fr 1fr;}
+    .confirmbar{padding:13px 14px;}
+    .bigbtn{width:100%; text-align:center; padding:13px 16px;}
+    .movehd,.movefoot,.why{padding-left:14px; padding-right:14px;}
+    .swap{padding:14px;}
+    .btn{margin-left:0; width:100%; text-align:center;}
+    .tl{padding-left:20px;}
+    .ev::before{left:-18px;}
+    .verdict h3{font-size:23px;}
+    .gwstrip{grid-template-columns:1fr 1fr;}
+    .gwcard{padding:11px 12px 12px;}
+    .gwcard .p{font-size:31px;}
+    table.pts th, table.pts td{padding:8px 9px;}
+    table.pts th.who, table.pts td.who{min-width:116px;}
+  }
+  @media (max-width:400px){
+    .rail{grid-template-columns:1fr;}
+    .evid{grid-template-columns:1fr;}
+    .card{min-width:82px;}
+    .gwstrip{grid-template-columns:1fr;}
+  }
+
+  @media (prefers-reduced-motion:reduce){ *{transition:none !important;} }
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="inner">
+    <div class="crest">
+      <div>
+        <p class="eyebrow">Fantasy Premier League &middot; <span id="seasonLbl"></span></p>
+        <h1>The Gaffer's Desk</h1>
+        <p class="whoami" id="whoami"></p>
+      </div>
+      <div class="gwbadge">
+        <div><span class="lb">Gameweek</span><span class="n" id="gwNum">&mdash;</span></div>
+        <div><span class="lb">Deadline</span><span class="cd" id="countdown">&mdash;</span></div>
+      </div>
+    </div>
+    <div class="rail" id="rail"></div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" role="tab" id="tab-squad" aria-controls="panel-squad" aria-selected="true">Squad</button>
+      <button class="tab" role="tab" id="tab-moves" aria-controls="panel-moves" aria-selected="false">Moves <span class="cnt" id="moveCnt"></span></button>
+      <button class="tab" role="tab" id="tab-points" aria-controls="panel-points" aria-selected="false">Points</button>
+      <button class="tab" role="tab" id="tab-season" aria-controls="panel-season" aria-selected="false">Season</button>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ============ SQUAD ============ -->
+  <section role="tabpanel" id="panel-squad" aria-labelledby="tab-squad">
+    <h2 class="sec">The eleven</h2>
+    <p class="lede">Your starting XI in formation, with the bench in autosub order below. The four bars under each name are that club's next four fixtures &mdash; green is kind, red is brutal. Tap any player for their record and fixture run.</p>
+    <div class="fieldwrap">
+      <div>
+        <div class="pitch" id="pitch"></div>
+        <div class="benchstrip">
+          <div class="hd"><span>Bench &middot; autosub order</span><span id="benchNote"></span></div>
+          <div class="benchrow" id="bench"></div>
+        </div>
+      </div>
+      <aside class="detail" id="detail"></aside>
+    </div>
+  </section>
+
+  <!-- ============ MOVES ============ -->
+  <section role="tabpanel" id="panel-moves" aria-labelledby="tab-moves" hidden>
+    <h2 class="sec">Do this before the deadline</h2>
+    <p class="lede" id="movesLede"></p>
+    <div id="confirmSlot"></div>
+    <div id="verdictSlot"></div>
+    <div id="moves"></div>
+    <div class="callout">
+      <h4>Captain</h4>
+      <p id="capLine"></p>
+    </div>
+    <div class="callout sig">
+      <h4>Chips</h4>
+      <p id="chipAdvice"></p>
+      <div class="chiprow" id="chipRow"></div>
+    </div>
+  </section>
+
+  <!-- ============ POINTS ============ -->
+  <section role="tabpanel" id="panel-points" aria-labelledby="tab-points" hidden>
+    <h2 class="sec">What everyone scored</h2>
+    <p class="lede" id="ptsLede"></p>
+    <div class="rail" id="ptsRail"></div>
+    <h3 class="sub">Gameweek by gameweek</h3>
+    <div class="gwstrip" id="gwStrip"></div>
+    <h3 class="sub">Every player, every week</h3>
+    <div class="ptswrap">
+      <div class="ptsscroll"><table class="pts" id="ptsTable"></table></div>
+      <div class="ptslegend" id="ptsLegend"></div>
+    </div>
+    <h3 class="sub">Previous seasons</h3>
+    <div class="pastrow" id="pastRow"></div>
+  </section>
+
+  <!-- ============ SEASON ============ -->
+  <section role="tabpanel" id="panel-season" aria-labelledby="tab-season" hidden>
+    <h2 class="sec">How the team has changed</h2>
+    <p class="lede">Every gameweek, in order, with the transfers made and why. This is the running record &mdash; each week gets added here once the deadline passes, so you can look back and see which calls paid off.</p>
+    <div class="tl" id="timeline"></div>
+  </section>
+
+</div>
+
+<footer id="foot"></footer>
+
+<script>
+(function(){
+  "use strict";
+  var DATA = {"generated": "27 Aug 2026, 18:45 UTC", "gw": 2, "deadline": "2026-08-28T17:30:00Z", "budget": 100.0, "sellValue": 100.0, "marketValue": 100.2, "squad": [{"id": 1, "name": "Raya", "sell": 6.0, "rise": 0.0, "paid": 6.0, "full": "David Raya Martín", "club": "ARS", "clubName": "Arsenal", "pos": "GK", "price": 6.0, "sel": 38.2, "pts": 6, "ppg": 6.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "AVL", "ha": "A", "fdr": 4}, {"gw": 3, "opp": "CHE", "ha": "H", "fdr": 4}, {"gw": 4, "opp": "SUN", "ha": "A", "fdr": 3}, {"gw": 5, "opp": "BHA", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "LEE", "ha": "H", "fdr": 2}]}, {"id": 497, "name": "Dubravka", "sell": 4.0, "rise": 0.0, "paid": 4.0, "full": "Martin Dubravka", "club": "TOT", "clubName": "Spurs", "pos": "GK", "price": 4.0, "sel": 18.7, "pts": 0, "ppg": 0.0, "starts": 0, "mins": 0, "status": "a", "chance": "", "news": "", "role": "bench", "fixtures": [{"gw": 2, "opp": "NEW", "ha": "H", "fdr": 2}, {"gw": 3, "opp": "NFO", "ha": "A", "fdr": 3}, {"gw": 4, "opp": "EVE", "ha": "H", "fdr": 3}, {"gw": 5, "opp": "AVL", "ha": "H", "fdr": 3}, {"gw": 6, "opp": "MUN", "ha": "A", "fdr": 4}]}, {"id": 8, "name": "Calafiori", "sell": 5.5, "rise": 0.1, "paid": 5.5, "full": "Riccardo Calafiori", "club": "ARS", "clubName": "Arsenal", "pos": "DEF", "price": 5.6, "sel": 41.5, "pts": 9, "ppg": 9.0, "starts": 1, "mins": 80, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "AVL", "ha": "A", "fdr": 4}, {"gw": 3, "opp": "CHE", "ha": "H", "fdr": 4}, {"gw": 4, "opp": "SUN", "ha": "A", "fdr": 3}, {"gw": 5, "opp": "BHA", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "LEE", "ha": "H", "fdr": 2}]}, {"id": 356, "name": "Virgil", "sell": 6.5, "rise": 0.0, "paid": 6.5, "full": "Virgil van Dijk", "club": "LIV", "clubName": "Liverpool", "pos": "DEF", "price": 6.5, "sel": 19.6, "pts": 2, "ppg": 2.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "NFO", "ha": "H", "fdr": 3}, {"gw": 3, "opp": "IPS", "ha": "A", "fdr": 2}, {"gw": 4, "opp": "FUL", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "BOU", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "MCI", "ha": "H", "fdr": 4}]}, {"id": 388, "name": "Guéhi", "sell": 6.0, "rise": 0.0, "paid": 6.0, "full": "Marc Guéhi", "club": "MCI", "clubName": "Man City", "pos": "DEF", "price": 6.0, "sel": 19.2, "pts": 10, "ppg": 10.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "CRY", "ha": "A", "fdr": 3}, {"gw": 3, "opp": "COV", "ha": "H", "fdr": 2}, {"gw": 4, "opp": "MUN", "ha": "A", "fdr": 4}, {"gw": 5, "opp": "SUN", "ha": "H", "fdr": 2}, {"gw": 6, "opp": "LIV", "ha": "A", "fdr": 4}]}, {"id": 423, "name": "Shaw", "sell": 4.5, "rise": 0.0, "paid": 4.5, "full": "Luke Shaw", "club": "MUN", "clubName": "Man Utd", "pos": "DEF", "price": 4.5, "sel": 19.8, "pts": 1, "ppg": 1.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "IPS", "ha": "H", "fdr": 2}, {"gw": 3, "opp": "EVE", "ha": "A", "fdr": 3}, {"gw": 4, "opp": "MCI", "ha": "H", "fdr": 4}, {"gw": 5, "opp": "FUL", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "TOT", "ha": "H", "fdr": 3}]}, {"id": 175, "name": "van Ewijk", "sell": 4.0, "rise": 0.0, "paid": 4.0, "full": "Milan van Ewijk", "club": "COV", "clubName": "Coventry City", "pos": "DEF", "price": 4.0, "sel": 13.1, "pts": 1, "ppg": 1.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "bench", "fixtures": [{"gw": 2, "opp": "HUL", "ha": "H", "fdr": 2}, {"gw": 3, "opp": "MCI", "ha": "A", "fdr": 5}, {"gw": 4, "opp": "BHA", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "NFO", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "NEW", "ha": "H", "fdr": 2}]}, {"id": 426, "name": "B.Fernandes", "sell": 12.0, "rise": 0.0, "paid": 12.0, "full": "Bruno Borges Fernandes", "club": "MUN", "clubName": "Man Utd", "pos": "MID", "price": 12.0, "sel": 48.7, "pts": 2, "ppg": 2.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "IPS", "ha": "H", "fdr": 2}, {"gw": 3, "opp": "EVE", "ha": "A", "fdr": 3}, {"gw": 4, "opp": "MCI", "ha": "H", "fdr": 4}, {"gw": 5, "opp": "FUL", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "TOT", "ha": "H", "fdr": 3}]}, {"id": 368, "name": "Szoboszlai", "sell": 7.0, "rise": 0.0, "paid": 7.0, "full": "Dominik Szoboszlai", "club": "LIV", "clubName": "Liverpool", "pos": "MID", "price": 7.0, "sel": 43.0, "pts": 8, "ppg": 8.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "NFO", "ha": "H", "fdr": 3}, {"gw": 3, "opp": "IPS", "ha": "A", "fdr": 2}, {"gw": 4, "opp": "FUL", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "BOU", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "MCI", "ha": "H", "fdr": 4}]}, {"id": 481, "name": "Anderson", "sell": 6.5, "rise": 0.0, "paid": 6.5, "full": "Elliot Anderson", "club": "MCI", "clubName": "Man City", "pos": "MID", "price": 6.5, "sel": 6.2, "pts": 2, "ppg": 2.0, "starts": 1, "mins": 62, "status": "a", "chance": "100", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "CRY", "ha": "A", "fdr": 3}, {"gw": 3, "opp": "COV", "ha": "H", "fdr": 2}, {"gw": 4, "opp": "MUN", "ha": "A", "fdr": 4}, {"gw": 5, "opp": "SUN", "ha": "H", "fdr": 2}, {"gw": 6, "opp": "LIV", "ha": "A", "fdr": 4}]}, {"id": 212, "name": "Hughes", "sell": 4.5, "rise": 0.0, "paid": 4.5, "full": "Will Hughes", "club": "CRY", "clubName": "Crystal Palace", "pos": "MID", "price": 4.5, "sel": 11.0, "pts": 0, "ppg": 0.0, "starts": 0, "mins": 0, "status": "a", "chance": "", "news": "", "role": "bench", "fixtures": [{"gw": 2, "opp": "MCI", "ha": "H", "fdr": 4}, {"gw": 3, "opp": "FUL", "ha": "A", "fdr": 3}, {"gw": 4, "opp": "IPS", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "LEE", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "NFO", "ha": "H", "fdr": 3}]}, {"id": 290, "name": "Slater", "sell": 4.5, "rise": 0.0, "paid": 4.5, "full": "Regan Slater", "club": "HUL", "clubName": "Hull City", "pos": "MID", "price": 4.5, "sel": 3.7, "pts": 6, "ppg": 6.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "bench", "fixtures": [{"gw": 2, "opp": "COV", "ha": "A", "fdr": 2}, {"gw": 3, "opp": "AVL", "ha": "H", "fdr": 3}, {"gw": 4, "opp": "CHE", "ha": "A", "fdr": 4}, {"gw": 5, "opp": "NEW", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "EVE", "ha": "H", "fdr": 3}]}, {"id": 411, "name": "Haaland", "sell": 15.5, "rise": 0.0, "paid": 15.5, "full": "Erling Haaland", "club": "MCI", "clubName": "Man City", "pos": "FWD", "price": 15.5, "sel": 68.0, "pts": 2, "ppg": 2.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "CRY", "ha": "A", "fdr": 3}, {"gw": 3, "opp": "COV", "ha": "H", "fdr": 2}, {"gw": 4, "opp": "MUN", "ha": "A", "fdr": 4}, {"gw": 5, "opp": "SUN", "ha": "H", "fdr": 2}, {"gw": 6, "opp": "LIV", "ha": "A", "fdr": 4}]}, {"id": 165, "name": "João Pedro", "sell": 7.5, "rise": 0.1, "paid": 7.5, "full": "João Pedro Junqueira de Jesus", "club": "CHE", "clubName": "Chelsea", "pos": "FWD", "price": 7.6, "sel": 67.4, "pts": 11, "ppg": 11.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "BHA", "ha": "H", "fdr": 2}, {"gw": 3, "opp": "ARS", "ha": "A", "fdr": 5}, {"gw": 4, "opp": "HUL", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "BRE", "ha": "A", "fdr": 3}, {"gw": 6, "opp": "BOU", "ha": "H", "fdr": 3}]}, {"id": 346, "name": "Calvert-Lewin", "sell": 6.0, "rise": 0.0, "paid": 6.0, "full": "Dominic Calvert-Lewin", "club": "LEE", "clubName": "Leeds", "pos": "FWD", "price": 6.0, "sel": 29.0, "pts": 1, "ppg": 1.0, "starts": 1, "mins": 90, "status": "a", "chance": "", "news": "", "role": "xi", "fixtures": [{"gw": 2, "opp": "BRE", "ha": "H", "fdr": 3}, {"gw": 3, "opp": "BHA", "ha": "A", "fdr": 3}, {"gw": 4, "opp": "NEW", "ha": "H", "fdr": 2}, {"gw": 5, "opp": "CRY", "ha": "H", "fdr": 3}, {"gw": 6, "opp": "ARS", "ha": "A", "fdr": 5}]}], "moves": [], "captain": "Haaland", "vice": "B.Fernandes", "chips": {"available": ["Wildcard x2", "Free Hit x2", "Bench Boost x2", "Triple Captain x2"], "advice": "Play none in GW2. Your bench scored 7 in GW1, so a Bench Boost is not yet worth a chip, and no doubles exist. The consensus play is the first Wildcard around GW4, after the transfer window shuts on 1 September and two more gameweeks of real form data. Remember both chip sets expire at the GW19 deadline on 2 Jan 2027 - they do not carry over."}, "benchOrder": ["Slater", "Hughes", "van Ewijk", "Dubravka"], "advice": {"verdict": "hold", "headline": "Hold the transfer. Keep the armband on Haaland — but this is the closest call of the week.", "body": "Gameweek 1 came in at 56, six above the 50-point average, with João Pedro (11), Guéhi (10), Calafiori (9) and Szoboszlai (8) all returning. Nothing forces a move: all fifteen carry FPL status 'a' with no news, and dated team-news checks across Fantasy Football Scout, Squawka and RotoWire (26–27 Aug) found no fitness doubt anywhere in the squad. Your bank is empty and the squad sells for exactly £100.0m, so any transfer this week is a straight like-for-like swap at the same price — and there is no swap at that price worth making on one gameweek of evidence. Roll the transfer, take two into GW3, and hold the Wildcard for GW4–6. Two things are worth knowing. Elliot Anderson's GW1 withdrawal on 62 minutes was cramp, not injury, confirmed by Maresca — so the 134,004 managers who sold him this week sold City's £116m club-record signing after a blank he had a good excuse for. And Marc Guéhi is being played as a central midfielder in a double pivot rather than at centre-back, which is how he scored and took 2 bonus; he is still FPL-registered as a defender, so he keeps clean-sheet eligibility while getting extra attacking involvement. Maresca called the role experimental, so watch for a reversion. One free change is worth making regardless: move Slater to the front of the bench. He scored 6 points sitting there in GW1 while van Ewijk sat ahead of him.", "evidence": [{"k": "Gameweek 1", "v": "56 pts", "note": "Six above the 50-point average, overall rank 2,677,591 — top 35%. But 7 points were left on the bench, 6 of them Slater's."}, {"k": "Captain — genuinely split", "v": "Haaland, narrowly", "note": "Two projection models (RotoWire, Fantasy Football Fix) rank Bruno #1 on the Ipswich fixture. Going the other way on underlying: Haaland had 0.74 xG and 4 shots in GW1 to Bruno's 0.08 xG and no shot in the box, he has scored in all five previous league meetings with Palace, and 68% ownership means captaining him protects rank."}, {"k": "Price movement", "v": "+£0.2m", "note": "Calafiori £5.5m → £5.6m and João Pedro £7.5m → £7.6m. Both are short of the £0.2m rise needed before selling turns a profit, so all fifteen still sell at cost and spending power is unchanged at £100.0m."}, {"k": "Set pieces", "v": "Szoboszlai", "note": "The API now lists him as Liverpool's No.1 penalty AND No.1 set-piece taker. Salah is no longer in the game at all. My pre-season note that he was not the confirmed penalty taker is out of date."}], "watch": ["DO THIS: reorder the bench to Slater, Hughes, van Ewijk. It costs nothing and it is the only change advised this week. Slater scored 6 points on the bench in GW1 — an assist and a clean sheet at Hull — while van Ewijk sat ahead of him in the autosub order. Leaving the XI itself alone: benching Shaw, at home to Ipswich, for a Hull midfielder away at Coventry is chasing one week of points.", "The captain call is close enough that going with Bruno is defensible. His case: Man Utd host newly-promoted Ipswich (FDR 2) against Haaland's trip to Crystal Palace (FDR 3), and he is Man Utd's penalty and set-piece taker in the API. Against it: 178,409 managers sold him this week — the 6th most-sold player in the game — and his GW1 underlying was 0.08 xG with no shot inside the box. If you prefer the fixture over the underlying numbers, switch it; it is not a mistake either way.", "Guéhi's midfield role was called 'experimental' by Maresca himself. If City revert him to centre-back his scoring profile changes — the clean sheets stay, the goal threat does not.", "Calvert-Lewin had the thinnest underlying of anyone in the squad in GW1: 0.13 xGI in 90 minutes, plus a yellow card, for 1 point. He is Leeds' penalty taker, which is why he survives this week. A second blank against Brentford makes him the first name to move.", "Elliot Anderson is flagged by Fantasy Football Scout as close to a price fall, and 134,004 managers sold him this week. He is in your starting XI, not on your bench, so a fall costs you real value — but 62 minutes cut short by cramp is not a reason to sell a £116m record signing after one game.", "De Cuyper (Brighton, £4.6m, 17 points) is the most-transferred-in player in the game at 396,604 in. You cannot reach him: the bank is £0.0m and Shaw only frees £4.5m. Wildcard target, not a GW2 one.", "COULD NOT VERIFY: no dated press-conference quote was found for Raya or Van Dijk specifically for GW2 — both are safe inferences from predicted XIs, not sourced confirmations. Man Utd's penalty taker under Michael Carrick has not been freshly confirmed either; the API says Bruno, but that ordering predates the new manager. Re-check team news Friday morning before the 17:30 UTC deadline."]}};
+  var SEASON = {"manager": "Rozbeh", "season": "2026/27", "log": [{"gw": 1, "state": "complete", "deadline": "2026-08-21T17:30:00Z", "squadValue": 100.0, "bank": 0.0, "freeTransfers": "unlimited", "captain": "Haaland", "vice": "B.Fernandes", "chip": null, "points": 56, "transfers": [{"out": "Vuskovic", "in": "Shaw", "cost": 0, "state": "applied", "confirmedAt": "21 Aug 2026, 17:00 UTC"}, {"out": "Gvardiol", "in": "Guéhi", "cost": 0, "state": "applied", "confirmedAt": "21 Aug 2026, 17:00 UTC"}], "headline": "56 points, +6 on the 50-point average. Overall rank 2,677,591.", "notes": ["Vuskovic (0 Premier League minutes, behind Kadioglu, Struijk and Dunk at Brighton) replaced by Luke Shaw, who started all 38 last season.", "Gvardiol (16 starts, heavily rotated) replaced by Marc Guehi (35 starts, 179 points) - same club, same fixture, far more certain minutes.", "Net cost GBP 0.0m: the GBP 0.5m saved on Shaw paid for the Guehi upgrade exactly.", "No chip played. Nothing to gain in GW1 and the bench is worth roughly 2 points on a Bench Boost.", "RESULT: João Pedro 11 (goal, assist, 2 bonus), Guéhi 10 (goal, 2 bonus), Calafiori 9 (assist, clean sheet), Szoboszlai 8 (goal, 1 bonus). Haaland captained for 2 points, doubled to 4 — 90 minutes, 0.74 xG, no return.", "7 points left on the bench, 6 of them Slater's (assist plus clean sheet at Hull) — the single biggest avoidable loss of the week.", "The Guéhi swap paid off, but not for the reason given. He was advised on his Crystal Palace starts record, which was the wrong evidence. He delivered because Maresca is reportedly playing him in central midfield, a role change nobody predicted here.", "The Shaw swap looks flat so far: 90 minutes, 1 point, 2 goals conceded — but the reasoning (guaranteed minutes over a player with none) still holds."], "confirmedAt": "21 Aug 2026, 17:00 UTC", "verifiedAt": "21 Aug 2026, 18:30 UTC", "verifiedResult": "match", "rank": 2677591, "benchPoints": 7}, {"gw": 2, "state": "upcoming", "deadline": "2026-08-28T17:30:00Z", "squadValue": 100.0, "bank": 0.0, "freeTransfers": 1, "captain": "Haaland", "vice": "B.Fernandes", "chip": null, "points": null, "transfers": [], "headline": "Hold. No injuries anywhere in the fifteen, an empty bank, and one gameweek of evidence is not enough to spend a transfer on.", "notes": ["All 15 players are status 'a' with no chance-of-playing flag. So is every player in the game owned by more than 15%.", "Prices: Calafiori and João Pedro each rose £0.1m. Half of a rise is kept, so both still sell at the purchase price and spending power stays at £100.0m.", "Rolling the free transfer gives two in GW3, which pairs with the Wildcard being held for roughly GW4.", "Captain Haaland (away at Crystal Palace) over Bruno Fernandes (home to Ipswich). Close call — projections favour Bruno, ownership and ceiling favour Haaland, and 178,409 managers sold Bruno this week.", "Anderson's GW1 withdrawal on 62 minutes was cramp, not injury (Maresca). 134,004 managers sold him anyway; ownership is down to 6.2% and he is flagged as close to a price fall.", "Guehi is being used by Maresca as a Man City central midfielder in a double pivot rather than at centre-back - still Defender-eligible for FPL scoring. Maresca called it experimental, so watch for a reversion.", "Haaland's GW1 blank was fatigue after a late World Cup return, not loss of form: 0.74 xG from 4 shots. He has scored in all five previous league meetings with Crystal Palace.", "Advised bench reorder to Slater, Hughes, van Ewijk. Free to do, and 6 of the 7 bench points lost in GW1 were Slater's.", "CAPTAIN DISAGREEMENT: the scheduled cloud run picked Bruno Fernandes on fixture strength (2 of 4 projection models). This build keeps Haaland on underlying numbers (0.74 xG vs 0.08), his record against Palace, and 68% ownership. Both cases are on the Moves tab; the call is his."]}], "teamName": "Babadook", "teamId": 8625063, "corrections": [{"gw": 1, "what": "Gvardiol -> Guehi advised on 35 starts vs 16", "why_wrong": "Those 35 starts were at Crystal Palace. Guehi had just moved to Man City where he must displace an established Gvardiol-Dias pairing. Old-club minutes are not evidence of new-club security.", "fixed": "Explicit STARTING RISK check added to the weekly routine prompt and CLAUDE.md."}, {"gw": 2, "what": "Pre-season note said Szoboszlai was not Liverpool's confirmed penalty taker", "why_wrong": "Salah is no longer in the game and the API now lists Szoboszlai at penalties_order 1 and set-piece order 1. The note was right when written and is wrong now.", "fixed": "Corrected on the GW2 Moves tab and in this log."}]};
+  var POINTS = {"gws": [1], "team": {"total": 56, "rank": 2677591, "percentile": 35, "managers": 9817720, "bench": 7, "hits": 0, "best": 56, "avgTotal": 50, "byGw": [{"gw": 1, "points": 56, "gross": 56, "hit": 0, "transfers": 0, "bench": 7, "rank": 2677591, "gwRank": 2677595, "value": 100.0, "bank": 0.0, "chip": null, "captain": "Haaland", "captainPts": 2, "avg": 50, "best": 131, "prov": false, "rankDelta": null}]}, "players": [{"id": 165, "name": "João Pedro", "full": "João Pedro Junqueira de Jesus", "club": "CHE", "pos": "FWD", "gws": {"1": {"p": 11, "c": 11, "b": 2, "m": 90, "g": 1, "a": 1, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 11, "counted": 11, "bonus": 2, "mins": 90, "goals": 1, "assists": 1, "cs": 0, "starts": 1}, {"id": 388, "name": "Guéhi", "full": "Marc Guéhi", "club": "MCI", "pos": "DEF", "gws": {"1": {"p": 10, "c": 10, "b": 2, "m": 90, "g": 1, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 10, "counted": 10, "bonus": 2, "mins": 90, "goals": 1, "assists": 0, "cs": 0, "starts": 1}, {"id": 8, "name": "Calafiori", "full": "Riccardo Calafiori", "club": "ARS", "pos": "DEF", "gws": {"1": {"p": 9, "c": 9, "b": 0, "m": 80, "g": 0, "a": 1, "cs": 1, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 9, "counted": 9, "bonus": 0, "mins": 80, "goals": 0, "assists": 1, "cs": 1, "starts": 1}, {"id": 368, "name": "Szoboszlai", "full": "Dominik Szoboszlai", "club": "LIV", "pos": "MID", "gws": {"1": {"p": 8, "c": 8, "b": 1, "m": 90, "g": 1, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 8, "counted": 8, "bonus": 1, "mins": 90, "goals": 1, "assists": 0, "cs": 0, "starts": 1}, {"id": 1, "name": "Raya", "full": "David Raya Martín", "club": "ARS", "pos": "GK", "gws": {"1": {"p": 6, "c": 6, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 1, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 6, "counted": 6, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 1, "starts": 1}, {"id": 411, "name": "Haaland", "full": "Erling Haaland", "club": "MCI", "pos": "FWD", "gws": {"1": {"p": 2, "c": 4, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 0, "mult": 2, "role": "xi", "cap": true, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 2, "counted": 4, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 356, "name": "Virgil", "full": "Virgil van Dijk", "club": "LIV", "pos": "DEF", "gws": {"1": {"p": 2, "c": 2, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 2, "counted": 2, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 426, "name": "B.Fernandes", "full": "Bruno Borges Fernandes", "club": "MUN", "pos": "MID", "gws": {"1": {"p": 2, "c": 2, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": true, "subOn": false, "subOff": false, "prov": false}}, "own": 2, "counted": 2, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 481, "name": "Anderson", "full": "Elliot Anderson", "club": "MCI", "pos": "MID", "gws": {"1": {"p": 2, "c": 2, "b": 0, "m": 62, "g": 0, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 2, "counted": 2, "bonus": 0, "mins": 62, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 423, "name": "Shaw", "full": "Luke Shaw", "club": "MUN", "pos": "DEF", "gws": {"1": {"p": 1, "c": 1, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 0, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 1, "counted": 1, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 346, "name": "Calvert-Lewin", "full": "Dominic Calvert-Lewin", "club": "LEE", "pos": "FWD", "gws": {"1": {"p": 1, "c": 1, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 1, "mult": 1, "role": "xi", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 1, "counted": 1, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 1, "starts": 1}, {"id": 290, "name": "Slater", "full": "Regan Slater", "club": "HUL", "pos": "MID", "gws": {"1": {"p": 6, "c": 0, "b": 0, "m": 90, "g": 0, "a": 1, "cs": 1, "mult": 0, "role": "bench", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 6, "counted": 0, "bonus": 0, "mins": 90, "goals": 0, "assists": 1, "cs": 1, "starts": 1}, {"id": 175, "name": "van Ewijk", "full": "Milan van Ewijk", "club": "COV", "pos": "DEF", "gws": {"1": {"p": 1, "c": 0, "b": 0, "m": 90, "g": 0, "a": 0, "cs": 0, "mult": 0, "role": "bench", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 1, "counted": 0, "bonus": 0, "mins": 90, "goals": 0, "assists": 0, "cs": 0, "starts": 1}, {"id": 497, "name": "Dubravka", "full": "Martin Dubravka", "club": "TOT", "pos": "GK", "gws": {"1": {"p": 0, "c": 0, "b": 0, "m": 0, "g": 0, "a": 0, "cs": 0, "mult": 0, "role": "bench", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 0, "counted": 0, "bonus": 0, "mins": 0, "goals": 0, "assists": 0, "cs": 0, "starts": 0}, {"id": 212, "name": "Hughes", "full": "Will Hughes", "club": "CRY", "pos": "MID", "gws": {"1": {"p": 0, "c": 0, "b": 0, "m": 0, "g": 0, "a": 0, "cs": 0, "mult": 0, "role": "bench", "cap": false, "vice": false, "subOn": false, "subOff": false, "prov": false}}, "own": 0, "counted": 0, "bonus": 0, "mins": 0, "goals": 0, "assists": 0, "cs": 0, "starts": 0}], "past": [{"season": "2020/21", "points": 1707, "rank": 5236320}, {"season": "2021/22", "points": 1004, "rank": 8704671}, {"season": "2022/23", "points": 2037, "rank": 4787268}, {"season": "2023/24", "points": 1973, "rank": 5119616}, {"season": "2024/25", "points": 1940, "rank": 6118042}, {"season": "2025/26", "points": 2081, "rank": 2578809}]};
+
+  var $ = function(id){ return document.getElementById(id); };
+  var esc = function(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); };
+
+  /* ---------- store (per-viewer, best effort) ---------- */
+  var KEY = 'gaffer.done.v1';
+  function readDone(){
+    try{ var v = localStorage.getItem(KEY); return v ? JSON.parse(v) : {}; }catch(e){ return {}; }
+  }
+  function writeDone(o){ try{ localStorage.setItem(KEY, JSON.stringify(o)); }catch(e){} }
+  var done = readDone();
+
+  /* ---------- header ---------- */
+  $('seasonLbl').textContent = SEASON.season;
+  $('whoami').innerHTML = (SEASON.teamName ? '<strong>' + esc(SEASON.teamName) + '</strong> · ' : '') +
+    esc(SEASON.manager) + " — read the moves, make the changes, check back next week." +
+    (SEASON.teamId ? ' <span class="stamp">ID ' + SEASON.teamId + '</span>' : '');
+  $('gwNum').textContent = DATA.gw;
+
+  var outgoing = {}, incoming = [];
+  DATA.moves.forEach(function(m){ outgoing[m.out.name] = true; incoming.push(m['in']); });
+
+  var value = DATA.squad.reduce(function(a,p){ return a + p.price; }, 0);
+  var flagged = DATA.squad.filter(function(p){
+    return p.status !== 'a' || (p.chance !== '' && p.chance !== null && p.chance !== '100');
+  });
+  var netDelta = DATA.moves.reduce(function(a,m){ return a + m.delta; }, 0);
+
+  var pRec = {};
+  if(POINTS && POINTS.players) POINTS.players.forEach(function(r){ pRec[r.id] = r; });
+  var hasPts = !!(POINTS && POINTS.gws && POINTS.gws.length);
+
+  $('rail').innerHTML = [
+    ['Total points', hasPts ? String(POINTS.team.total) : '\u2014', 'accent',
+      hasPts ? 'Overall rank ' + POINTS.team.rank.toLocaleString() +
+               ' after GW' + POINTS.gws[POINTS.gws.length - 1]
+             : 'Season has not started'],
+    ['Squad value', '£' + (DATA.marketValue || value).toFixed(1) + 'm', 'accent',
+      (DATA.sellValue != null && DATA.sellValue !== DATA.marketValue)
+        ? 'Sells for £' + DATA.sellValue.toFixed(1) + 'm — you keep half of each rise'
+        : 'Market value, no rises banked yet'],
+    ['Spending power', '£' + ((DATA.sellValue != null ? DATA.sellValue : value) + (DATA.budget - value)).toFixed(1) + 'm',
+      '', 'Sell value plus whatever is in the bank'],
+    ['Captain', DATA.captain, 'accent', 'Vice: ' + DATA.vice],
+    ['Moves advised', String(DATA.moves.length), 'sig', netDelta === 0 ? 'Net cost £0.0m' : 'Net £' + netDelta.toFixed(1) + 'm'],
+    ['Injury flags', String(flagged.length), flagged.length ? 'sig' : 'accent',
+      flagged.length ? flagged.map(function(p){return p.name;}).join(', ') : 'All 15 fit and available']
+  ].map(function(s){
+    return '<div class="stat"><div class="k">' + esc(s[0]) + '</div><div class="v ' + s[2] + '">' +
+      esc(s[1]) + '</div><div class="sub">' + esc(s[3]) + '</div></div>';
+  }).join('');
+
+  /* ---------- countdown ---------- */
+  var dl = DATA.deadline ? new Date(DATA.deadline).getTime() : null;
+  function tickClock(){
+    var el = $('countdown');
+    if(!dl){ el.textContent = '—'; return; }
+    var diff = dl - Date.now();
+    if(diff <= 0){ el.textContent = 'Closed'; el.className = 'cd gone'; return; }
+    var h = Math.floor(diff/3.6e6), m = Math.floor(diff%3.6e6/6e4);
+    var d = Math.floor(h/24);
+    el.textContent = d > 0 ? (d + 'd ' + (h%24) + 'h') : (h + 'h ' + m + 'm');
+    el.className = 'cd' + (diff < 6*3.6e6 ? ' urgent' : '');
+  }
+  tickClock(); setInterval(tickClock, 30000);
+
+  /* ---------- pitch ---------- */
+  function fdrBars(p){
+    return '<span class="fx">' + p.fixtures.slice(0,4).map(function(f){
+      return '<i class="fdr" data-d="' + f.fdr + '"></i>';
+    }).join('') + '</span>';
+  }
+  function priceTag(p){
+    if(!p.rise) return '';
+    var up = p.rise > 0;
+    return '<span class="mv ' + (up ? 'up' : 'dn') + '">' +
+      (up ? '▲' : '▼') + Math.abs(p.rise).toFixed(1) + '</span>';
+  }
+  function seasonPts(p){
+    var r = pRec[p.id];
+    return r ? ' \u00b7 ' + r.own + 'pt' : '';
+  }
+  function cardHTML(p, opts){
+    opts = opts || {};
+    var badge = '';
+    if(p.name === DATA.captain) badge = '<span class="badge c" title="Captain">C</span>';
+    else if(p.name === DATA.vice) badge = '<span class="badge v" title="Vice-captain">V</span>';
+    if(outgoing[p.name]) badge = '<span class="badge out" title="Recommended out">✕</span>';
+    var cls = 'card';
+    if(outgoing[p.name]) cls += ' leaving';
+    if(p.status !== 'a') cls += ' flagged';
+    var ord = opts.order ? '<span class="ord">' + opts.order + '</span>' : '';
+    return '<button class="' + cls + '" data-pid="' + p.id + '" aria-pressed="false">' + ord + badge +
+      '<span class="nm">' + esc(p.name) + '</span>' +
+      '<span class="cl">' + esc(p.club) + ' · ' + esc(p.pos) + seasonPts(p) + '</span>' +
+      '<span class="pr">£' + p.price.toFixed(1) + 'm' + priceTag(p) + '</span>' + fdrBars(p) + '</button>';
+  }
+
+  var xi = DATA.squad.filter(function(p){ return p.role === 'xi'; });
+  var bench = DATA.squad.filter(function(p){ return p.role === 'bench'; });
+  var order = ['GK','DEF','MID','FWD'];
+  $('pitch').innerHTML = order.map(function(pos){
+    var line = xi.filter(function(p){ return p.pos === pos; });
+    if(!line.length) return '';
+    return '<div class="line">' + line.map(function(p){ return cardHTML(p); }).join('') + '</div>';
+  }).join('');
+
+  var benchSorted = DATA.benchOrder.map(function(n){
+    return bench.filter(function(p){ return p.name === n; })[0];
+  }).filter(Boolean);
+  bench.forEach(function(p){ if(benchSorted.indexOf(p) < 0) benchSorted.push(p); });
+  $('bench').innerHTML = benchSorted.map(function(p, i){
+    return cardHTML(p, { order: p.pos === 'GK' ? 'GK' : String(i+1) });
+  }).join('');
+  var shape = ['DEF','MID','FWD'].map(function(pos){
+    return xi.filter(function(p){ return p.pos === pos; }).length;
+  }).join('-');
+  $('benchNote').textContent = 'Playing ' + shape;
+
+  /* ---------- detail ---------- */
+  var byId = {};
+  DATA.squad.concat(incoming).forEach(function(p){ byId[p.id] = p; });
+
+  function showDetail(p){
+    if(!p){
+      $('detail').innerHTML = '<div class="ph">Player detail</div>' +
+        '<h4>Pick a player</h4>' +
+        '<p class="empty">Tap any card on the pitch or the bench to see their minutes, points record and the fixtures coming up.</p>';
+      return;
+    }
+    var avail = p.status === 'a'
+      ? (p.chance && p.chance !== '100' ? p.chance + '% chance' : 'Available')
+      : ({i:'Injured', s:'Suspended', u:'Unavailable', d:'Doubtful', n:'Not in squad'}[p.status] || p.status);
+    var html = '<div class="ph">Player detail</div><h4>' + esc(p.name) + '</h4>' +
+      '<div class="meta">' + esc(p.full) + ' · ' + esc(p.clubName) + ' · ' + esc(p.pos) + '</div>' +
+      '<div class="dgrid">' +
+        '<div><div class="k">Price</div><div class="v">£' + p.price.toFixed(1) + 'm</div></div>' +
+        '<div><div class="k">Owned by</div><div class="v">' + p.sel.toFixed(1) + '%</div></div>' +
+        '<div><div class="k">Season points</div><div class="v">' + p.pts + ' pts</div></div>' +
+        '<div><div class="k">Starts</div><div class="v">' + p.starts + '</div></div>' +
+        '<div><div class="k">Per game</div><div class="v">' + p.ppg.toFixed(1) + '</div></div>' +
+        '<div><div class="k">Status</div><div class="v">' + esc(avail) + '</div></div>' +
+      '</div>';
+    if(p.paid != null && (p.rise || p.sell !== p.price)){
+      html += '<div class="pricebox">' +
+        '<div><div class="k">You paid</div><div class="v">£' + p.paid.toFixed(1) + '</div></div>' +
+        '<div><div class="k">Now worth</div><div class="v">£' + p.price.toFixed(1) +
+          (p.rise ? ' <span class="mv ' + (p.rise>0?'up':'dn') + '">' + (p.rise>0?'▲':'▼') +
+           Math.abs(p.rise).toFixed(1) + '</span>' : '') + '</div></div>' +
+        '<div><div class="k">Sells for</div><div class="v">£' + p.sell.toFixed(1) + '</div></div>' +
+      '</div>';
+      if(p.rise > 0 && p.sell < p.price){
+        html += '<p class="pricenote">You keep half of a price rise, rounded down — so he is worth £' +
+          p.price.toFixed(1) + 'm but only frees £' + p.sell.toFixed(1) + 'm if sold.</p>';
+      }
+    }
+    if(p.news) html += '<div class="newsline">' + esc(p.news) + '</div>';
+    html += '<h3 class="sub" style="margin-top:18px">Next ' + p.fixtures.length + ' fixtures</h3><div class="ticker">' +
+      p.fixtures.map(function(f){
+        return '<div class="tick"><span class="g">GW' + f.gw + '</span>' +
+          '<span class="o">' + esc(f.opp) + ' (' + f.ha + ')</span>' +
+          '<span class="pip" data-d="' + f.fdr + '">' + f.fdr + '</span></div>';
+      }).join('') + '</div>';
+    $('detail').innerHTML = html;
+  }
+  showDetail(null);
+
+  document.addEventListener('click', function(e){
+    var c = e.target.closest ? e.target.closest('.card') : null;
+    if(!c) return;
+    Array.prototype.forEach.call(document.querySelectorAll('.card'), function(x){
+      x.setAttribute('aria-pressed', x === c ? 'true' : 'false');
+    });
+    showDetail(byId[c.getAttribute('data-pid')]);
+  });
+
+  /* ---------- moves ---------- */
+  function miniStats(p){
+    return '<span class="st"><span><b>' + p.starts + '</b><i>starts</i></span>' +
+      '<span><b>' + p.pts + '</b><i>points</i></span>' +
+      '<span><b>' + p.mins.toLocaleString() + '</b><i>minutes</i></span></span>';
+  }
+  function moveHTML(m, i){
+    var key = m.out.name + '>' + m['in'].name;
+    var isDone = !!done[key];
+    return '<article class="move' + (isDone ? ' done' : '') + '" data-key="' + esc(key) + '">' +
+      '<div class="movehd"><span class="prio">' + esc(m.priority) + ' priority</span>' +
+      '<span class="t">' + esc(m.out.name) + ' → ' + esc(m['in'].name) + '</span></div>' +
+      '<div class="swap">' +
+        '<div class="slot o"><div class="lb">Out</div><div class="n">' + esc(m.out.name) + '</div>' +
+          '<div class="m">' + esc(m.out.clubName) + ' · £' + m.out.price.toFixed(1) + 'm</div>' + miniStats(m.out) + '</div>' +
+        '<div class="arrow">→</div>' +
+        '<div class="slot i"><div class="lb">In</div><div class="n">' + esc(m['in'].name) + '</div>' +
+          '<div class="m">' + esc(m['in'].clubName) + ' · £' + m['in'].price.toFixed(1) + 'm</div>' + miniStats(m['in']) + '</div>' +
+      '</div>' +
+      '<p class="why">' + esc(m.reason) + ' <b>' + esc(m.gain) + '</b></p>' +
+      '<div class="movefoot"><span class="cost">Price change: <b>' +
+        (m.delta === 0 ? '£0.0m' : (m.delta > 0 ? '+' : '') + '£' + m.delta.toFixed(1) + 'm') +
+      '</b></span>' +
+      '<button class="btn" data-done="' + esc(key) + '" aria-pressed="' + isDone + '">' +
+        (isDone ? '✓ Done' : 'Mark done') + '</button></div>' +
+    '</article>';
+  }
+  $('moves').innerHTML = DATA.moves.map(moveHTML).join('');
+  $('moveCnt').textContent = DATA.moves.length || '';
+  if(!DATA.moves.length) $('moveCnt').style.display = 'none';
+  $('movesLede').textContent = DATA.moves.length
+    ? DATA.moves.length + ' change' + (DATA.moves.length > 1 ? 's' : '') +
+      ', costing £' + Math.abs(netDelta).toFixed(1) + 'm net. Each one swaps a player with real minutes risk for a guaranteed starter — the reasoning is under every card.'
+    : 'No changes advised this week. Hold your transfer.';
+
+  document.addEventListener('click', function(e){
+    var b = e.target.closest ? e.target.closest('[data-done]') : null;
+    if(!b) return;
+    var key = b.getAttribute('data-done');
+    done[key] = !done[key];
+    writeDone(done);
+    b.setAttribute('aria-pressed', String(!!done[key]));
+    b.textContent = done[key] ? '✓ Done' : 'Mark done';
+    var card = b.closest('.move');
+    if(card) card.classList.toggle('done', !!done[key]);
+  });
+
+  $('capLine').textContent = DATA.captain + ' takes the armband, ' + DATA.vice +
+    ' as vice. If ' + DATA.captain + ' is benched or pulls out late, the armband moves to ' + DATA.vice + ' automatically.';
+  $('chipAdvice').textContent = DATA.chips.advice;
+  $('chipRow').innerHTML = DATA.chips.available.map(function(c){
+    return '<span class="chip">' + esc(c) + '</span>';
+  }).join('');
+
+
+  /* ---------- confirm changes (traceable) ---------- */
+  var CKEY = 'gaffer.confirm.v1';
+  function readConf(){ try{ var v=localStorage.getItem(CKEY); return v?JSON.parse(v):{}; }catch(e){ return {}; } }
+  function writeConf(o){ try{ localStorage.setItem(CKEY, JSON.stringify(o)); }catch(e){} }
+  var conf = readConf();
+
+  var gwKey = 'gw' + DATA.gw;
+  var loggedGW = SEASON.log.filter(function(e){ return e.gw === DATA.gw; })[0];
+  var serverConfirmed = loggedGW && loggedGW.confirmedAt ? loggedGW.confirmedAt : null;
+
+  function renderConfirm(){
+    var when = serverConfirmed || conf[gwKey] || null;
+    var nMoves = DATA.moves.length;
+    var label = nMoves
+      ? nMoves + ' change' + (nMoves>1?'s':'') + ' advised for GW' + DATA.gw
+      : 'No changes advised for GW' + DATA.gw;
+    var sub = when
+      ? 'Confirmed ' + when + (serverConfirmed ? ' — recorded in the season log below.' : ' — saved in this browser.')
+      : (nMoves ? 'Made them in the FPL app? Confirm here so this week is recorded in the season log.'
+                : 'Nothing to action. Confirm you have reviewed this week so it is logged.');
+    $('confirmSlot').innerHTML =
+      '<div class="confirmbar' + (when ? ' on' : '') + '">' +
+        '<div class="txt"><div class="t">' + esc(label) + '</div>' +
+        '<div class="s">' + esc(sub) + '</div></div>' +
+        (serverConfirmed
+          ? '<span class="stamp">✓ Locked</span>'
+          : '<button class="bigbtn' + (when ? ' undo' : '') + '" id="confirmBtn">' +
+            (when ? 'Undo confirmation' : '✓ Confirm changes made') + '</button>') +
+      '</div>';
+    var b = $('confirmBtn');
+    if(b) b.addEventListener('click', function(){
+      if(conf[gwKey]) delete conf[gwKey];
+      else conf[gwKey] = new Date().toLocaleString(undefined,
+        {day:'2-digit', month:'short', year:'numeric', hour:'2-digit', minute:'2-digit'});
+      writeConf(conf); renderConfirm();
+    });
+  }
+  renderConfirm();
+
+  /* ---------- verdict panel (hold / act) ---------- */
+  var A = DATA.advice;
+  if(A){
+    $('verdictSlot').innerHTML =
+      '<div class="verdict"><div class="vh"><div class="vtag">Verdict · ' + esc(A.verdict) + '</div>' +
+        '<h3>' + esc(A.headline) + '</h3><p class="vb">' + esc(A.body) + '</p></div>' +
+      '<div class="evid">' + A.evidence.map(function(e){
+        return '<div><div class="k">' + esc(e.k) + '</div><div class="v">' + esc(e.v) +
+          '</div><div class="n">' + esc(e.note) + '</div></div>'; }).join('') + '</div>' +
+      '<div class="watch"><h4>On the watchlist</h4><ul>' +
+        A.watch.map(function(w){ return '<li>' + esc(w) + '</li>'; }).join('') + '</ul></div></div>';
+  }
+
+  /* ---------- timeline ---------- */
+  $('timeline').innerHTML = SEASON.log.slice().reverse().map(function(ev){
+    var mv = (ev.transfers || []).length
+      ? '<div class="movelist">' + ev.transfers.map(function(t){
+          return '<div class="mv"><span class="o">' + esc(t.out) + '</span>→<span class="i">' +
+            esc(t['in']) + '</span><span class="tag">' + (t.state==='applied' ? '<span class="ok">✓ applied</span>' : esc(t.state||'')) +
+            (t.cost ? ' · −' + t.cost + ' pts' : ' · free') + '</span></div>';
+        }).join('') + '</div>'
+      : '<p class="empty" style="margin:0 0 12px">No transfers this week.</p>';
+    var notes = (ev.notes || []).length
+      ? '<ul>' + ev.notes.map(function(n){ return '<li>' + esc(n) + '</li>'; }).join('') + '</ul>' : '';
+    return '<div class="ev ' + esc(ev.state) + '"><div class="evcard">' +
+      '<div class="evhd"><span class="gw">GW' + ev.gw + '</span>' +
+        '<span class="state ' + esc(ev.state) + '">' + esc(ev.state) + '</span>' +
+        '<span class="hl">' + esc(ev.headline || '') + '</span>' +
+        (ev.confirmedAt ? '<span class="stamp">✓ confirmed ' + esc(ev.confirmedAt) + '</span>' : '') +
+        (ev.verifiedResult === 'match' ? '<span class="stamp">✓ verified vs FPL API</span>' : '') + '</div>' +
+      '<div class="evbody">' + mv + notes +
+        '<div class="evstats">' +
+          '<div><b>' + (ev.points == null ? '—' : ev.points) + '</b>points</div>' +
+          '<div><b>£' + ev.squadValue.toFixed(1) + 'm</b>squad value</div>' +
+          '<div><b>£' + ev.bank.toFixed(1) + 'm</b>bank</div>' +
+          '<div><b>' + esc(ev.captain) + '</b>captain</div>' +
+          '<div><b>' + esc(ev.chip || 'None') + '</b>chip</div>' +
+        '</div>' +
+      '</div></div></div>';
+  }).join('');
+
+  /* ---------- points ---------- */
+  var P = (POINTS && POINTS.gws && POINTS.gws.length) ? POINTS : null;
+  function num(n){ return n == null ? '\u2014' : n.toLocaleString(); }
+
+  if(!P){
+    $('tab-points').style.display = 'none';
+  } else {
+    var T = P.team;
+    var vsAvg = T.total - T.avgTotal;
+    $('ptsLede').textContent =
+      T.total + ' points after ' + P.gws.length + ' gameweek' + (P.gws.length > 1 ? 's' : '') +
+      ', pulled straight from the FPL API. Each cell is what that player scored that week \u2014 ' +
+      'the last column is what he actually banked for you, so a captain counts double and anyone ' +
+      'left on the bench counts nothing.';
+
+    $('ptsRail').innerHTML = [
+      ['Total points', String(T.total), 'accent',
+        (vsAvg >= 0 ? '+' : '') + vsAvg + ' vs the average manager (' + T.avgTotal + ')'],
+      ['Overall rank', num(T.rank), '',
+        T.managers ? 'of ' + (T.managers/1e6).toFixed(1) + 'm managers' : 'across all managers'],
+      ['Best gameweek', String(T.best), '', 'Your highest score so far'],
+      ['Left on the bench', String(T.bench), T.bench > 8 ? 'sig' : '',
+        T.bench ? 'Points your bench scored while sitting there' : 'Nothing wasted'],
+      ['Hits taken', '\u2212' + T.hits, T.hits ? 'sig' : 'accent',
+        T.hits ? 'Deducted for extra transfers' : 'No points given away']
+    ].map(function(s){
+      return '<div class="stat"><div class="k">' + esc(s[0]) + '</div><div class="v ' + s[2] + '">' +
+        esc(s[1]) + '</div><div class="sub">' + esc(s[3]) + '</div></div>';
+    }).join('');
+
+    $('gwStrip').innerHTML = T.byGw.slice().reverse().map(function(e){
+      var d = e.avg == null ? null : e.points - e.avg;
+      return '<div class="gwcard">' +
+        '<div class="hd"><span class="g">Gameweek ' + e.gw + '</span>' +
+          (e.chip ? '<span class="state complete">' + esc(e.chip) + '</span>' : '') +
+          (e.prov ? '<span class="state upcoming">live</span>' : '') + '</div>' +
+        '<div class="p">' + e.points + '</div>' +
+        '<div class="vs">' + (d == null ? 'average not published' :
+          'average ' + e.avg + ' \u00b7 <b class="' + (d >= 0 ? 'up' : 'dn') + '">' +
+          (d >= 0 ? '+' : '') + d + '</b>') + '</div>' +
+        '<div class="rows">' +
+          '<div>Overall rank<span>' + num(e.rank) + '</span></div>' +
+          '<div>Captain<span>' + esc(e.captain || '\u2014') + ' \u00b7 ' + e.captainPts + ' pts</span></div>' +
+          '<div>Bench<span>' + e.bench + ' pts unused</span></div>' +
+          (e.transfers ? '<div>Transfers<span>' + e.transfers +
+            (e.hit ? ' \u00b7 \u2212' + e.hit + ' pts' : ' \u00b7 free') + '</span></div>' : '') +
+          '<div>Top score<span>' + num(e.best) + '</span></div>' +
+        '</div></div>';
+    }).join('');
+
+    var gwList = P.gws;
+    var head = '<thead><tr><th class="who">Player</th>' +
+      gwList.map(function(g){ return '<th>GW' + g + '</th>'; }).join('') +
+      '<th>Bonus</th><th>Scored</th><th>Banked</th></tr></thead>';
+    var body = '<tbody>' + P.players.map(function(pl){
+      return '<tr><td class="who"><span class="n">' + esc(pl.name) + '</span>' +
+        '<span class="c">' + esc(pl.club) + ' \u00b7 ' + esc(pl.pos) + '</span></td>' +
+        gwList.map(function(g){
+          var d = pl.gws[String(g)];
+          if(!d) return '<td class="gwc blank">\u2013</td>';
+          var title = d.m + ' min' + (d.g ? ', ' + d.g + ' goal' + (d.g > 1 ? 's' : '') : '') +
+                      (d.a ? ', ' + d.a + ' assist' + (d.a > 1 ? 's' : '') : '') +
+                      (d.b ? ', ' + d.b + ' bonus' : '') +
+                      (d.role === 'bench' ? ' \u2014 benched, did not count' : '');
+          return '<td class="gwc' + (d.role === 'bench' ? ' benched' : '') + '" title="' + esc(title) + '">' +
+            d.p + (d.b ? '<span class="bn">' + d.b + '</span>' : '') +
+            (d.cap ? '<span class="cx">C</span>' : '') + '</td>';
+        }).join('') +
+        '<td class="bon' + (pl.bonus ? '' : ' zero') + '">' + pl.bonus + '</td>' +
+        '<td class="tot">' + pl.own + '</td>' +
+        '<td class="tot banked">' + pl.counted + '</td></tr>';
+    }).join('') + '</tbody>';
+    var foot = '<tfoot><tr><td class="who">Team score</td>' +
+      gwList.map(function(g){
+        var e = T.byGw.filter(function(x){ return x.gw === g; })[0];
+        return '<td>' + (e ? e.points : '\u2013') + '</td>';
+      }).join('') +
+      '<td>' + P.players.reduce(function(a, pl){ return a + pl.bonus; }, 0) + '</td>' +
+      '<td>\u2014</td><td class="tot banked">' + T.total + '</td></tr></tfoot>';
+    $('ptsTable').innerHTML = head + body + foot;
+
+    $('ptsLegend').innerHTML =
+      '<span><span class="bn">3</span> <b>bonus points</b> included in that score</span>' +
+      '<span><b>C</b> captain that week \u2014 banked double</span>' +
+      '<span><b>Greyed</b> on the bench, scored nothing for you</span>' +
+      '<span><b>Team score</b> is after captaincy and any hits, so it will not equal the column above</span>';
+
+    var bestSeason = P.past.reduce(function(a, b){ return (!a || b.points > a.points) ? b : a; }, null);
+    $('pastRow').innerHTML = P.past.length
+      ? P.past.map(function(s){
+          return '<div' + (bestSeason && s.season === bestSeason.season ? ' class="best"' : '') + '>' +
+            '<div class="s">' + esc(s.season) + '</div>' +
+            '<div class="p">' + s.points + '</div>' +
+            '<div class="r">rank ' + num(s.rank) + '</div></div>';
+        }).join('')
+      : '<div><div class="s">No history</div><div class="r">This is the first recorded season.</div></div>';
+  }
+
+  /* ---------- tabs ---------- */
+  var tabs = Array.prototype.slice.call(document.querySelectorAll('.tab'));
+  function select(t){
+    tabs.forEach(function(x){
+      var on = x === t;
+      x.setAttribute('aria-selected', String(on));
+      $(x.getAttribute('aria-controls')).hidden = !on;
+    });
+  }
+  tabs.forEach(function(t){
+    t.addEventListener('click', function(){ select(t); });
+    t.addEventListener('keydown', function(e){
+      var i = tabs.indexOf(t), n = null;
+      if(e.key === 'ArrowRight') n = tabs[(i+1) % tabs.length];
+      if(e.key === 'ArrowLeft') n = tabs[(i-1+tabs.length) % tabs.length];
+      if(n){ e.preventDefault(); n.focus(); select(n); }
+    });
+  });
+
+  $('foot').textContent = 'Prices, ownership, availability and fixture difficulty pulled live from the official ' +
+    'Fantasy Premier League API on ' + (DATA.generated || 'the latest refresh') + '. Fixture difficulty is the ' +
+    'FPL rating, 1 easiest to 5 hardest. "Mark done" is remembered in this browser only. ' +
+    'Re-check team news the morning of the deadline — lineups move late.';
+})();
+</script>
+
+<script>
+if('serviceWorker' in navigator){
+  addEventListener('load', function(){
+    navigator.serviceWorker.register('sw.js').catch(function(){});
+  });
+}
+</script>
+</body>
+</html>

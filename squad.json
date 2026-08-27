@@ -1,0 +1,859 @@
+{
+ "generated": "27 Aug 2026, 18:45 UTC",
+ "gw": 2,
+ "deadline": "2026-08-28T17:30:00Z",
+ "budget": 100.0,
+ "sellValue": 100.0,
+ "marketValue": 100.2,
+ "squad": [
+  {
+   "id": 1,
+   "name": "Raya",
+   "sell": 6.0,
+   "rise": 0.0,
+   "paid": 6.0,
+   "full": "David Raya Martín",
+   "club": "ARS",
+   "clubName": "Arsenal",
+   "pos": "GK",
+   "price": 6.0,
+   "sel": 38.2,
+   "pts": 6,
+   "ppg": 6.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 3,
+     "opp": "CHE",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 4,
+     "opp": "SUN",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 5,
+     "opp": "BHA",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "LEE",
+     "ha": "H",
+     "fdr": 2
+    }
+   ]
+  },
+  {
+   "id": 497,
+   "name": "Dubravka",
+   "sell": 4.0,
+   "rise": 0.0,
+   "paid": 4.0,
+   "full": "Martin Dubravka",
+   "club": "TOT",
+   "clubName": "Spurs",
+   "pos": "GK",
+   "price": 4.0,
+   "sel": 18.7,
+   "pts": 0,
+   "ppg": 0.0,
+   "starts": 0,
+   "mins": 0,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "bench",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "EVE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 5,
+     "opp": "AVL",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "MUN",
+     "ha": "A",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "sell": 5.5,
+   "rise": 0.1,
+   "paid": 5.5,
+   "full": "Riccardo Calafiori",
+   "club": "ARS",
+   "clubName": "Arsenal",
+   "pos": "DEF",
+   "price": 5.6,
+   "sel": 41.5,
+   "pts": 9,
+   "ppg": 9.0,
+   "starts": 1,
+   "mins": 80,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 3,
+     "opp": "CHE",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 4,
+     "opp": "SUN",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 5,
+     "opp": "BHA",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "LEE",
+     "ha": "H",
+     "fdr": 2
+    }
+   ]
+  },
+  {
+   "id": 356,
+   "name": "Virgil",
+   "sell": 6.5,
+   "rise": 0.0,
+   "paid": 6.5,
+   "full": "Virgil van Dijk",
+   "club": "LIV",
+   "clubName": "Liverpool",
+   "pos": "DEF",
+   "price": 6.5,
+   "sel": 19.6,
+   "pts": 2,
+   "ppg": 2.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "NFO",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "IPS",
+     "ha": "A",
+     "fdr": 2
+    },
+    {
+     "gw": 4,
+     "opp": "FUL",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "BOU",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 388,
+   "name": "Guéhi",
+   "sell": 6.0,
+   "rise": 0.0,
+   "paid": 6.0,
+   "full": "Marc Guéhi",
+   "club": "MCI",
+   "clubName": "Man City",
+   "pos": "DEF",
+   "price": 6.0,
+   "sel": 19.2,
+   "pts": 10,
+   "ppg": 10.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "CRY",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "COV",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 4,
+     "opp": "MUN",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "SUN",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 6,
+     "opp": "LIV",
+     "ha": "A",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 423,
+   "name": "Shaw",
+   "sell": 4.5,
+   "rise": 0.0,
+   "paid": 4.5,
+   "full": "Luke Shaw",
+   "club": "MUN",
+   "clubName": "Man Utd",
+   "pos": "DEF",
+   "price": 4.5,
+   "sel": 19.8,
+   "pts": 1,
+   "ppg": 1.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "EVE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "FUL",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "TOT",
+     "ha": "H",
+     "fdr": 3
+    }
+   ]
+  },
+  {
+   "id": 175,
+   "name": "van Ewijk",
+   "sell": 4.0,
+   "rise": 0.0,
+   "paid": 4.0,
+   "full": "Milan van Ewijk",
+   "club": "COV",
+   "clubName": "Coventry City",
+   "pos": "DEF",
+   "price": 4.0,
+   "sel": 13.1,
+   "pts": 1,
+   "ppg": 1.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "bench",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "HUL",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "MCI",
+     "ha": "A",
+     "fdr": 5
+    },
+    {
+     "gw": 4,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
+    }
+   ]
+  },
+  {
+   "id": 426,
+   "name": "B.Fernandes",
+   "sell": 12.0,
+   "rise": 0.0,
+   "paid": 12.0,
+   "full": "Bruno Borges Fernandes",
+   "club": "MUN",
+   "clubName": "Man Utd",
+   "pos": "MID",
+   "price": 12.0,
+   "sel": 48.7,
+   "pts": 2,
+   "ppg": 2.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "EVE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "FUL",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "TOT",
+     "ha": "H",
+     "fdr": 3
+    }
+   ]
+  },
+  {
+   "id": 368,
+   "name": "Szoboszlai",
+   "sell": 7.0,
+   "rise": 0.0,
+   "paid": 7.0,
+   "full": "Dominik Szoboszlai",
+   "club": "LIV",
+   "clubName": "Liverpool",
+   "pos": "MID",
+   "price": 7.0,
+   "sel": 43.0,
+   "pts": 8,
+   "ppg": 8.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "NFO",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "IPS",
+     "ha": "A",
+     "fdr": 2
+    },
+    {
+     "gw": 4,
+     "opp": "FUL",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "BOU",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 481,
+   "name": "Anderson",
+   "sell": 6.5,
+   "rise": 0.0,
+   "paid": 6.5,
+   "full": "Elliot Anderson",
+   "club": "MCI",
+   "clubName": "Man City",
+   "pos": "MID",
+   "price": 6.5,
+   "sel": 6.2,
+   "pts": 2,
+   "ppg": 2.0,
+   "starts": 1,
+   "mins": 62,
+   "status": "a",
+   "chance": "100",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "CRY",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "COV",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 4,
+     "opp": "MUN",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "SUN",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 6,
+     "opp": "LIV",
+     "ha": "A",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 212,
+   "name": "Hughes",
+   "sell": 4.5,
+   "rise": 0.0,
+   "paid": 4.5,
+   "full": "Will Hughes",
+   "club": "CRY",
+   "clubName": "Crystal Palace",
+   "pos": "MID",
+   "price": 4.5,
+   "sel": 11.0,
+   "pts": 0,
+   "ppg": 0.0,
+   "starts": 0,
+   "mins": 0,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "bench",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 3,
+     "opp": "FUL",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "LEE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "NFO",
+     "ha": "H",
+     "fdr": 3
+    }
+   ]
+  },
+  {
+   "id": 290,
+   "name": "Slater",
+   "sell": 4.5,
+   "rise": 0.0,
+   "paid": 4.5,
+   "full": "Regan Slater",
+   "club": "HUL",
+   "clubName": "Hull City",
+   "pos": "MID",
+   "price": 4.5,
+   "sel": 3.7,
+   "pts": 6,
+   "ppg": 6.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "bench",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "COV",
+     "ha": "A",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "AVL",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "CHE",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "NEW",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "EVE",
+     "ha": "H",
+     "fdr": 3
+    }
+   ]
+  },
+  {
+   "id": 411,
+   "name": "Haaland",
+   "sell": 15.5,
+   "rise": 0.0,
+   "paid": 15.5,
+   "full": "Erling Haaland",
+   "club": "MCI",
+   "clubName": "Man City",
+   "pos": "FWD",
+   "price": 15.5,
+   "sel": 68.0,
+   "pts": 2,
+   "ppg": 2.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "CRY",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "COV",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 4,
+     "opp": "MUN",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 5,
+     "opp": "SUN",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 6,
+     "opp": "LIV",
+     "ha": "A",
+     "fdr": 4
+    }
+   ]
+  },
+  {
+   "id": 165,
+   "name": "João Pedro",
+   "sell": 7.5,
+   "rise": 0.1,
+   "paid": 7.5,
+   "full": "João Pedro Junqueira de Jesus",
+   "club": "CHE",
+   "clubName": "Chelsea",
+   "pos": "FWD",
+   "price": 7.6,
+   "sel": 67.4,
+   "pts": 11,
+   "ppg": 11.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 3,
+     "opp": "ARS",
+     "ha": "A",
+     "fdr": 5
+    },
+    {
+     "gw": 4,
+     "opp": "HUL",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "BRE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "BOU",
+     "ha": "H",
+     "fdr": 3
+    }
+   ]
+  },
+  {
+   "id": 346,
+   "name": "Calvert-Lewin",
+   "sell": 6.0,
+   "rise": 0.0,
+   "paid": 6.0,
+   "full": "Dominic Calvert-Lewin",
+   "club": "LEE",
+   "clubName": "Leeds",
+   "pos": "FWD",
+   "price": 6.0,
+   "sel": 29.0,
+   "pts": 1,
+   "ppg": 1.0,
+   "starts": 1,
+   "mins": 90,
+   "status": "a",
+   "chance": "",
+   "news": "",
+   "role": "xi",
+   "fixtures": [
+    {
+     "gw": 2,
+     "opp": "BRE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 3,
+     "opp": "BHA",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 4,
+     "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 5,
+     "opp": "CRY",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 6,
+     "opp": "ARS",
+     "ha": "A",
+     "fdr": 5
+    }
+   ]
+  }
+ ],
+ "moves": [],
+ "captain": "Haaland",
+ "vice": "B.Fernandes",
+ "chips": {
+  "available": [
+   "Wildcard x2",
+   "Free Hit x2",
+   "Bench Boost x2",
+   "Triple Captain x2"
+  ],
+  "advice": "Play none in GW2. Your bench scored 7 in GW1, so a Bench Boost is not yet worth a chip, and no doubles exist. The consensus play is the first Wildcard around GW4, after the transfer window shuts on 1 September and two more gameweeks of real form data. Remember both chip sets expire at the GW19 deadline on 2 Jan 2027 - they do not carry over."
+ },
+ "benchOrder": [
+  "Slater",
+  "Hughes",
+  "van Ewijk",
+  "Dubravka"
+ ],
+ "advice": {
+  "verdict": "hold",
+  "headline": "Hold the transfer. Keep the armband on Haaland — but this is the closest call of the week.",
+  "body": "Gameweek 1 came in at 56, six above the 50-point average, with João Pedro (11), Guéhi (10), Calafiori (9) and Szoboszlai (8) all returning. Nothing forces a move: all fifteen carry FPL status 'a' with no news, and dated team-news checks across Fantasy Football Scout, Squawka and RotoWire (26–27 Aug) found no fitness doubt anywhere in the squad. Your bank is empty and the squad sells for exactly £100.0m, so any transfer this week is a straight like-for-like swap at the same price — and there is no swap at that price worth making on one gameweek of evidence. Roll the transfer, take two into GW3, and hold the Wildcard for GW4–6. Two things are worth knowing. Elliot Anderson's GW1 withdrawal on 62 minutes was cramp, not injury, confirmed by Maresca — so the 134,004 managers who sold him this week sold City's £116m club-record signing after a blank he had a good excuse for. And Marc Guéhi is being played as a central midfielder in a double pivot rather than at centre-back, which is how he scored and took 2 bonus; he is still FPL-registered as a defender, so he keeps clean-sheet eligibility while getting extra attacking involvement. Maresca called the role experimental, so watch for a reversion. One free change is worth making regardless: move Slater to the front of the bench. He scored 6 points sitting there in GW1 while van Ewijk sat ahead of him.",
+  "evidence": [
+   {
+    "k": "Gameweek 1",
+    "v": "56 pts",
+    "note": "Six above the 50-point average, overall rank 2,677,591 — top 35%. But 7 points were left on the bench, 6 of them Slater's."
+   },
+   {
+    "k": "Captain — genuinely split",
+    "v": "Haaland, narrowly",
+    "note": "Two projection models (RotoWire, Fantasy Football Fix) rank Bruno #1 on the Ipswich fixture. Going the other way on underlying: Haaland had 0.74 xG and 4 shots in GW1 to Bruno's 0.08 xG and no shot in the box, he has scored in all five previous league meetings with Palace, and 68% ownership means captaining him protects rank."
+   },
+   {
+    "k": "Price movement",
+    "v": "+£0.2m",
+    "note": "Calafiori £5.5m → £5.6m and João Pedro £7.5m → £7.6m. Both are short of the £0.2m rise needed before selling turns a profit, so all fifteen still sell at cost and spending power is unchanged at £100.0m."
+   },
+   {
+    "k": "Set pieces",
+    "v": "Szoboszlai",
+    "note": "The API now lists him as Liverpool's No.1 penalty AND No.1 set-piece taker. Salah is no longer in the game at all. My pre-season note that he was not the confirmed penalty taker is out of date."
+   }
+  ],
+  "watch": [
+   "DO THIS: reorder the bench to Slater, Hughes, van Ewijk. It costs nothing and it is the only change advised this week. Slater scored 6 points on the bench in GW1 — an assist and a clean sheet at Hull — while van Ewijk sat ahead of him in the autosub order. Leaving the XI itself alone: benching Shaw, at home to Ipswich, for a Hull midfielder away at Coventry is chasing one week of points.",
+   "The captain call is close enough that going with Bruno is defensible. His case: Man Utd host newly-promoted Ipswich (FDR 2) against Haaland's trip to Crystal Palace (FDR 3), and he is Man Utd's penalty and set-piece taker in the API. Against it: 178,409 managers sold him this week — the 6th most-sold player in the game — and his GW1 underlying was 0.08 xG with no shot inside the box. If you prefer the fixture over the underlying numbers, switch it; it is not a mistake either way.",
+   "Guéhi's midfield role was called 'experimental' by Maresca himself. If City revert him to centre-back his scoring profile changes — the clean sheets stay, the goal threat does not.",
+   "Calvert-Lewin had the thinnest underlying of anyone in the squad in GW1: 0.13 xGI in 90 minutes, plus a yellow card, for 1 point. He is Leeds' penalty taker, which is why he survives this week. A second blank against Brentford makes him the first name to move.",
+   "Elliot Anderson is flagged by Fantasy Football Scout as close to a price fall, and 134,004 managers sold him this week. He is in your starting XI, not on your bench, so a fall costs you real value — but 62 minutes cut short by cramp is not a reason to sell a £116m record signing after one game.",
+   "De Cuyper (Brighton, £4.6m, 17 points) is the most-transferred-in player in the game at 396,604 in. You cannot reach him: the bank is £0.0m and Shaw only frees £4.5m. Wildcard target, not a GW2 one.",
+   "COULD NOT VERIFY: no dated press-conference quote was found for Raya or Van Dijk specifically for GW2 — both are safe inferences from predicted XIs, not sourced confirmations. Man Utd's penalty taker under Michael Carrick has not been freshly confirmed either; the API says Bruno, but that ordering predates the new manager. Re-check team news Friday morning before the 17:30 UTC deadline."
+  ]
+ }
+}

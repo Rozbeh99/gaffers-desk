@@ -1,0 +1,16 @@
+{
+ "name": "The Gaffer's Desk",
+ "team": {
+  "id": 8625063,
+  "name": "Babadook"
+ },
+ "generated": "27 Aug 2026, 18:45 UTC",
+ "gameweek": 2,
+ "endpoints": {
+  "squad.json": "the 15, with prices, selling prices, status and the next five fixtures",
+  "points.json": "every score and bonus per gameweek, team totals, rank, past seasons",
+  "advice.json": "this gameweek's verdict, evidence and watchlist",
+  "season.json": "the running log of every gameweek and every transfer"
+ },
+ "note": "Read-only. Rebuilt from the official FPL API on a schedule; the verdict in advice.json is updated when the weekly analysis runs."
+}
