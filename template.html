@@ -410,6 +410,34 @@
   .pastrow > div.best .p{color:var(--accent);}
   .pastrow > div.best .s::after{content:" · best"; color:var(--accent);}
 
+
+  /* ---------- refresh strip ---------- */
+  .refresh{
+    border:1px solid var(--line-2); border-radius:11px; background:var(--surface-2);
+    padding:15px 17px; margin:26px 0 0; display:flex; gap:15px; flex-wrap:wrap;
+    align-items:center;
+  }
+  .refresh .txt{flex:1 1 260px;}
+  .refresh .t{font-family:'IBM Plex Mono',monospace; font-size:10px; letter-spacing:.12em;
+    text-transform:uppercase; color:var(--ink-3); font-weight:600;}
+  .refresh .s{font-size:13.5px; color:var(--ink-2); margin-top:4px; line-height:1.5;}
+  .refresh .s b{color:var(--ink); font-weight:600;}
+  .refresh .acts{display:flex; gap:8px; flex-wrap:wrap;}
+  .refresh a{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.06em;
+    text-transform:uppercase; padding:9px 14px; border-radius:7px; text-decoration:none;
+    border:1px solid var(--line-2); background:var(--surface); color:var(--ink-2);
+    white-space:nowrap;
+  }
+  .refresh a:hover{border-color:var(--accent); color:var(--accent);}
+  .refresh a.primary{background:var(--accent); border-color:var(--accent); color:var(--accent-ink);}
+  .refresh a.primary:hover{filter:brightness(1.08); color:var(--accent-ink);}
+  @media (max-width:760px){
+    .refresh{padding:14px;}
+    .refresh .acts{width:100%;}
+    .refresh a{flex:1; text-align:center;}
+  }
+
   /* ---------- phone ---------- */
   @media (max-width:760px){
     body{font-size:15.5px;}
@@ -541,6 +569,8 @@
     <p class="lede">Every gameweek, in order, with the transfers made and why. This is the running record &mdash; each week gets added here once the deadline passes, so you can look back and see which calls paid off.</p>
     <div class="tl" id="timeline"></div>
   </section>
+
+  <div id="refreshSlot"></div>
 
 </div>
 
@@ -980,6 +1010,23 @@
       if(n){ e.preventDefault(); n.focus(); select(n); }
     });
   });
+
+  /* ---------- refresh strip ---------- */
+  (function(){
+    var verdictAge = (DATA.advice && DATA.advice.updated) ? DATA.advice.updated : null;
+    $('refreshSlot').innerHTML =
+      '<div class="refresh"><div class="txt">' +
+        '<div class="t">Keeping this current</div>' +
+        '<div class="s"><b>Numbers</b> \u2014 prices, points, bonus, injuries, rank \u2014 rebuild ' +
+        'themselves every two hours. Last build ' + esc(DATA.generated || 'unknown') + '.<br>' +
+        '<b>The verdict</b> is a judgement call and only changes when the analysis runs' +
+        (verdictAge ? ', last written ' + esc(verdictAge) : '') + '. It runs automatically ' +
+        'every Thursday evening, before the deadline.</div></div>' +
+      '<div class="acts">' +
+        '<a class="primary" href="https://claude.ai/code/routines" target="_blank" rel="noopener">Run the analysis</a>' +
+        '<a href="https://github.com/Rozbeh99/gaffers-desk/actions/workflows/refresh.yml" target="_blank" rel="noopener">Rebuild numbers</a>' +
+      '</div></div>';
+  })();
 
   $('foot').textContent = 'Prices, ownership, availability and fixture difficulty pulled live from the official ' +
     'Fantasy Premier League API on ' + (DATA.generated || 'the latest refresh') + '. Fixture difficulty is the ' +
