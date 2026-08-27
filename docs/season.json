@@ -1,0 +1,91 @@
+{
+ "manager": "Rozbeh",
+ "season": "2026/27",
+ "log": [
+  {
+   "gw": 1,
+   "state": "complete",
+   "deadline": "2026-08-21T17:30:00Z",
+   "squadValue": 100.0,
+   "bank": 0.0,
+   "freeTransfers": "unlimited",
+   "captain": "Haaland",
+   "vice": "B.Fernandes",
+   "chip": null,
+   "points": 56,
+   "transfers": [
+    {
+     "out": "Vuskovic",
+     "in": "Shaw",
+     "cost": 0,
+     "state": "applied",
+     "confirmedAt": "21 Aug 2026, 17:00 UTC"
+    },
+    {
+     "out": "Gvardiol",
+     "in": "Guéhi",
+     "cost": 0,
+     "state": "applied",
+     "confirmedAt": "21 Aug 2026, 17:00 UTC"
+    }
+   ],
+   "headline": "56 points, +6 on the 50-point average. Overall rank 2,677,591.",
+   "notes": [
+    "Vuskovic (0 Premier League minutes, behind Kadioglu, Struijk and Dunk at Brighton) replaced by Luke Shaw, who started all 38 last season.",
+    "Gvardiol (16 starts, heavily rotated) replaced by Marc Guehi (35 starts, 179 points) - same club, same fixture, far more certain minutes.",
+    "Net cost GBP 0.0m: the GBP 0.5m saved on Shaw paid for the Guehi upgrade exactly.",
+    "No chip played. Nothing to gain in GW1 and the bench is worth roughly 2 points on a Bench Boost.",
+    "RESULT: João Pedro 11 (goal, assist, 2 bonus), Guéhi 10 (goal, 2 bonus), Calafiori 9 (assist, clean sheet), Szoboszlai 8 (goal, 1 bonus). Haaland captained for 2 points, doubled to 4 — 90 minutes, 0.74 xG, no return.",
+    "7 points left on the bench, 6 of them Slater's (assist plus clean sheet at Hull) — the single biggest avoidable loss of the week.",
+    "The Guéhi swap paid off, but not for the reason given. He was advised on his Crystal Palace starts record, which was the wrong evidence. He delivered because Maresca is reportedly playing him in central midfield, a role change nobody predicted here.",
+    "The Shaw swap looks flat so far: 90 minutes, 1 point, 2 goals conceded — but the reasoning (guaranteed minutes over a player with none) still holds."
+   ],
+   "confirmedAt": "21 Aug 2026, 17:00 UTC",
+   "verifiedAt": "21 Aug 2026, 18:30 UTC",
+   "verifiedResult": "match",
+   "rank": 2677591,
+   "benchPoints": 7
+  },
+  {
+   "gw": 2,
+   "state": "upcoming",
+   "deadline": "2026-08-28T17:30:00Z",
+   "squadValue": 100.0,
+   "bank": 0.0,
+   "freeTransfers": 1,
+   "captain": "Haaland",
+   "vice": "B.Fernandes",
+   "chip": null,
+   "points": null,
+   "transfers": [],
+   "headline": "Hold. No injuries anywhere in the fifteen, an empty bank, and one gameweek of evidence is not enough to spend a transfer on.",
+   "notes": [
+    "All 15 players are status 'a' with no chance-of-playing flag. So is every player in the game owned by more than 15%.",
+    "Prices: Calafiori and João Pedro each rose £0.1m. Half of a rise is kept, so both still sell at the purchase price and spending power stays at £100.0m.",
+    "Rolling the free transfer gives two in GW3, which pairs with the Wildcard being held for roughly GW4.",
+    "Captain Haaland (away at Crystal Palace) over Bruno Fernandes (home to Ipswich). Close call — projections favour Bruno, ownership and ceiling favour Haaland, and 178,409 managers sold Bruno this week.",
+    "Anderson's GW1 withdrawal on 62 minutes was cramp, not injury (Maresca). 134,004 managers sold him anyway; ownership is down to 6.2% and he is flagged as close to a price fall.",
+    "Guehi is being used by Maresca as a Man City central midfielder in a double pivot rather than at centre-back - still Defender-eligible for FPL scoring. Maresca called it experimental, so watch for a reversion.",
+    "Haaland's GW1 blank was fatigue after a late World Cup return, not loss of form: 0.74 xG from 4 shots. He has scored in all five previous league meetings with Crystal Palace.",
+    "Advised bench reorder to Slater, Hughes, van Ewijk. Free to do, and 6 of the 7 bench points lost in GW1 were Slater's.",
+    "CAPTAIN DISAGREEMENT: the scheduled cloud run picked Bruno Fernandes on fixture strength (2 of 4 projection models). This build keeps Haaland on underlying numbers (0.74 xG vs 0.08), his record against Palace, and 68% ownership. Both cases are on the Moves tab; the call is his."
+   ]
+  }
+ ],
+ "teamName": "Babadook",
+ "teamId": 8625063,
+ "corrections": [
+  {
+   "gw": 1,
+   "what": "Gvardiol -> Guehi advised on 35 starts vs 16",
+   "why_wrong": "Those 35 starts were at Crystal Palace. Guehi had just moved to Man City where he must displace an established Gvardiol-Dias pairing. Old-club minutes are not evidence of new-club security.",
+   "fixed": "Explicit STARTING RISK check added to the weekly routine prompt and CLAUDE.md."
+  },
+  {
+   "gw": 2,
+   "what": "Pre-season note said Szoboszlai was not Liverpool's confirmed penalty taker",
+   "why_wrong": "Salah is no longer in the game and the API now lists Szoboszlai at penalties_order 1 and set-piece order 1. The note was right when written and is wrong now.",
+   "fixed": "Corrected on the GW2 Moves tab and in this log."
+  }
+ ]
+}

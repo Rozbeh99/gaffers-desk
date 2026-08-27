@@ -1,0 +1,95 @@
+{
+ "note": "Price paid for each player. Selling price = paid + floor((now-paid)/2) when the player has risen; full price when he has fallen. Update whenever a transfer is made.",
+ "bought": {
+  "Raya": {
+   "price": 6.0,
+   "gw": 1,
+   "club": "Arsenal",
+   "note": "opening squad, launch price"
+  },
+  "Dubravka": {
+   "price": 4.0,
+   "gw": 1,
+   "club": "Spurs",
+   "note": "opening squad, launch price"
+  },
+  "Calafiori": {
+   "price": 5.5,
+   "gw": 1,
+   "club": "Arsenal",
+   "note": "opening squad, launch price"
+  },
+  "Virgil": {
+   "price": 6.5,
+   "gw": 1,
+   "club": "Liverpool",
+   "note": "opening squad, launch price"
+  },
+  "Guéhi": {
+   "price": 6.0,
+   "gw": 1,
+   "club": "Man City",
+   "note": "opening squad, launch price"
+  },
+  "Shaw": {
+   "price": 4.5,
+   "gw": 1,
+   "club": "Man Utd",
+   "note": "opening squad, launch price"
+  },
+  "van Ewijk": {
+   "price": 4.0,
+   "gw": 1,
+   "club": "Coventry City",
+   "note": "opening squad, launch price"
+  },
+  "B.Fernandes": {
+   "price": 12.0,
+   "gw": 1,
+   "club": "Man Utd",
+   "note": "opening squad, launch price"
+  },
+  "Szoboszlai": {
+   "price": 7.0,
+   "gw": 1,
+   "club": "Liverpool",
+   "note": "opening squad, launch price"
+  },
+  "Anderson": {
+   "price": 6.5,
+   "gw": 1,
+   "club": "Man City",
+   "note": "opening squad, launch price"
+  },
+  "Hughes": {
+   "price": 4.5,
+   "gw": 1,
+   "club": "Crystal Palace",
+   "note": "opening squad, launch price"
+  },
+  "Slater": {
+   "price": 4.5,
+   "gw": 1,
+   "club": "Hull City",
+   "note": "opening squad, launch price"
+  },
+  "Haaland": {
+   "price": 15.5,
+   "gw": 1,
+   "club": "Man City",
+   "note": "opening squad, launch price"
+  },
+  "João Pedro": {
+   "price": 7.5,
+   "gw": 1,
+   "club": "Chelsea",
+   "note": "opening squad, launch price"
+  },
+  "Calvert-Lewin": {
+   "price": 6.0,
+   "gw": 1,
+   "club": "Leeds",
+   "note": "opening squad, launch price"
+  }
+ }
+}

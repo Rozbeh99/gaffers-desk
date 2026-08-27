@@ -1,0 +1,84 @@
+name: Refresh from the FPL API
+
+# The whole point of this job is that the dashboard stays current with the PC
+# switched off. The FPL API is public and needs no credentials, so everything
+# here runs on GitHub's runners with the default token and nothing else.
+#
+# It refreshes NUMBERS only - prices, points, bonus, injuries, fixtures, rank.
+# The weekly verdict in advice.json is a judgement call and is written by the
+# Thursday analysis run, not here.
+
+on:
+  schedule:
+    # Every two hours. FPL prices settle around 01:30 UTC and live points move
+    # through match windows, so this is frequent enough to always look current
+    # without hammering their API.
+    - cron: '15 */2 * * *'
+  workflow_dispatch:          # and a "Run workflow" button, for impatience
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # Finished gameweeks never change their scores, so the per-gameweek dumps
+      # are worth keeping between runs - by GW38 re-fetching them all would be
+      # ~15 MB of someone else's bandwidth every two hours.
+      - name: Restore cached gameweek data
+        uses: actions/cache@v4
+        with:
+          path: |
+            live_gw*.json
+            picks_gw*.json
+          key: fpl-gw-${{ github.run_id }}
+          restore-keys: fpl-gw-
+
+      - name: Pull the live FPL data
+        run: |
+          curl -sS --fail --retry 3 --retry-delay 5 -A "Mozilla/5.0" \
+            "https://fantasy.premierleague.com/api/bootstrap-static/" -o bootstrap.json
+          curl -sS --fail --retry 3 --retry-delay 5 -A "Mozilla/5.0" \
+            "https://fantasy.premierleague.com/api/fixtures/" -o fixtures.json
+          python -c "import json;d=json.load(open('bootstrap.json'));print('elements:',len(d['elements']))"
+
+      - name: Rebuild
+        run: |
+          python build_players_csv.py
+          python build_points.py
+          python build_dashboard_data.py
+          python build_page.py
+          python build_site.py
+
+      # build_page.py exits non-zero on a failed check, so a broken page can
+      # never reach the deploy. This is belt and braces for the published copy.
+      - name: Refuse to publish a bundle containing the notification topic
+        run: |
+          if grep -rlE 'gaffer-babadook|trig_[A-Za-z0-9]{6}|ntfy\.sh' docs/; then
+            echo "::error::a secret reached docs/ - refusing to publish"
+            exit 1
+          fi
+          echo "secrets scan: clean"
+
+      - name: Commit if anything actually changed
+        run: |
+          git config user.name  "gaffers-desk[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs advice.json season.json prices.json
+          if git diff --cached --quiet; then
+            echo "nothing changed"
+          else
+            git commit -m "Refresh: $(python -c "import json;d=json.load(open('docs/api.json'));print('GW'+str(d['gameweek'])+', '+d['generated'])")"
+            git push
+          fi

@@ -1,0 +1,15 @@
+# raw API dumps and derived working files - regenerated on every run
+bootstrap.json
+fixtures.json
+history.json
+entry.json
+players.csv
+fixture_difficulty.csv
+live_gw*.json
+picks_gw*.json
+squad.json
+points.json
+index.html
+icon.png
+__pycache__/
+*.pyc
