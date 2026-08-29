@@ -7,7 +7,7 @@
   "total": 87,
   "rank": 1045842,
   "percentile": 15,
-  "managers": 9986846,
+  "managers": 10016172,
   "bench": 7,
   "hits": 0,
   "best": 56,
@@ -153,6 +153,55 @@
    "starts": 2
   },
   {
+   "id": 368,
+   "name": "Szoboszlai",
+   "full": "Dominik Szoboszlai",
+   "club": "LIV",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 8,
+     "c": 8,
+     "b": 1,
+     "m": 90,
+     "g": 1,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 4,
+     "c": 4,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 12,
+   "counted": 12,
+   "bonus": 1,
+   "mins": 180,
+   "goals": 1,
+   "assists": 0,
+   "cs": 0,
+   "starts": 2
+  },
+  {
    "id": 165,
    "name": "João Pedro",
    "full": "João Pedro Junqueira de Jesus",
@@ -248,55 +297,6 @@
    "goals": 0,
    "assists": 1,
    "cs": 1,
-   "starts": 1
-  },
-  {
-   "id": 368,
-   "name": "Szoboszlai",
-   "full": "Dominik Szoboszlai",
-   "club": "LIV",
-   "pos": "MID",
-   "gws": {
-    "1": {
-     "p": 8,
-     "c": 8,
-     "b": 1,
-     "m": 90,
-     "g": 1,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 8,
-   "counted": 8,
-   "bonus": 1,
-   "mins": 90,
-   "goals": 1,
-   "assists": 0,
-   "cs": 0,
    "starts": 1
   },
   {
@@ -421,10 +421,10 @@
      "prov": false
     },
     "2": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -437,14 +437,14 @@
      "prov": true
     }
    },
-   "own": 2,
-   "counted": 2,
+   "own": 3,
+   "counted": 3,
    "bonus": 0,
-   "mins": 90,
+   "mins": 180,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 1
+   "starts": 2
   },
   {
    "id": 426,
@@ -617,13 +617,13 @@
      "prov": false
     },
     "2": {
-     "p": 0,
+     "p": 2,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
-     "cs": 0,
+     "cs": 1,
      "mult": 0,
      "role": "bench",
      "cap": false,
@@ -633,14 +633,14 @@
      "prov": true
     }
    },
-   "own": 6,
+   "own": 8,
    "counted": 0,
    "bonus": 0,
-   "mins": 90,
+   "mins": 180,
    "goals": 0,
    "assists": 1,
-   "cs": 1,
-   "starts": 1
+   "cs": 2,
+   "starts": 2
   },
   {
    "id": 175,
@@ -666,10 +666,10 @@
      "prov": false
     },
     "2": {
-     "p": 0,
+     "p": 2,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -682,14 +682,14 @@
      "prov": true
     }
    },
-   "own": 1,
+   "own": 3,
    "counted": 0,
    "bonus": 0,
-   "mins": 90,
+   "mins": 180,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 1
+   "starts": 2
   },
   {
    "id": 497,
