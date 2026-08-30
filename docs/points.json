@@ -4,14 +4,14 @@
   2
  ],
  "team": {
-  "total": 92,
-  "rank": 1763045,
+  "total": 134,
+  "rank": 2173475,
   "percentile": 30,
-  "managers": 10071553,
+  "managers": 10112095,
   "bench": 11,
   "hits": 0,
-  "best": 56,
-  "avgTotal": 79,
+  "best": 78,
+  "avgTotal": 116,
   "byGw": [
    {
     "gw": 1,
@@ -34,22 +34,22 @@
    },
    {
     "gw": 2,
-    "points": 36,
-    "gross": 36,
+    "points": 78,
+    "gross": 78,
     "hit": 0,
     "transfers": 0,
     "bench": 4,
-    "rank": 1763045,
-    "gwRank": 2797516,
+    "rank": 2173475,
+    "gwRank": 2795375,
     "value": 100.1,
     "bank": 0.0,
     "chip": null,
     "captain": "Haaland",
     "captainPts": 13,
-    "avg": 29,
-    "best": 104,
+    "avg": 66,
+    "best": 158,
     "prov": true,
-    "rankDelta": 914546
+    "rankDelta": 504116
    }
   ]
  },
@@ -104,6 +104,55 @@
    "starts": 2
   },
   {
+   "id": 426,
+   "name": "B.Fernandes",
+   "full": "Bruno Borges Fernandes",
+   "club": "MUN",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 2,
+     "c": 2,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 23,
+     "c": 23,
+     "b": 3,
+     "m": 90,
+     "g": 3,
+     "a": 1,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 25,
+   "counted": 25,
+   "bonus": 3,
+   "mins": 180,
+   "goals": 3,
+   "assists": 1,
+   "cs": 0,
+   "starts": 2
+  },
+  {
    "id": 165,
    "name": "João Pedro",
    "full": "João Pedro Junqueira de Jesus",
@@ -127,10 +176,10 @@
      "prov": false
     },
     "2": {
-     "p": 10,
-     "c": 10,
-     "b": 3,
-     "m": 89,
+     "p": 9,
+     "c": 9,
+     "b": 2,
+     "m": 90,
      "g": 1,
      "a": 1,
      "cs": 0,
@@ -143,10 +192,10 @@
      "prov": true
     }
    },
-   "own": 21,
-   "counted": 21,
-   "bonus": 5,
-   "mins": 179,
+   "own": 20,
+   "counted": 20,
+   "bonus": 4,
+   "mins": 180,
    "goals": 2,
    "assists": 2,
    "cs": 0,
@@ -326,7 +375,7 @@
      "p": 8,
      "c": 8,
      "b": 2,
-     "m": 89,
+     "m": 90,
      "g": 1,
      "a": 0,
      "cs": 0,
@@ -342,7 +391,7 @@
    "own": 9,
    "counted": 9,
    "bonus": 2,
-   "mins": 179,
+   "mins": 180,
    "goals": 1,
    "assists": 0,
    "cs": 1,
@@ -496,55 +545,6 @@
    "starts": 2
   },
   {
-   "id": 426,
-   "name": "B.Fernandes",
-   "full": "Bruno Borges Fernandes",
-   "club": "MUN",
-   "pos": "MID",
-   "gws": {
-    "1": {
-     "p": 2,
-     "c": 2,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": true,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": true,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 2,
-   "counted": 2,
-   "bonus": 0,
-   "mins": 90,
-   "goals": 0,
-   "assists": 0,
-   "cs": 0,
-   "starts": 1
-  },
-  {
    "id": 423,
    "name": "Shaw",
    "full": "Luke Shaw",
@@ -568,10 +568,10 @@
      "prov": false
     },
     "2": {
-     "p": 0,
-     "c": 0,
+     "p": 2,
+     "c": 2,
      "b": 0,
-     "m": 0,
+     "m": 72,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -584,14 +584,14 @@
      "prov": true
     }
    },
-   "own": 1,
-   "counted": 1,
+   "own": 3,
+   "counted": 3,
    "bonus": 0,
-   "mins": 90,
+   "mins": 162,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 1
+   "starts": 2
   },
   {
    "id": 290,
