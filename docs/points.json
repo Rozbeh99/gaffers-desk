@@ -5,9 +5,9 @@
  ],
  "team": {
   "total": 134,
-  "rank": 2173475,
+  "rank": 2173481,
   "percentile": 30,
-  "managers": 10112095,
+  "managers": 10131463,
   "bench": 11,
   "hits": 0,
   "best": 78,
@@ -39,7 +39,7 @@
     "hit": 0,
     "transfers": 0,
     "bench": 4,
-    "rank": 2173475,
+    "rank": 2173481,
     "gwRank": 2795375,
     "value": 100.1,
     "bank": 0.0,
@@ -49,7 +49,7 @@
     "avg": 66,
     "best": 158,
     "prov": true,
-    "rankDelta": 504116
+    "rankDelta": 504110
    }
   ]
  },
