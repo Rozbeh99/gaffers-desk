@@ -7,7 +7,7 @@
   "total": 134,
   "rank": 2173481,
   "percentile": 30,
-  "managers": 10173936,
+  "managers": 10200927,
   "bench": 11,
   "hits": 0,
   "best": 78,
@@ -323,10 +323,10 @@
      "prov": false
     },
     "2": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 45,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -339,14 +339,14 @@
      "prov": true
     }
    },
-   "own": 9,
-   "counted": 9,
+   "own": 10,
+   "counted": 10,
    "bonus": 0,
-   "mins": 80,
+   "mins": 125,
    "goals": 0,
    "assists": 1,
    "cs": 1,
-   "starts": 1
+   "starts": 2
   },
   {
    "id": 346,
@@ -421,10 +421,10 @@
      "prov": false
     },
     "2": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 45,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -437,14 +437,14 @@
      "prov": true
     }
    },
-   "own": 6,
-   "counted": 6,
+   "own": 7,
+   "counted": 7,
    "bonus": 0,
-   "mins": 90,
+   "mins": 135,
    "goals": 0,
    "assists": 0,
    "cs": 1,
-   "starts": 1
+   "starts": 2
   },
   {
    "id": 481,
