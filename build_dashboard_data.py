@@ -87,8 +87,8 @@ out = {
     'squad': squad, 'moves': moves,
     'captain': 'Haaland', 'vice': 'B.Fernandes',
     'chips': {'available': ['Wildcard x2', 'Free Hit x2', 'Bench Boost x2', 'Triple Captain x2'],
-              'advice': 'Play none in GW2. Your bench scored 7 in GW1, so a Bench Boost is not yet worth a chip, and no doubles exist. The consensus play is the first Wildcard around GW4, after the transfer window shuts on 1 September and two more gameweeks of real form data. Remember both chip sets expire at the GW19 deadline on 2 Jan 2027 - they do not carry over.'},
-    'benchOrder': ['Slater', 'Hughes', 'van Ewijk', 'Dubravka'],
+              'advice': 'Hold for GW3. Community chip guides are split between wildcarding around GW4 (fix a structural problem once the transfer window has shut) and GW6 (wait for a post-international-break, five-gameweek read on form) - your squad is fundamentally healthy at 151 points and top-25% rank, so there is no structural problem to rush a Wildcard for yet; one transfer this week covers the actual issue. Note for the record: several sites (RotoWire, FPL Copilot) are calling GW3 a strong Triple Captain window on Haaland given the softest fixture of any elite attacker this week - not recommended here since the default stays hold, but it is a live, actionable option this week if you want to use one of your two Triple Captains, not just a vague future plan.'},
+    'benchOrder': ['Slater', 'van Ewijk', 'Hughes', 'Dubravka'],
     'advice': ADVICE,          # the verdict panel renders only if this is present
 
 }

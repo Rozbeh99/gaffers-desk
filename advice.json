@@ -1,39 +1,37 @@
 {
- "verdict": "hold",
- "headline": "Hold the transfer. Keep the armband on Haaland — but this is the closest call of the week.",
- "body": "Gameweek 1 came in at 56, six above the 50-point average, with João Pedro (11), Guéhi (10), Calafiori (9) and Szoboszlai (8) all returning. Nothing forces a move: all fifteen carry FPL status 'a' with no news, and dated team-news checks across Fantasy Football Scout, Squawka and RotoWire (26–27 Aug) found no fitness doubt anywhere in the squad. Your bank is empty and the squad sells for exactly £100.0m, so any transfer this week is a straight like-for-like swap at the same price — and there is no swap at that price worth making on one gameweek of evidence. Roll the transfer, take two into GW3, and hold the Wildcard for GW4–6. Two things are worth knowing. Elliot Anderson's GW1 withdrawal on 62 minutes was cramp, not injury, confirmed by Maresca — so the 134,004 managers who sold him this week sold City's £116m club-record signing after a blank he had a good excuse for. And Marc Guéhi is being played as a central midfielder in a double pivot rather than at centre-back, which is how he scored and took 2 bonus; he is still FPL-registered as a defender, so he keeps clean-sheet eligibility while getting extra attacking involvement. Maresca called the role experimental, so watch for a reversion. One free change is worth making regardless: move Slater to the front of the bench. He scored 6 points sitting there in GW1 while van Ewijk sat ahead of him.",
+ "verdict": "act",
+ "headline": "One transfer: Shaw out, Egan in (frees £0.5m). Captain Haaland - comfortably, not a close call this week.",
+ "body": "Two clean gameweeks: 56 then 95 (avg 50 and 81), 151 points total, and overall rank has climbed from 2,677,591 to 1,873,792 - top 25%. All fifteen are fit and started or are confirmed to start in every published GW3 lineup; there is no injury forcing a move. But two independent research passes - one on team news and starting risk, one on underlying numbers and the transfer market - both landed on the same conclusion without being told the answer in advance: Luke Shaw is the squad's clearest weak link, with 0.00 xG and 0.28 xGI in 180 minutes and the 9th-heaviest sell-off in the entire game today. John Egan at Hull (£4.0m) has 2 clean sheets and a defensive-contribution total of 34 in his first 2 games, hasn't risen in price yet, and slots straight into Shaw's XI spot for £0.5m less, banking the change. Virgil van Dijk shows similarly weak underlying (0 bonus, BPS 13, -172,052 sold today) but gets a genuinely good fixture this week - Ipswich away, FDR2 - so he's held one more week rather than sold blind; he is the next name to go if he blanks again. Guéhi's one-off midfield cameo in GW1 was not the new normal: he was back at orthodox centre-back for GW2 and every published GW3 lineup has him there too, still with excellent underlying for a defender (0.89 xG, 1.25 xGI) and a home fixture against promoted Coventry (FDR2). Captaincy is not close this week - Haaland (home, FDR2, the softest fixture of any elite attacker in GW3) is the near-unanimous pick across every source checked, ahead of Bruno Fernandes (away at Everton, FDR3, but the game's #1 BPS after a hat-trick last time out) as vice. One free bench-order fix: Will Hughes has not played a single minute in 2 games and is absent from Crystal Palace's own predicted GW3 lineup, so he moves behind Robbie van Ewijk (who has played all 180 minutes, just has a brutal fixture at Man City this week) in the bench order - costs nothing, corrects an error from last week's build.",
  "evidence": [
   {
-   "k": "Gameweek 1",
-   "v": "56 pts",
-   "note": "Six above the 50-point average, overall rank 2,677,591 — top 35%. But 7 points were left on the bench, 6 of them Slater's."
-  },
-  {
-   "k": "Captain — genuinely split",
-   "v": "Haaland, narrowly",
-   "note": "Two projection models (RotoWire, Fantasy Football Fix) rank Bruno #1 on the Ipswich fixture. Going the other way on underlying: Haaland had 0.74 xG and 4 shots in GW1 to Bruno's 0.08 xG and no shot in the box, he has scored in all five previous league meetings with Palace, and 68% ownership means captaining him protects rank."
+   "k": "Two gameweeks",
+   "v": "151 pts",
+   "note": "56 then 95, both above average (50, 81). Overall rank improved by 803,799 in GW2 alone, from 2,677,591 to 1,873,792 - top 25%."
   },
   {
    "k": "Price movement",
-   "v": "+£0.2m",
-   "note": "Calafiori £5.5m → £5.6m and João Pedro £7.5m → £7.6m. Both are short of the £0.2m rise needed before selling turns a profit, so all fifteen still sell at cost and spending power is unchanged at £100.0m."
+   "v": "Flat at £100.2m",
+   "note": "Elliot Anderson fell £6.5m to £6.4m this week (net -70,456 today, City's midfield getting crowded with Bouaddi arriving). João Pedro rose again to £7.7m and now sells at a £0.1m profit (£7.6m). The two moves cancel out - squad still worth £100.2m market / £100.0m sell."
   },
   {
-   "k": "Set pieces",
-   "v": "Szoboszlai",
-   "note": "The API now lists him as Liverpool's No.1 penalty AND No.1 set-piece taker. Salah is no longer in the game at all. My pre-season note that he was not the confirmed penalty taker is out of date."
+   "k": "Transfer: Shaw -> Egan",
+   "v": "Frees £0.5m",
+   "note": "Shaw: 0.00 xG, 0.28 xGI, BPS 25, -210,131 net sold today. Egan: 2 clean sheets in 2 starts, DefCon 34, form 8.5, £4.0m and not yet risen despite +245,173 net bought today."
+  },
+  {
+   "k": "Captain",
+   "v": "Haaland, comfortably",
+   "note": "Home to Coventry (FDR2), the softest fixture of any elite attacker in GW3. Near-unanimous #1 across RotoWire, Fantasy Football Hub and FPL Copilot, which explicitly floats him as this week's Triple Captain play."
   }
  ],
  "watch": [
-  "DO THIS: reorder the bench to Slater, Hughes, van Ewijk. It costs nothing and it is the only change advised this week. Slater scored 6 points on the bench in GW1 — an assist and a clean sheet at Hull — while van Ewijk sat ahead of him in the autosub order. Leaving the XI itself alone: benching Shaw, at home to Ipswich, for a Hull midfielder away at Coventry is chasing one week of points.",
-  "SHAW — keep him this week, but he is the one to lose on the Wildcard. The problem is not his 1 point, it is 4 defensive contributions in 90 minutes when a defender needs 10 for DefCon points: he is relying on clean sheets alone, and Man Utd just lost 2-0 at newly promoted Hull. 94,894 managers sold him. But he frees only £4.5m with an empty bank, and everything reachable at that price is a one-week wonder on a promoted side — Egan (Hull, £4.0m, 21 DefCon), Justin (Leeds, £4.5m, 12 DefCon) and Mendy (Hull, £4.0m, 15 points but hooked on 63 minutes with five Hull defenders rotating). Selling Shaw the week he is home to promoted Ipswich, his best fixture of the next five, to buy a lottery ticket you would then discard on a GW4 Wildcard, is spending a transfer to go sideways.",
-  "The captain call is close enough that going with Bruno is defensible. His case: Man Utd host newly-promoted Ipswich (FDR 2) against Haaland's trip to Crystal Palace (FDR 3), and he is Man Utd's penalty and set-piece taker in the API. Against it: 178,409 managers sold him this week — the 6th most-sold player in the game — and his GW1 underlying was 0.08 xG with no shot inside the box. If you prefer the fixture over the underlying numbers, switch it; it is not a mistake either way.",
-  "Guéhi's midfield role was called 'experimental' by Maresca himself. If City revert him to centre-back his scoring profile changes — the clean sheets stay, the goal threat does not.",
-  "Calvert-Lewin had the thinnest underlying of anyone in the squad in GW1: 0.13 xGI in 90 minutes, plus a yellow card, for 1 point. He is Leeds' penalty taker, which is why he survives this week. A second blank against Brentford makes him the first name to move.",
-  "Elliot Anderson is flagged by Fantasy Football Scout as close to a price fall, and 134,004 managers sold him this week. He is in your starting XI, not on your bench, so a fall costs you real value — but 62 minutes cut short by cramp is not a reason to sell a £116m record signing after one game.",
-  "De Cuyper (Brighton, £4.6m, 17 points) is the most-transferred-in player in the game at 396,604 in. You cannot reach him: the bank is £0.0m and Shaw only frees £4.5m. Wildcard target, not a GW2 one.",
-  "COULD NOT VERIFY: no dated press-conference quote was found for Raya or Van Dijk specifically for GW2 — both are safe inferences from predicted XIs, not sourced confirmations. Man Utd's penalty taker under Michael Carrick has not been freshly confirmed either; the API says Bruno, but that ordering predates the new manager. Re-check team news Friday morning before the 17:30 UTC deadline."
+  "Virgil van Dijk - weak underlying (0 bonus, BPS 13 lowest in the squad after Shaw, -172,052 net sold today) but a good fixture this week (Ipswich away, FDR2). Held one more week rather than sold on 2 games of data; next name to go if he blanks again.",
+  "Elliot Anderson - price already fell £6.5m to £6.4m this week. Man City's midfield is getting crowded with £86m signing Ayyoub Bouaddi arriving. Not urgent (form 2.5, still a City starter) but a downgrade candidate for the Wildcard rather than a free-transfer sell now.",
+  "Will Hughes - still 0 minutes in 2 games and absent from Crystal Palace's own published GW3 lineup (checked 3 Sept 2026). Moved to the back of the bench order this week; a Wildcard replacement candidate if this continues.",
+  "Guéhi's role - his GW1 auxiliary-midfield cameo (the equaliser vs Bournemouth) was a one-off. He was back at orthodox centre-back for GW2 and every published GW3 lineup (Sports Mole, CityXtra, The Hard Tackle, all 2-3 Sept) has him there too, alongside Gvardiol/Dias/Khusanov. Keeps his Defender eligibility either way.",
+  "Triple Captain on Haaland - RotoWire and FPL Copilot are both calling GW3 a strong window for it given the softest fixture of any elite attacker this week. Not recommended by default (chips stay hold), but flagged since it's a live option this week specifically, not just a future plan.",
+  "COULD NOT VERIFY (checked 3 Sept 2026): the exact reason Will Hughes has played zero minutes - out of favour, tactical fit, or an unreported knock could not be confirmed from any source. Also unresolved: Liverpool's FPL-official penalty order still lists Alexander Isak on paper even though Szoboszlai has taken and scored the two live penalties this season - worth a last check of the in-app set-piece notes before relying on Szoboszlai for penalty points."
  ],
- "updated": "27 Aug 2026, 18:40 UTC",
- "forGw": 2
+ "updated": "3 Sep 2026, 18:20 UTC",
+ "forGw": 3
 }

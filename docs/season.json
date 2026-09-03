@@ -48,7 +48,7 @@
   },
   {
    "gw": 2,
-   "state": "upcoming",
+   "state": "complete",
    "deadline": "2026-08-28T17:30:00Z",
    "squadValue": 100.0,
    "bank": 0.0,
@@ -56,19 +56,50 @@
    "captain": "Haaland",
    "vice": "B.Fernandes",
    "chip": null,
-   "points": null,
+   "points": 95,
    "transfers": [],
-   "headline": "Hold. No injuries anywhere in the fifteen, an empty bank, and one gameweek of evidence is not enough to spend a transfer on.",
+   "headline": "95 points, +14 on the 81-point average. Overall rank climbed 803,799 places to 1,873,792 - top 25%.",
    "notes": [
-    "All 15 players are status 'a' with no chance-of-playing flag. So is every player in the game owned by more than 15%.",
-    "Prices: Calafiori and João Pedro each rose £0.1m. Half of a rise is kept, so both still sell at the purchase price and spending power stays at £100.0m.",
-    "Rolling the free transfer gives two in GW3, which pairs with the Wildcard being held for roughly GW4.",
-    "Captain Haaland (away at Crystal Palace) over Bruno Fernandes (home to Ipswich). Close call — projections favour Bruno, ownership and ceiling favour Haaland, and 178,409 managers sold Bruno this week.",
-    "Anderson's GW1 withdrawal on 62 minutes was cramp, not injury (Maresca). 134,004 managers sold him anyway; ownership is down to 6.2% and he is flagged as close to a price fall.",
-    "Guehi is being used by Maresca as a Man City central midfielder in a double pivot rather than at centre-back - still Defender-eligible for FPL scoring. Maresca called it experimental, so watch for a reversion.",
-    "Haaland's GW1 blank was fatigue after a late World Cup return, not loss of form: 0.74 xG from 4 shots. He has scored in all five previous league meetings with Crystal Palace.",
-    "Advised bench reorder to Slater, Hughes, van Ewijk. Free to do, and 6 of the 7 bench points lost in GW1 were Slater's.",
-    "CAPTAIN DISAGREEMENT: the scheduled cloud run picked Bruno Fernandes on fixture strength (2 of 4 projection models). This build keeps Haaland on underlying numbers (0.74 xG vs 0.08), his record against Palace, and 68% ownership. Both cases are on the Moves tab; the call is his."
+    "Haaland delivered this time: 2 goals, 13 raw / 26 with the armband, at Crystal Palace. The GW1 blank really was fatigue, not lost form.",
+    "Bruno Fernandes had the bigger raw game (23 points - a hat-trick plus an assist, 3 bonus, at home to Ipswich under new manager Michael Carrick) than Haaland's 13. The captaincy call still went to Haaland on underlying + fixture logic and it worked, but Bruno's score shows the alternative case wasn't wrong, just lower-ceiling this particular week.",
+    "Guéhi reverted to orthodox centre-back (no repeat of the GW1 midfield cameo) in a 4-1 win over his old club Crystal Palace - 2 points, appearance only, no clean sheet, no goal involvement this time.",
+    "Calafiori (11: assist + clean sheet) and Raya (6: clean sheet) both delivered as Arsenal won away at Aston Villa without conceding.",
+    "Liverpool conceded twice at home to Forest: Virgil 1 point, Szoboszlai 4. Neither is an emergency after one bad defensive day, but both are now on the watch list.",
+    "Shaw played 72 minutes and returned only 2 points - the underlying weakness flagged pre-match (thin defensive-contribution numbers) played out as expected.",
+    "4 points left on the bench (down from 7 in GW1) - the Slater-to-front bench reorder advised last week worked.",
+    "No transfers made. 1 free transfer rolled into GW3 alongside a second - 2 FT banked, still no hits taken all season."
+   ],
+   "rank": 1873792,
+   "benchPoints": 4
+  },
+  {
+   "gw": 3,
+   "state": "upcoming",
+   "deadline": "2026-09-04T17:30:00Z",
+   "squadValue": 100.0,
+   "bank": 0.0,
+   "freeTransfers": 2,
+   "captain": "Haaland",
+   "vice": "B.Fernandes",
+   "chip": null,
+   "points": null,
+   "transfers": [
+    {
+     "out": "Shaw",
+     "in": "Egan",
+     "cost": 0,
+     "state": "advised",
+     "confirmedAt": null
+    }
+   ],
+   "headline": "Act: Shaw out, Egan in (frees £0.5m). Captain Haaland, comfortably - home to promoted Coventry, the softest fixture of any elite attacker in GW3.",
+   "notes": [
+    "Shaw's underlying never recovered from the GW1-2 pattern flagged early: 0.00 xG and 0.28 xGI across 180 minutes, and the 9th-heaviest sell-off in the entire game today (-210,131 net). Egan (Hull, £4.0m paid) has 2 clean sheets in 2 starts and hasn't risen in price yet - bought ahead of a likely rise.",
+    "Virgil van Dijk shows similarly weak underlying (0 bonus, BPS 13, -172,052 net sold today) but gets a good fixture this week (Ipswich away, FDR2) - held one more week rather than sold on 2 games of data. Next name to go if he blanks again.",
+    "Guéhi confirmed back at centre-back for GW3 (Sports Mole, CityXtra, The Hard Tackle, all 2-3 Sept 2026) - the GW1 midfield cameo was a one-off, not an ongoing role change.",
+    "Bench order corrected: Will Hughes has 0 minutes in 2 games and is absent from Crystal Palace's own published GW3 lineup, so he drops behind Robbie van Ewijk (plays every week, just has a brutal fixture at Man City this week) - free to do, corrects an error from the GW2 build.",
+    "Both Wildcards, Free Hits, Bench Boosts and Triple Captains still available (2x each), first set expires at the GW19 deadline (2 Jan 2027).",
+    "COULD NOT VERIFY: the exact reason Will Hughes has played zero minutes all season (checked 3 Sept 2026)."
    ]
   }
  ],
