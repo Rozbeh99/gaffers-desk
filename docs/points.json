@@ -1,13 +1,14 @@
 {
  "gws": [
   1,
-  2
+  2,
+  3
  ],
  "team": {
   "total": 151,
   "rank": 1873792,
-  "percentile": 25,
-  "managers": 10426383,
+  "percentile": null,
+  "managers": 10446365,
   "bench": 11,
   "hits": 0,
   "best": 95,
@@ -50,6 +51,25 @@
     "best": 161,
     "prov": false,
     "rankDelta": 803799
+   },
+   {
+    "gw": 3,
+    "points": 0,
+    "gross": 0,
+    "hit": 0,
+    "transfers": 1,
+    "bench": 0,
+    "rank": 1873792,
+    "gwRank": null,
+    "value": 100.3,
+    "bank": 0.5,
+    "chip": "3xc",
+    "captain": "Haaland",
+    "captainPts": 0,
+    "avg": 0,
+    "best": null,
+    "prov": true,
+    "rankDelta": 0
    }
   ]
  },
@@ -92,6 +112,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 3,
+     "role": "xi",
+     "cap": true,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 15,
@@ -141,6 +177,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 25,
@@ -190,6 +242,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 20,
@@ -239,6 +307,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 20,
@@ -249,6 +333,71 @@
    "assists": 2,
    "cs": 0,
    "starts": 2
+  },
+  {
+   "id": 368,
+   "name": "Szoboszlai",
+   "full": "Dominik Szoboszlai",
+   "club": "LIV",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 8,
+     "c": 8,
+     "b": 1,
+     "m": 90,
+     "g": 1,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 4,
+     "c": 4,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "3": {
+     "p": 3,
+     "c": 3,
+     "b": 0,
+     "m": 84,
+     "g": 0,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 15,
+   "counted": 15,
+   "bonus": 1,
+   "mins": 264,
+   "goals": 1,
+   "assists": 0,
+   "cs": 1,
+   "starts": 3
   },
   {
    "id": 1,
@@ -288,6 +437,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 12,
@@ -337,6 +502,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 12,
@@ -349,31 +530,15 @@
    "starts": 2
   },
   {
-   "id": 368,
-   "name": "Szoboszlai",
-   "full": "Dominik Szoboszlai",
+   "id": 356,
+   "name": "Virgil",
+   "full": "Virgil van Dijk",
    "club": "LIV",
-   "pos": "MID",
+   "pos": "DEF",
    "gws": {
     "1": {
-     "p": 8,
-     "c": 8,
-     "b": 1,
-     "m": 90,
-     "g": 1,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 4,
-     "c": 4,
+     "p": 2,
+     "c": 2,
      "b": 0,
      "m": 90,
      "g": 0,
@@ -386,16 +551,48 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "2": {
+     "p": 1,
+     "c": 1,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "3": {
+     "p": 6,
+     "c": 6,
+     "b": 0,
+     "m": 84,
+     "g": 0,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
-   "own": 12,
-   "counted": 12,
-   "bonus": 1,
-   "mins": 180,
-   "goals": 1,
+   "own": 9,
+   "counted": 9,
+   "bonus": 0,
+   "mins": 264,
+   "goals": 0,
    "assists": 0,
-   "cs": 0,
-   "starts": 2
+   "cs": 1,
+   "starts": 3
   },
   {
    "id": 346,
@@ -435,6 +632,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 9,
@@ -484,61 +697,28 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 5,
    "counted": 5,
    "bonus": 0,
    "mins": 143,
-   "goals": 0,
-   "assists": 0,
-   "cs": 0,
-   "starts": 2
-  },
-  {
-   "id": 356,
-   "name": "Virgil",
-   "full": "Virgil van Dijk",
-   "club": "LIV",
-   "pos": "DEF",
-   "gws": {
-    "1": {
-     "p": 2,
-     "c": 2,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 1,
-     "c": 1,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    }
-   },
-   "own": 3,
-   "counted": 3,
-   "bonus": 0,
-   "mins": 180,
    "goals": 0,
    "assists": 0,
    "cs": 0,
@@ -631,6 +811,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 8,
@@ -680,6 +876,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 3,
@@ -729,6 +941,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
@@ -778,6 +1006,55 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 0,
+   "counted": 0,
+   "bonus": 0,
+   "mins": 0,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 0
+  },
+  {
+   "id": 277,
+   "name": "Egan",
+   "full": "John Egan",
+   "club": "HUL",
+   "pos": "DEF",
+   "gws": {
+    "3": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
