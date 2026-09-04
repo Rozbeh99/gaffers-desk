@@ -1,6 +1,6 @@
 {
  "verdict": "act",
- "headline": "One transfer: Shaw out, Egan in (frees £0.5m). Captain Haaland - comfortably, not a close call this week.",
+ "headline": "One transfer: Shaw out, Egan in (frees £0.5m). Captain Haaland and play Triple Captain - deadline 17:30 UTC today.",
  "body": "Two clean gameweeks: 56 then 95 (avg 50 and 81), 151 points total, and overall rank has climbed from 2,677,591 to 1,873,792 - top 25%. All fifteen are fit and started or are confirmed to start in every published GW3 lineup; there is no injury forcing a move. But two independent research passes - one on team news and starting risk, one on underlying numbers and the transfer market - both landed on the same conclusion without being told the answer in advance: Luke Shaw is the squad's clearest weak link, with 0.00 xG and 0.28 xGI in 180 minutes and the 9th-heaviest sell-off in the entire game today. John Egan at Hull (£4.0m) has 2 clean sheets and a defensive-contribution total of 34 in his first 2 games, hasn't risen in price yet, and slots straight into Shaw's XI spot for £0.5m less, banking the change. Virgil van Dijk shows similarly weak underlying (0 bonus, BPS 13, -172,052 sold today) but gets a genuinely good fixture this week - Ipswich away, FDR2 - so he's held one more week rather than sold blind; he is the next name to go if he blanks again. Guéhi's one-off midfield cameo in GW1 was not the new normal: he was back at orthodox centre-back for GW2 and every published GW3 lineup has him there too, still with excellent underlying for a defender (0.89 xG, 1.25 xGI) and a home fixture against promoted Coventry (FDR2). Captaincy is not close this week - Haaland (home, FDR2, the softest fixture of any elite attacker in GW3) is the near-unanimous pick across every source checked, ahead of Bruno Fernandes (away at Everton, FDR3, but the game's #1 BPS after a hat-trick last time out) as vice. One free bench-order fix: Will Hughes has not played a single minute in 2 games and is absent from Crystal Palace's own predicted GW3 lineup, so he moves behind Robbie van Ewijk (who has played all 180 minutes, just has a brutal fixture at Man City this week) in the bench order - costs nothing, corrects an error from last week's build.",
  "evidence": [
   {
@@ -22,6 +22,11 @@
    "k": "Captain",
    "v": "Haaland, comfortably",
    "note": "Home to Coventry (FDR2), the softest fixture of any elite attacker in GW3. Near-unanimous #1 across RotoWire, Fantasy Football Hub and FPL Copilot, which explicitly floats him as this week's Triple Captain play."
+  },
+  {
+   "k": "Chip",
+   "v": "Triple Captain - play it now",
+   "note": "Checked Man City's DGW history: zero City doubles before GW19 in the last 3 seasons (2023/24 doubled GW37, 2024/25 had none, 2025/26 doubled GW33 and GW36) - waiting for a pre-GW19 double is not a real plan. Against the visible schedule (GW3-GW12), Coventry (H) is tied with only one other fixture (Ipswich, GW7) as City's softest - nothing beats it, so there's no upgrade to wait for. The chip-reset rule (fresh Triple Captain after GW19 regardless of use) removes any long-term cost to firing now. Net: fire Triple Captain on Haaland this week."
   }
  ],
  "watch": [
@@ -29,9 +34,9 @@
   "Elliot Anderson - price already fell £6.5m to £6.4m this week. Man City's midfield is getting crowded with £86m signing Ayyoub Bouaddi arriving. Not urgent (form 2.5, still a City starter) but a downgrade candidate for the Wildcard rather than a free-transfer sell now.",
   "Will Hughes - still 0 minutes in 2 games and absent from Crystal Palace's own published GW3 lineup (checked 3 Sept 2026). Moved to the back of the bench order this week; a Wildcard replacement candidate if this continues.",
   "Guéhi's role - his GW1 auxiliary-midfield cameo (the equaliser vs Bournemouth) was a one-off. He was back at orthodox centre-back for GW2 and every published GW3 lineup (Sports Mole, CityXtra, The Hard Tackle, all 2-3 Sept) has him there too, alongside Gvardiol/Dias/Khusanov. Keeps his Defender eligibility either way.",
-  "Triple Captain on Haaland - RotoWire and FPL Copilot are both calling GW3 a strong window for it given the softest fixture of any elite attacker this week. Not recommended by default (chips stay hold), but flagged since it's a live option this week specifically, not just a future plan.",
+  "Triple Captain played on Haaland this week (see Chip evidence above) - remember to activate it in the app before the 17:30 UTC deadline today, alongside the Haaland captaincy and the Shaw-Egan transfer.",
   "COULD NOT VERIFY (checked 3 Sept 2026): the exact reason Will Hughes has played zero minutes - out of favour, tactical fit, or an unreported knock could not be confirmed from any source. Also unresolved: Liverpool's FPL-official penalty order still lists Alexander Isak on paper even though Szoboszlai has taken and scored the two live penalties this season - worth a last check of the in-app set-piece notes before relying on Szoboszlai for penalty points."
  ],
- "updated": "3 Sep 2026, 18:20 UTC",
+ "updated": "4 Sep 2026, 14:55 UTC",
  "forGw": 3
 }

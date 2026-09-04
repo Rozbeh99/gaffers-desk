@@ -1,17 +1,16 @@
 {
  "gws": [
-  1,
-  2
+  1
  ],
  "team": {
   "total": 151,
   "rank": 1873792,
   "percentile": 25,
-  "managers": 10402053,
-  "bench": 11,
+  "managers": 9817720,
+  "bench": 7,
   "hits": 0,
-  "best": 95,
-  "avgTotal": 131,
+  "best": 56,
+  "avgTotal": 50,
   "byGw": [
    {
     "gw": 1,
@@ -31,176 +30,10 @@
     "best": 131,
     "prov": false,
     "rankDelta": null
-   },
-   {
-    "gw": 2,
-    "points": 95,
-    "gross": 95,
-    "hit": 0,
-    "transfers": 0,
-    "bench": 4,
-    "rank": 1873792,
-    "gwRank": 2282526,
-    "value": 100.1,
-    "bank": 0.0,
-    "chip": null,
-    "captain": "Haaland",
-    "captainPts": 13,
-    "avg": 81,
-    "best": 161,
-    "prov": false,
-    "rankDelta": 803799
    }
   ]
  },
  "players": [
-  {
-   "id": 411,
-   "name": "Haaland",
-   "full": "Erling Haaland",
-   "club": "MCI",
-   "pos": "FWD",
-   "gws": {
-    "1": {
-     "p": 2,
-     "c": 4,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 2,
-     "role": "xi",
-     "cap": true,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 13,
-     "c": 26,
-     "b": 3,
-     "m": 90,
-     "g": 2,
-     "a": 0,
-     "cs": 0,
-     "mult": 2,
-     "role": "xi",
-     "cap": true,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    }
-   },
-   "own": 15,
-   "counted": 30,
-   "bonus": 3,
-   "mins": 180,
-   "goals": 2,
-   "assists": 0,
-   "cs": 0,
-   "starts": 2
-  },
-  {
-   "id": 426,
-   "name": "B.Fernandes",
-   "full": "Bruno Borges Fernandes",
-   "club": "MUN",
-   "pos": "MID",
-   "gws": {
-    "1": {
-     "p": 2,
-     "c": 2,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": true,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 23,
-     "c": 23,
-     "b": 3,
-     "m": 90,
-     "g": 3,
-     "a": 1,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": true,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    }
-   },
-   "own": 25,
-   "counted": 25,
-   "bonus": 3,
-   "mins": 180,
-   "goals": 3,
-   "assists": 1,
-   "cs": 0,
-   "starts": 2
-  },
-  {
-   "id": 8,
-   "name": "Calafiori",
-   "full": "Riccardo Calafiori",
-   "club": "ARS",
-   "pos": "DEF",
-   "gws": {
-    "1": {
-     "p": 9,
-     "c": 9,
-     "b": 0,
-     "m": 80,
-     "g": 0,
-     "a": 1,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 11,
-     "c": 11,
-     "b": 2,
-     "m": 90,
-     "g": 0,
-     "a": 1,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    }
-   },
-   "own": 20,
-   "counted": 20,
-   "bonus": 2,
-   "mins": 170,
-   "goals": 0,
-   "assists": 2,
-   "cs": 2,
-   "starts": 2
-  },
   {
    "id": 165,
    "name": "João Pedro",
@@ -223,81 +56,16 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 9,
-     "c": 9,
-     "b": 2,
-     "m": 90,
-     "g": 1,
-     "a": 1,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
     }
    },
-   "own": 20,
-   "counted": 20,
-   "bonus": 4,
-   "mins": 180,
-   "goals": 2,
-   "assists": 2,
+   "own": 11,
+   "counted": 11,
+   "bonus": 2,
+   "mins": 90,
+   "goals": 1,
+   "assists": 1,
    "cs": 0,
-   "starts": 2
-  },
-  {
-   "id": 1,
-   "name": "Raya",
-   "full": "David Raya Martín",
-   "club": "ARS",
-   "pos": "GK",
-   "gws": {
-    "1": {
-     "p": 6,
-     "c": 6,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 6,
-     "c": 6,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    }
-   },
-   "own": 12,
-   "counted": 12,
-   "bonus": 0,
-   "mins": 180,
-   "goals": 0,
-   "assists": 0,
-   "cs": 2,
-   "starts": 2
+   "starts": 1
   },
   {
    "id": 388,
@@ -321,15 +89,32 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 2,
-     "c": 2,
+    }
+   },
+   "own": 10,
+   "counted": 10,
+   "bonus": 2,
+   "mins": 90,
+   "goals": 1,
+   "assists": 0,
+   "cs": 0,
+   "starts": 1
+  },
+  {
+   "id": 8,
+   "name": "Calafiori",
+   "full": "Riccardo Calafiori",
+   "club": "ARS",
+   "pos": "DEF",
+   "gws": {
+    "1": {
+     "p": 9,
+     "c": 9,
      "b": 0,
-     "m": 90,
+     "m": 80,
      "g": 0,
-     "a": 0,
-     "cs": 0,
+     "a": 1,
+     "cs": 1,
      "mult": 1,
      "role": "xi",
      "cap": false,
@@ -339,14 +124,14 @@
      "prov": false
     }
    },
-   "own": 12,
-   "counted": 12,
-   "bonus": 2,
-   "mins": 180,
-   "goals": 1,
-   "assists": 0,
-   "cs": 0,
-   "starts": 2
+   "own": 9,
+   "counted": 9,
+   "bonus": 0,
+   "mins": 80,
+   "goals": 0,
+   "assists": 1,
+   "cs": 1,
+   "starts": 1
   },
   {
    "id": 368,
@@ -370,43 +155,27 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 4,
-     "c": 4,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
     }
    },
-   "own": 12,
-   "counted": 12,
+   "own": 8,
+   "counted": 8,
    "bonus": 1,
-   "mins": 180,
+   "mins": 90,
    "goals": 1,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 1
   },
   {
-   "id": 346,
-   "name": "Calvert-Lewin",
-   "full": "Dominic Calvert-Lewin",
-   "club": "LEE",
-   "pos": "FWD",
+   "id": 1,
+   "name": "Raya",
+   "full": "David Raya Martín",
+   "club": "ARS",
+   "pos": "GK",
    "gws": {
     "1": {
-     "p": 1,
-     "c": 1,
+     "p": 6,
+     "c": 6,
      "b": 0,
      "m": 90,
      "g": 0,
@@ -419,81 +188,49 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 8,
-     "c": 8,
-     "b": 2,
-     "m": 90,
-     "g": 1,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
     }
    },
-   "own": 9,
-   "counted": 9,
-   "bonus": 2,
-   "mins": 180,
-   "goals": 1,
+   "own": 6,
+   "counted": 6,
+   "bonus": 0,
+   "mins": 90,
+   "goals": 0,
    "assists": 0,
    "cs": 1,
-   "starts": 2
+   "starts": 1
   },
   {
-   "id": 481,
-   "name": "Anderson",
-   "full": "Elliot Anderson",
+   "id": 411,
+   "name": "Haaland",
+   "full": "Erling Haaland",
    "club": "MCI",
-   "pos": "MID",
+   "pos": "FWD",
    "gws": {
     "1": {
      "p": 2,
-     "c": 2,
+     "c": 4,
      "b": 0,
-     "m": 62,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
-     "mult": 1,
+     "mult": 2,
      "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 3,
-     "c": 3,
-     "b": 0,
-     "m": 81,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
+     "cap": true,
      "vice": false,
      "subOn": false,
      "subOff": false,
      "prov": false
     }
    },
-   "own": 5,
-   "counted": 5,
+   "own": 2,
+   "counted": 4,
    "bonus": 0,
-   "mins": 143,
+   "mins": 90,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 1
   },
   {
    "id": 356,
@@ -517,12 +254,62 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 1,
-     "c": 1,
+    }
+   },
+   "own": 2,
+   "counted": 2,
+   "bonus": 0,
+   "mins": 90,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 1
+  },
+  {
+   "id": 426,
+   "name": "B.Fernandes",
+   "full": "Bruno Borges Fernandes",
+   "club": "MUN",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 2,
+     "c": 2,
      "b": 0,
      "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    }
+   },
+   "own": 2,
+   "counted": 2,
+   "bonus": 0,
+   "mins": 90,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 1
+  },
+  {
+   "id": 481,
+   "name": "Anderson",
+   "full": "Elliot Anderson",
+   "club": "MCI",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 2,
+     "c": 2,
+     "b": 0,
+     "m": 62,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -535,14 +322,14 @@
      "prov": false
     }
    },
-   "own": 3,
-   "counted": 3,
+   "own": 2,
+   "counted": 2,
    "bonus": 0,
-   "mins": 180,
+   "mins": 62,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 1
   },
   {
    "id": 423,
@@ -566,15 +353,32 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 2,
-     "c": 2,
+    }
+   },
+   "own": 1,
+   "counted": 1,
+   "bonus": 0,
+   "mins": 90,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 1
+  },
+  {
+   "id": 346,
+   "name": "Calvert-Lewin",
+   "full": "Dominic Calvert-Lewin",
+   "club": "LEE",
+   "pos": "FWD",
+   "gws": {
+    "1": {
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 72,
+     "m": 90,
      "g": 0,
      "a": 0,
-     "cs": 0,
+     "cs": 1,
      "mult": 1,
      "role": "xi",
      "cap": false,
@@ -584,14 +388,14 @@
      "prov": false
     }
    },
-   "own": 3,
-   "counted": 3,
+   "own": 1,
+   "counted": 1,
    "bonus": 0,
-   "mins": 162,
+   "mins": 90,
    "goals": 0,
    "assists": 0,
-   "cs": 0,
-   "starts": 2
+   "cs": 1,
+   "starts": 1
   },
   {
    "id": 290,
@@ -615,32 +419,16 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 2,
-     "c": 0,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 1,
-     "mult": 0,
-     "role": "bench",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
     }
    },
-   "own": 8,
+   "own": 6,
    "counted": 0,
    "bonus": 0,
-   "mins": 180,
+   "mins": 90,
    "goals": 0,
    "assists": 1,
-   "cs": 2,
-   "starts": 2
+   "cs": 1,
+   "starts": 1
   },
   {
    "id": 175,
@@ -664,32 +452,16 @@
      "subOn": false,
      "subOff": false,
      "prov": false
-    },
-    "2": {
-     "p": 2,
-     "c": 0,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 0,
-     "role": "bench",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
     }
    },
-   "own": 3,
+   "own": 1,
    "counted": 0,
    "bonus": 0,
-   "mins": 180,
+   "mins": 90,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 1
   },
   {
    "id": 497,
@@ -699,22 +471,6 @@
    "pos": "GK",
    "gws": {
     "1": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 0,
-     "role": "bench",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
      "p": 0,
      "c": 0,
      "b": 0,
@@ -748,22 +504,6 @@
    "pos": "MID",
    "gws": {
     "1": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 0,
-     "role": "bench",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
      "p": 0,
      "c": 0,
      "b": 0,
