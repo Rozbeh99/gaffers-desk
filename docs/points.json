@@ -8,7 +8,7 @@
   "total": 160,
   "rank": 1612306,
   "percentile": 35,
-  "managers": 10463920,
+  "managers": 10479372,
   "bench": 11,
   "hits": 0,
   "best": 95,
@@ -65,7 +65,7 @@
     "bank": 0.5,
     "chip": "3xc",
     "captain": "Haaland",
-    "captainPts": 0,
+    "captainPts": 8,
     "avg": 7,
     "best": 63,
     "prov": true,
@@ -114,11 +114,11 @@
      "prov": false
     },
     "3": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
+     "p": 8,
+     "c": 24,
+     "b": 3,
+     "m": 50,
+     "g": 1,
      "a": 0,
      "cs": 0,
      "mult": 3,
@@ -130,14 +130,14 @@
      "prov": true
     }
    },
-   "own": 15,
-   "counted": 30,
-   "bonus": 3,
-   "mins": 180,
-   "goals": 2,
+   "own": 23,
+   "counted": 54,
+   "bonus": 6,
+   "mins": 230,
+   "goals": 3,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 3
   },
   {
    "id": 426,
@@ -400,6 +400,71 @@
    "starts": 3
   },
   {
+   "id": 388,
+   "name": "Guéhi",
+   "full": "Marc Guéhi",
+   "club": "MCI",
+   "pos": "DEF",
+   "gws": {
+    "1": {
+     "p": 10,
+     "c": 10,
+     "b": 2,
+     "m": 90,
+     "g": 1,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 2,
+     "c": 2,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "3": {
+     "p": 1,
+     "c": 1,
+     "b": 0,
+     "m": 50,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 13,
+   "counted": 13,
+   "bonus": 2,
+   "mins": 230,
+   "goals": 1,
+   "assists": 0,
+   "cs": 0,
+   "starts": 3
+  },
+  {
    "id": 1,
    "name": "Raya",
    "full": "David Raya Martín",
@@ -465,15 +530,31 @@
    "starts": 2
   },
   {
-   "id": 388,
-   "name": "Guéhi",
-   "full": "Marc Guéhi",
-   "club": "MCI",
-   "pos": "DEF",
+   "id": 346,
+   "name": "Calvert-Lewin",
+   "full": "Dominic Calvert-Lewin",
+   "club": "LEE",
+   "pos": "FWD",
    "gws": {
     "1": {
-     "p": 10,
-     "c": 10,
+     "p": 1,
+     "c": 1,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 8,
+     "c": 8,
      "b": 2,
      "m": 90,
      "g": 1,
@@ -487,27 +568,11 @@
      "subOff": false,
      "prov": false
     },
-    "2": {
-     "p": 2,
-     "c": 2,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
     "3": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 50,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -520,14 +585,14 @@
      "prov": true
     }
    },
-   "own": 12,
-   "counted": 12,
+   "own": 10,
+   "counted": 10,
    "bonus": 2,
-   "mins": 180,
+   "mins": 230,
    "goals": 1,
    "assists": 0,
-   "cs": 0,
-   "starts": 2
+   "cs": 1,
+   "starts": 3
   },
   {
    "id": 356,
@@ -595,71 +660,6 @@
    "starts": 3
   },
   {
-   "id": 346,
-   "name": "Calvert-Lewin",
-   "full": "Dominic Calvert-Lewin",
-   "club": "LEE",
-   "pos": "FWD",
-   "gws": {
-    "1": {
-     "p": 1,
-     "c": 1,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 8,
-     "c": 8,
-     "b": 2,
-     "m": 90,
-     "g": 1,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "3": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 9,
-   "counted": 9,
-   "bonus": 2,
-   "mins": 180,
-   "goals": 1,
-   "assists": 0,
-   "cs": 1,
-   "starts": 2
-  },
-  {
    "id": 481,
    "name": "Anderson",
    "full": "Elliot Anderson",
@@ -699,10 +699,10 @@
      "prov": false
     },
     "3": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
+     "p": 2,
+     "c": 2,
+     "b": 1,
+     "m": 50,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -715,14 +715,14 @@
      "prov": true
     }
    },
-   "own": 5,
-   "counted": 5,
-   "bonus": 0,
-   "mins": 143,
+   "own": 7,
+   "counted": 7,
+   "bonus": 1,
+   "mins": 193,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 3
   },
   {
    "id": 423,
@@ -881,7 +881,7 @@
      "p": 0,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 50,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -897,11 +897,11 @@
    "own": 3,
    "counted": 0,
    "bonus": 0,
-   "mins": 180,
+   "mins": 230,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 2
+   "starts": 3
   },
   {
    "id": 497,
