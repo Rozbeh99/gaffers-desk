@@ -1,7 +1,7 @@
 {
- "generated": "07 Sep 2026, 12:28 UTC",
- "gw": 3,
- "deadline": "2026-09-04T17:30:00Z",
+ "generated": "07 Sep 2026, 18:43 UTC",
+ "gw": 4,
+ "deadline": "2026-09-12T12:30:00Z",
  "budget": 100.0,
  "sellValue": 99.9,
  "marketValue": 100.1,
@@ -28,12 +28,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "CHE",
-     "ha": "H",
-     "fdr": 4
-    },
-    {
      "gw": 4,
      "opp": "SUN",
      "ha": "A",
@@ -55,6 +49,12 @@
      "gw": 7,
      "opp": "NFO",
      "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "ha": "H",
      "fdr": 3
     }
    ]
@@ -81,12 +81,6 @@
    "role": "bench",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "NFO",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 4,
      "opp": "EVE",
      "ha": "H",
@@ -109,6 +103,12 @@
      "opp": "COV",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "CHE",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -123,7 +123,7 @@
    "clubName": "Arsenal",
    "pos": "DEF",
    "price": 5.7,
-   "sel": 47.1,
+   "sel": 47.2,
    "pts": 22,
    "ppg": 7.3,
    "starts": 3,
@@ -133,12 +133,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "CHE",
-     "ha": "H",
-     "fdr": 4
-    },
     {
      "gw": 4,
      "opp": "SUN",
@@ -161,6 +155,12 @@
      "gw": 7,
      "opp": "NFO",
      "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "ha": "H",
      "fdr": 3
     }
    ]
@@ -187,12 +187,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "IPS",
-     "ha": "A",
-     "fdr": 2
-    },
-    {
      "gw": 4,
      "opp": "FUL",
      "ha": "H",
@@ -215,6 +209,12 @@
      "opp": "BRE",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -240,12 +240,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
      "gw": 4,
      "opp": "MUN",
      "ha": "A",
@@ -268,6 +262,12 @@
      "opp": "IPS",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -282,7 +282,7 @@
    "clubName": "Man Utd",
    "pos": "DEF",
    "price": 4.4,
-   "sel": 14.4,
+   "sel": 14.3,
    "pts": 7,
    "ppg": 2.3,
    "starts": 3,
@@ -292,12 +292,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "EVE",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 4,
      "opp": "MCI",
@@ -320,6 +314,12 @@
      "gw": 7,
      "opp": "LEE",
      "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BOU",
+     "ha": "H",
      "fdr": 3
     }
    ]
@@ -346,12 +346,6 @@
    "role": "bench",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "MCI",
-     "ha": "A",
-     "fdr": 5
-    },
-    {
      "gw": 4,
      "opp": "BHA",
      "ha": "H",
@@ -374,6 +368,12 @@
      "opp": "TOT",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "FUL",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -388,7 +388,7 @@
    "clubName": "Man Utd",
    "pos": "MID",
    "price": 12.0,
-   "sel": 47.2,
+   "sel": 46.9,
    "pts": 27,
    "ppg": 9.0,
    "starts": 3,
@@ -398,12 +398,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "EVE",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 4,
      "opp": "MCI",
@@ -427,6 +421,12 @@
      "opp": "LEE",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BOU",
+     "ha": "H",
+     "fdr": 3
     }
    ]
   },
@@ -441,7 +441,7 @@
    "clubName": "Liverpool",
    "pos": "MID",
    "price": 7.0,
-   "sel": 39.2,
+   "sel": 39.0,
    "pts": 15,
    "ppg": 5.0,
    "starts": 3,
@@ -451,12 +451,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "IPS",
-     "ha": "A",
-     "fdr": 2
-    },
     {
      "gw": 4,
      "opp": "FUL",
@@ -480,6 +474,12 @@
      "opp": "BRE",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -505,12 +505,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
      "gw": 4,
      "opp": "MUN",
      "ha": "A",
@@ -533,6 +527,12 @@
      "opp": "IPS",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -547,7 +547,7 @@
    "clubName": "Crystal Palace",
    "pos": "MID",
    "price": 4.5,
-   "sel": 9.1,
+   "sel": 9.0,
    "pts": 1,
    "ppg": 1.0,
    "starts": 0,
@@ -557,12 +557,6 @@
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "FUL",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 4,
      "opp": "IPS",
@@ -586,6 +580,12 @@
      "opp": "BHA",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -600,7 +600,7 @@
    "clubName": "Hull City",
    "pos": "MID",
    "price": 4.5,
-   "sel": 5.0,
+   "sel": 5.1,
    "pts": 11,
    "ppg": 3.7,
    "starts": 3,
@@ -610,12 +610,6 @@
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "AVL",
-     "ha": "H",
-     "fdr": 3
-    },
     {
      "gw": 4,
      "opp": "CHE",
@@ -638,6 +632,12 @@
      "gw": 7,
      "opp": "FUL",
      "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BRE",
+     "ha": "H",
      "fdr": 3
     }
    ]
@@ -664,12 +664,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
      "gw": 4,
      "opp": "MUN",
      "ha": "A",
@@ -692,6 +686,12 @@
      "opp": "IPS",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -717,12 +717,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 3,
-     "opp": "ARS",
-     "ha": "A",
-     "fdr": 5
-    },
-    {
      "gw": 4,
      "opp": "HUL",
      "ha": "H",
@@ -745,6 +739,12 @@
      "opp": "EVE",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "TOT",
+     "ha": "H",
+     "fdr": 3
     }
    ]
   },
@@ -759,7 +759,7 @@
    "clubName": "Leeds",
    "pos": "FWD",
    "price": 6.0,
-   "sel": 24.6,
+   "sel": 24.4,
    "pts": 10,
    "ppg": 3.3,
    "starts": 3,
@@ -769,12 +769,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 3,
-     "opp": "BHA",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 4,
      "opp": "NEW",
@@ -798,6 +792,12 @@
      "opp": "MUN",
      "ha": "H",
      "fdr": 4
+    },
+    {
+     "gw": 8,
+     "opp": "SUN",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   }
@@ -815,7 +815,7 @@
     "clubName": "Man Utd",
     "pos": "DEF",
     "price": 4.4,
-    "sel": 14.4,
+    "sel": 14.3,
     "pts": 7,
     "ppg": 2.3,
     "starts": 3,
@@ -825,12 +825,6 @@
     "news": "",
     "role": "out",
     "fixtures": [
-     {
-      "gw": 3,
-      "opp": "EVE",
-      "ha": "A",
-      "fdr": 3
-     },
      {
       "gw": 4,
       "opp": "MCI",
@@ -853,6 +847,12 @@
       "gw": 7,
       "opp": "LEE",
       "ha": "A",
+      "fdr": 3
+     },
+     {
+      "gw": 8,
+      "opp": "BOU",
+      "ha": "H",
       "fdr": 3
      }
     ]
@@ -879,12 +879,6 @@
     "role": "in",
     "fixtures": [
      {
-      "gw": 3,
-      "opp": "AVL",
-      "ha": "H",
-      "fdr": 3
-     },
-     {
       "gw": 4,
       "opp": "CHE",
       "ha": "A",
@@ -906,6 +900,12 @@
       "gw": 7,
       "opp": "FUL",
       "ha": "A",
+      "fdr": 3
+     },
+     {
+      "gw": 8,
+      "opp": "BRE",
+      "ha": "H",
       "fdr": 3
      }
     ]
