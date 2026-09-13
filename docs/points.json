@@ -6,14 +6,14 @@
   4
  ],
  "team": {
-  "total": 213,
-  "rank": 1086580,
-  "percentile": null,
-  "managers": 10726691,
-  "bench": 18,
+  "total": 270,
+  "rank": 649537,
+  "percentile": 15,
+  "managers": 10730427,
+  "bench": 21,
   "hits": 0,
   "best": 95,
-  "avgTotal": 182,
+  "avgTotal": 224,
   "byGw": [
    {
     "gw": 1,
@@ -74,22 +74,22 @@
    },
    {
     "gw": 4,
-    "points": 0,
-    "gross": 0,
+    "points": 57,
+    "gross": 57,
     "hit": 0,
     "transfers": 0,
-    "bench": 0,
-    "rank": 1086580,
-    "gwRank": null,
+    "bench": 3,
+    "rank": 649537,
+    "gwRank": 1496128,
     "value": 100.4,
     "bank": 0.5,
     "chip": null,
     "captain": "João Pedro",
     "captainPts": 12,
-    "avg": 0,
-    "best": null,
+    "avg": 42,
+    "best": 121,
     "prov": true,
-    "rankDelta": 0
+    "rankDelta": 437043
    }
   ]
  },
