@@ -9,7 +9,7 @@
   "total": 270,
   "rank": 649537,
   "percentile": 15,
-  "managers": 10736730,
+  "managers": 10746265,
   "bench": 21,
   "hits": 0,
   "best": 95,
@@ -150,10 +150,10 @@
      "prov": false
     },
     "4": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 43,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -166,14 +166,14 @@
      "prov": true
     }
    },
-   "own": 24,
-   "counted": 57,
+   "own": 25,
+   "counted": 58,
    "bonus": 6,
-   "mins": 270,
+   "mins": 313,
    "goals": 3,
    "assists": 0,
    "cs": 1,
-   "starts": 3
+   "starts": 4
   },
   {
    "id": 165,
@@ -474,10 +474,10 @@
      "prov": false
     },
     "4": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 43,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -490,14 +490,14 @@
      "prov": true
     }
    },
-   "own": 27,
-   "counted": 27,
+   "own": 28,
+   "counted": 28,
    "bonus": 3,
-   "mins": 270,
+   "mins": 313,
    "goals": 3,
    "assists": 1,
    "cs": 0,
-   "starts": 3
+   "starts": 4
   },
   {
    "id": 388,
@@ -555,10 +555,10 @@
      "prov": false
     },
     "4": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
+     "p": 2,
+     "c": 2,
+     "b": 1,
+     "m": 43,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -571,14 +571,14 @@
      "prov": true
     }
    },
-   "own": 20,
-   "counted": 20,
-   "bonus": 4,
-   "mins": 270,
+   "own": 22,
+   "counted": 22,
+   "bonus": 5,
+   "mins": 313,
    "goals": 1,
    "assists": 0,
    "cs": 1,
-   "starts": 3
+   "starts": 4
   },
   {
    "id": 368,
@@ -743,6 +743,87 @@
    "starts": 4
   },
   {
+   "id": 481,
+   "name": "Anderson",
+   "full": "Elliot Anderson",
+   "club": "MCI",
+   "pos": "MID",
+   "gws": {
+    "1": {
+     "p": 2,
+     "c": 2,
+     "b": 0,
+     "m": 62,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "2": {
+     "p": 3,
+     "c": 3,
+     "b": 0,
+     "m": 81,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "3": {
+     "p": 3,
+     "c": 3,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": false
+    },
+    "4": {
+     "p": 4,
+     "c": 4,
+     "b": 3,
+     "m": 43,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 12,
+   "counted": 12,
+   "bonus": 3,
+   "mins": 276,
+   "goals": 0,
+   "assists": 0,
+   "cs": 1,
+   "starts": 4
+  },
+  {
    "id": 346,
    "name": "Calvert-Lewin",
    "full": "Dominic Calvert-Lewin",
@@ -819,87 +900,6 @@
    "bonus": 2,
    "mins": 252,
    "goals": 1,
-   "assists": 0,
-   "cs": 1,
-   "starts": 3
-  },
-  {
-   "id": 481,
-   "name": "Anderson",
-   "full": "Elliot Anderson",
-   "club": "MCI",
-   "pos": "MID",
-   "gws": {
-    "1": {
-     "p": 2,
-     "c": 2,
-     "b": 0,
-     "m": 62,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "2": {
-     "p": 3,
-     "c": 3,
-     "b": 0,
-     "m": 81,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "3": {
-     "p": 3,
-     "c": 3,
-     "b": 0,
-     "m": 90,
-     "g": 0,
-     "a": 0,
-     "cs": 1,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": false
-    },
-    "4": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 8,
-   "counted": 8,
-   "bonus": 0,
-   "mins": 233,
-   "goals": 0,
    "assists": 0,
    "cs": 1,
    "starts": 3
@@ -1142,7 +1142,7 @@
      "p": 0,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1158,11 +1158,11 @@
    "own": 6,
    "counted": 0,
    "bonus": 0,
-   "mins": 270,
+   "mins": 360,
    "goals": 0,
    "assists": 0,
    "cs": 0,
-   "starts": 3
+   "starts": 4
   },
   {
    "id": 212,
