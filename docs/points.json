@@ -9,7 +9,7 @@
   "total": 291,
   "rank": 873412,
   "percentile": 20,
-  "managers": 10770448,
+  "managers": 10780382,
   "bench": 21,
   "hits": 0,
   "best": 95,
@@ -879,10 +879,10 @@
      "prov": false
     },
     "4": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 17,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -895,14 +895,14 @@
      "prov": true
     }
    },
-   "own": 10,
-   "counted": 10,
+   "own": 11,
+   "counted": 11,
    "bonus": 2,
-   "mins": 252,
+   "mins": 269,
    "goals": 1,
    "assists": 0,
    "cs": 1,
-   "starts": 3
+   "starts": 4
   },
   {
    "id": 277,
