@@ -4,8 +4,8 @@
   "id": 8625063,
   "name": "Babadook"
  },
- "generated": "15 Sep 2026, 11:41 UTC",
- "gameweek": 4,
+ "generated": "15 Sep 2026, 16:56 UTC",
+ "gameweek": 5,
  "endpoints": {
   "squad.json": "the 15, with prices, selling prices, status and the next five fixtures",
   "points.json": "every score and bonus per gameweek, team totals, rank, past seasons",
