@@ -1,10 +1,10 @@
 {
- "generated": "17 Sep 2026, 18:26 UTC",
- "gw": 2,
- "deadline": "2026-08-28T17:30:00Z",
+ "generated": "17 Sep 2026, 21:21 UTC",
+ "gw": 5,
+ "deadline": "2026-09-18T17:30:00Z",
  "budget": 100.0,
- "sellValue": 99.5,
- "marketValue": 99.7,
+ "sellValue": 99.4,
+ "marketValue": 99.9,
  "squad": [
   {
    "id": 1,
@@ -17,34 +17,16 @@
    "clubName": "Arsenal",
    "pos": "GK",
    "price": 6.0,
-   "sel": 38.2,
-   "pts": 6,
-   "ppg": 6.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 41.0,
+   "pts": 29,
+   "ppg": 7.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "AVL",
-     "ha": "A",
-     "fdr": 4
-    },
-    {
-     "gw": 3,
-     "opp": "CHE",
-     "ha": "H",
-     "fdr": 4
-    },
-    {
-     "gw": 4,
-     "opp": "SUN",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 5,
      "opp": "BHA",
@@ -56,6 +38,24 @@
      "opp": "LEE",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 7,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "LIV",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -70,7 +70,7 @@
    "clubName": "Spurs",
    "pos": "GK",
    "price": 4.0,
-   "sel": 18.7,
+   "sel": 17.6,
    "pts": 0,
    "ppg": 0.0,
    "starts": 0,
@@ -80,24 +80,6 @@
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "NEW",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "NFO",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "EVE",
-     "ha": "H",
-     "fdr": 3
-    },
     {
      "gw": 5,
      "opp": "AVL",
@@ -109,48 +91,48 @@
      "opp": "MUN",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "COV",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "CHE",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 9,
+     "opp": "CRY",
+     "ha": "H",
+     "fdr": 3
     }
    ]
   },
   {
    "id": 8,
    "name": "Calafiori",
-   "sell": 5.5,
-   "rise": 0.1,
+   "sell": 5.6,
+   "rise": 0.3,
    "paid": 5.5,
    "full": "Riccardo Calafiori",
    "club": "ARS",
    "clubName": "Arsenal",
    "pos": "DEF",
-   "price": 5.6,
-   "sel": 41.5,
-   "pts": 9,
-   "ppg": 9.0,
-   "starts": 1,
-   "mins": 80,
+   "price": 5.8,
+   "sel": 50.2,
+   "pts": 28,
+   "ppg": 7.0,
+   "starts": 4,
+   "mins": 326,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "AVL",
-     "ha": "A",
-     "fdr": 4
-    },
-    {
-     "gw": 3,
-     "opp": "CHE",
-     "ha": "H",
-     "fdr": 4
-    },
-    {
-     "gw": 4,
-     "opp": "SUN",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 5,
      "opp": "BHA",
@@ -162,6 +144,24 @@
      "opp": "LEE",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 7,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "EVE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "LIV",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -176,34 +176,16 @@
    "clubName": "Liverpool",
    "pos": "DEF",
    "price": 6.5,
-   "sel": 19.6,
-   "pts": 2,
-   "ppg": 2.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 16.5,
+   "pts": 17,
+   "ppg": 4.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "NFO",
-     "ha": "H",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "IPS",
-     "ha": "A",
-     "fdr": 2
-    },
-    {
-     "gw": 4,
-     "opp": "FUL",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "BOU",
@@ -213,6 +195,24 @@
     {
      "gw": 6,
      "opp": "MCI",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "BRE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 9,
+     "opp": "ARS",
      "ha": "H",
      "fdr": 4
     }
@@ -229,34 +229,16 @@
    "clubName": "Man City",
    "pos": "DEF",
    "price": 6.0,
-   "sel": 19.2,
-   "pts": 10,
-   "ppg": 10.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 18.5,
+   "pts": 26,
+   "ppg": 6.5,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "CRY",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 4,
-     "opp": "MUN",
-     "ha": "A",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "SUN",
@@ -268,6 +250,24 @@
      "opp": "LIV",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 9,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -275,41 +275,23 @@
    "id": 277,
    "name": "Egan",
    "sell": 4.0,
-   "rise": 0.0,
+   "rise": 0.1,
    "paid": 4.0,
    "full": "John Egan",
    "club": "HUL",
    "clubName": "Hull City",
    "pos": "DEF",
-   "price": 4.0,
-   "sel": 2.0,
-   "pts": 8,
-   "ppg": 8.0,
-   "starts": 1,
-   "mins": 90,
+   "price": 4.1,
+   "sel": 6.9,
+   "pts": 25,
+   "ppg": 6.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "COV",
-     "ha": "A",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "AVL",
-     "ha": "H",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "CHE",
-     "ha": "A",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "NEW",
@@ -321,6 +303,24 @@
      "opp": "EVE",
      "ha": "H",
      "fdr": 3
+    },
+    {
+     "gw": 7,
+     "opp": "FUL",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BRE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -335,34 +335,16 @@
    "clubName": "Coventry City",
    "pos": "DEF",
    "price": 4.0,
-   "sel": 13.1,
-   "pts": 1,
-   "ppg": 1.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 9.8,
+   "pts": 6,
+   "ppg": 1.5,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "HUL",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "MCI",
-     "ha": "A",
-     "fdr": 5
-    },
-    {
-     "gw": 4,
-     "opp": "BHA",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "NFO",
@@ -372,6 +354,24 @@
     {
      "gw": 6,
      "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 7,
+     "opp": "TOT",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "FUL",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 9,
+     "opp": "SUN",
      "ha": "H",
      "fdr": 2
     }
@@ -388,34 +388,16 @@
    "clubName": "Man Utd",
    "pos": "MID",
    "price": 12.0,
-   "sel": 48.7,
-   "pts": 2,
-   "ppg": 2.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 40.9,
+   "pts": 29,
+   "ppg": 7.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "IPS",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "EVE",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "MCI",
-     "ha": "H",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "FUL",
@@ -427,6 +409,24 @@
      "opp": "TOT",
      "ha": "H",
      "fdr": 3
+    },
+    {
+     "gw": 7,
+     "opp": "LEE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BOU",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "CHE",
+     "ha": "A",
+     "fdr": 4
     }
    ]
   },
@@ -441,34 +441,16 @@
    "clubName": "Liverpool",
    "pos": "MID",
    "price": 7.0,
-   "sel": 43.0,
-   "pts": 8,
-   "ppg": 8.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 35.3,
+   "pts": 18,
+   "ppg": 4.5,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "NFO",
-     "ha": "H",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "IPS",
-     "ha": "A",
-     "fdr": 2
-    },
-    {
-     "gw": 4,
-     "opp": "FUL",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "BOU",
@@ -480,48 +462,48 @@
      "opp": "MCI",
      "ha": "H",
      "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "BRE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 9,
+     "opp": "ARS",
+     "ha": "H",
+     "fdr": 4
     }
    ]
   },
   {
    "id": 481,
    "name": "Anderson",
-   "sell": 6.5,
-   "rise": 0.0,
+   "sell": 6.3,
+   "rise": -0.2,
    "paid": 6.5,
    "full": "Elliot Anderson",
    "club": "MCI",
    "clubName": "Man City",
    "pos": "MID",
-   "price": 6.5,
-   "sel": 6.2,
-   "pts": 2,
-   "ppg": 2.0,
-   "starts": 1,
-   "mins": 62,
+   "price": 6.3,
+   "sel": 4.2,
+   "pts": 13,
+   "ppg": 3.2,
+   "starts": 4,
+   "mins": 323,
    "status": "a",
    "chance": "100",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "CRY",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 4,
-     "opp": "MUN",
-     "ha": "A",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "SUN",
@@ -533,48 +515,48 @@
      "opp": "LIV",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 9,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
   {
    "id": 212,
    "name": "Hughes",
-   "sell": 4.5,
-   "rise": 0.0,
+   "sell": 4.4,
+   "rise": -0.1,
    "paid": 4.5,
    "full": "Will Hughes",
    "club": "CRY",
    "clubName": "Crystal Palace",
    "pos": "MID",
-   "price": 4.5,
-   "sel": 11.0,
-   "pts": 0,
-   "ppg": 0.0,
+   "price": 4.4,
+   "sel": 7.9,
+   "pts": 2,
+   "ppg": 1.0,
    "starts": 0,
-   "mins": 0,
+   "mins": 29,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "MCI",
-     "ha": "H",
-     "fdr": 4
-    },
-    {
-     "gw": 3,
-     "opp": "FUL",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "IPS",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "LEE",
@@ -585,6 +567,24 @@
      "gw": 6,
      "opp": "NFO",
      "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 7,
+     "opp": "BHA",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "NEW",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 9,
+     "opp": "TOT",
+     "ha": "A",
      "fdr": 3
     }
    ]
@@ -600,34 +600,16 @@
    "clubName": "Hull City",
    "pos": "MID",
    "price": 4.5,
-   "sel": 3.7,
-   "pts": 6,
-   "ppg": 6.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 5.5,
+   "pts": 13,
+   "ppg": 3.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "COV",
-     "ha": "A",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "AVL",
-     "ha": "H",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "CHE",
-     "ha": "A",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "NEW",
@@ -639,6 +621,24 @@
      "opp": "EVE",
      "ha": "H",
      "fdr": 3
+    },
+    {
+     "gw": 7,
+     "opp": "FUL",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "BRE",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -653,34 +653,16 @@
    "clubName": "Man City",
    "pos": "FWD",
    "price": 15.5,
-   "sel": 68.0,
-   "pts": 2,
-   "ppg": 2.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 72.8,
+   "pts": 33,
+   "ppg": 8.2,
+   "starts": 4,
+   "mins": 360,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "CRY",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "COV",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 4,
-     "opp": "MUN",
-     "ha": "A",
-     "fdr": 4
-    },
     {
      "gw": 5,
      "opp": "SUN",
@@ -692,48 +674,48 @@
      "opp": "LIV",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 7,
+     "opp": "IPS",
+     "ha": "H",
+     "fdr": 2
+    },
+    {
+     "gw": 8,
+     "opp": "AVL",
+     "ha": "A",
+     "fdr": 4
+    },
+    {
+     "gw": 9,
+     "opp": "BHA",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
   {
    "id": 165,
    "name": "João Pedro",
-   "sell": 7.5,
-   "rise": 0.1,
+   "sell": 7.6,
+   "rise": 0.3,
    "paid": 7.5,
    "full": "João Pedro Junqueira de Jesus",
    "club": "CHE",
    "clubName": "Chelsea",
    "pos": "FWD",
-   "price": 7.6,
-   "sel": 67.4,
-   "pts": 11,
-   "ppg": 11.0,
-   "starts": 1,
-   "mins": 90,
-   "status": "a",
-   "chance": "",
-   "news": "",
+   "price": 7.8,
+   "sel": 73.0,
+   "pts": 33,
+   "ppg": 8.2,
+   "starts": 4,
+   "mins": 360,
+   "status": "d",
+   "chance": "75",
+   "news": "Unspecified injury - 75% chance of playing",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "BHA",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
-     "gw": 3,
-     "opp": "ARS",
-     "ha": "A",
-     "fdr": 5
-    },
-    {
-     "gw": 4,
-     "opp": "HUL",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "BRE",
@@ -745,6 +727,24 @@
      "opp": "BOU",
      "ha": "H",
      "fdr": 3
+    },
+    {
+     "gw": 7,
+     "opp": "EVE",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 8,
+     "opp": "TOT",
+     "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "MUN",
+     "ha": "H",
+     "fdr": 4
     }
    ]
   },
@@ -759,34 +759,16 @@
    "clubName": "Leeds",
    "pos": "FWD",
    "price": 6.0,
-   "sel": 29.0,
-   "pts": 1,
-   "ppg": 1.0,
-   "starts": 1,
-   "mins": 90,
+   "sel": 24.1,
+   "pts": 20,
+   "ppg": 5.0,
+   "starts": 4,
+   "mins": 329,
    "status": "a",
    "chance": "",
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 2,
-     "opp": "BRE",
-     "ha": "H",
-     "fdr": 3
-    },
-    {
-     "gw": 3,
-     "opp": "BHA",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
-     "gw": 4,
-     "opp": "NEW",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 5,
      "opp": "CRY",
@@ -798,6 +780,24 @@
      "opp": "ARS",
      "ha": "A",
      "fdr": 5
+    },
+    {
+     "gw": 7,
+     "opp": "MUN",
+     "ha": "H",
+     "fdr": 4
+    },
+    {
+     "gw": 8,
+     "opp": "SUN",
+     "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 9,
+     "opp": "BOU",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   }
