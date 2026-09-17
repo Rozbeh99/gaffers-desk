@@ -74,33 +74,80 @@
   },
   {
    "gw": 3,
-   "state": "upcoming",
+   "state": "complete",
    "deadline": "2026-09-04T17:30:00Z",
-   "squadValue": 100.0,
-   "bank": 0.0,
+   "squadValue": 100.3,
+   "bank": 0.5,
    "freeTransfers": 2,
    "captain": "Haaland",
    "vice": "B.Fernandes",
-   "chip": null,
-   "points": null,
+   "chip": "Triple Captain",
+   "points": 62,
    "transfers": [
     {
      "out": "Shaw",
      "in": "Egan",
      "cost": 0,
-     "state": "advised",
-     "confirmedAt": null
+     "state": "applied",
+     "confirmedAt": "4 Sep 2026, by 17:30 UTC deadline"
     }
    ],
-   "headline": "Act: Shaw out, Egan in (frees £0.5m). Captain Haaland and play Triple Captain - home to promoted Coventry, the softest fixture of any elite attacker in GW3. Deadline 17:30 UTC today.",
+   "headline": "62 points, +11 on the 51-point average. Overall rank climbed 787,212 to 1,086,580 - top 20% on the gameweek.",
    "notes": [
-    "Shaw's underlying never recovered from the GW1-2 pattern flagged early: 0.00 xG and 0.28 xGI across 180 minutes, and the 9th-heaviest sell-off in the entire game today (-210,131 net). Egan (Hull, £4.0m paid) has 2 clean sheets in 2 starts and hasn't risen in price yet - bought ahead of a likely rise.",
-    "Virgil van Dijk shows similarly weak underlying (0 bonus, BPS 13, -172,052 net sold today) but gets a good fixture this week (Ipswich away, FDR2) - held one more week rather than sold on 2 games of data. Next name to go if he blanks again.",
-    "Guéhi confirmed back at centre-back for GW3 (Sports Mole, CityXtra, The Hard Tackle, all 2-3 Sept 2026) - the GW1 midfield cameo was a one-off, not an ongoing role change.",
-    "Bench order corrected: Will Hughes has 0 minutes in 2 games and is absent from Crystal Palace's own published GW3 lineup, so he drops behind Robbie van Ewijk (plays every week, just has a brutal fixture at Man City this week) - free to do, corrects an error from the GW2 build.",
-    "Triple Captain recommended on Haaland this week: checked Man City's DGW history (zero City doubles before GW19 in the last 3 seasons) so waiting for a double isn't realistic, and Coventry (H) is tied with only GW7 Ipswich (H) as City's softest fixture through the visible schedule - nothing better to wait for, and the post-GW19 chip reset removes any long-term cost to firing now.",
-    "Both Wildcards, Free Hits and Bench Boosts still available (2x each), first set expires at the GW19 deadline (2 Jan 2027).",
-    "COULD NOT VERIFY: the exact reason Will Hughes has played zero minutes all season (checked 3 Sept 2026)."
+    "Triple Captain on Haaland paid off: 9 raw (1 goal, 3 bonus, clean sheet involvement) tripled to 27 - the single biggest score of the season so far.",
+    "Shaw-to-Egan worked immediately: Egan started all 90, kept a clean sheet, 6 points at £4.0m. Shaw would have played the same fixture shape at Everton; the swap was pure upgrade.",
+    "Guéhi (8, clean sheet + 2 bonus) and Virgil (6, clean sheet) both delivered on kind fixtures (Coventry H, Ipswich A) exactly as backed - Virgil in particular did not blank, clearing last week's 'sell if he blanks again' trigger.",
+    "Bruno Fernandes and João Pedro both quiet by their standards (2 and 1 point) - the vice-captaincy on Bruno wasn't needed since Haaland played and scored.",
+    "7 points left on the bench again - Slater (3, clean sheet) the biggest miss, same pattern as GW1. Bench order held Slater in front all week; the value just wasn't reachable without a Bench Boost.",
+    "No hits taken all season, 0 points lost to transfer costs."
+   ]
+  },
+  {
+   "gw": 4,
+   "state": "complete",
+   "deadline": "2026-09-12T12:30:00Z",
+   "squadValue": 99.8,
+   "bank": 0.5,
+   "freeTransfers": 2,
+   "captain": "João Pedro",
+   "vice": "Haaland",
+   "chip": null,
+   "points": 89,
+   "transfers": [],
+   "headline": "89 points, +20 on the 69-point average. Overall rank climbed 442,363 to 644,217 - top 6% on the gameweek.",
+   "notes": [
+    "Captain João Pedro delivered exactly as backed: goal, assist, 3 bonus - 12 raw doubled to 24, the single biggest armband return of the season so far.",
+    "Man City won 1-0 away at Man Utd in the derby: Haaland (9: goal, clean sheet, 3 bonus), Guéhi (6: clean sheet) and Anderson (5: clean sheet) all profited - the tough fixture that nearly kept the armband on Haaland turned out fine for him anyway, just not as the captain.",
+    "Calvert-Lewin's best game yet: goal, assist, clean sheet, 2 bonus for 10 points at Leeds in 77 minutes.",
+    "Raya's biggest week of the season: clean sheet plus 3 bonus for 14 points away at Sunderland.",
+    "Only 3 points left on the bench (down from 7 in GW3) - Slater (2) and Hughes (1, his first involvement of the season - 13 minutes off the bench) were the only bench scorers; Dubravka and van Ewijk blanked.",
+    "No transfers made, no hits taken all season."
+   ],
+   "rank": 644217,
+   "benchPoints": 3
+  },
+  {
+   "gw": 5,
+   "state": "upcoming",
+   "deadline": "2026-09-18T17:30:00Z",
+   "squadValue": 99.9,
+   "bank": 0.5,
+   "freeTransfers": 2,
+   "captain": "Haaland",
+   "vice": "B.Fernandes",
+   "chip": null,
+   "points": null,
+   "transfers": [],
+   "headline": "Hold. Captain Haaland (H v Sunderland) over João Pedro, whose knee knock stays unconfirmed past the deadline. Deadline Fri 18 Sep, 17:30 UTC.",
+   "notes": [
+    "João Pedro (knee, 75% per the FPL API) picked up the knock in the GW4 win over Hull; Xabi Alonso gave no committal answer at Thursday's press conference. Brentford host Chelsea at 19:00 UTC Friday - after our deadline - so this is a blind call either way. Kept in the XI rather than sold: premierleague.com's own advice is 'keep, consider benching', and Calvert-Lewin is already rostered as cover if he blanks.",
+    "Captain switched to Haaland: home to newly-promoted Sunderland, four goals in his last three, still Man City's confirmed #1 penalty taker under Enzo Maresca, and the near-unanimous pick across RotoWire, Fantasy Football Hub and Fantasy Football Scout. Vice moves to Bruno Fernandes (nailed, Sunday fixture) rather than the doubtful João Pedro.",
+    "Anderson and Szoboszlai both reviewed as possible sells and both held: Anderson's recent withdrawal was confirmed as cramp, not injury, and he's tipped for growing set-piece duties at City; Szoboszlai's form dip is real (4.5) but a huge GW1 outlier is skewing the season number, not a genuine collapse, per allaboutfpl.com.",
+    "Bruno Fernandes is the single most transferred-out player in the game by count (218,301 this event) despite ranking 1st in the squad for expected goal involvement - held, not sold.",
+    "Will Hughes remains the clearest transfer target once a specific, verified replacement is found - zero starts in five gameweeks, though he did get his first minutes of the season (13, off the bench) in GW4. Stays last in the bench order, costing nothing.",
+    "Calafiori rose again to £5.8m (sells £5.6m) and João Pedro to £7.8m (sells £7.6m); Anderson fell to £6.3m and Hughes to £4.4m. Spending power £99.9m (£99.4m sell value + £0.5m bank). Calafiori, Raya, Guéhi and Haaland were all close to a further rise as of last night.",
+    "All chips held. No double gameweek and no injury crisis beyond a single day-to-day doubt that the squad already covers for free via the bench.",
+    "COULD NOT VERIFY: Daniel Muñoz's current club (named in one source as a defensive replacement, ambiguous); Szoboszlai's exact current fitness beyond the API's status='a' (only mismatched/ambiguous injury threads found) - both checked 17 Sep 2026."
    ]
   }
  ],

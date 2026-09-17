@@ -62,7 +62,7 @@ def pack(key, role):
 SQUAD = [
     ('Raya|Arsenal', 'xi'), ('Dubravka|Spurs', 'bench'),
     ('Calafiori|Arsenal', 'xi'), ('Virgil|Liverpool', 'xi'), ('Guéhi|Man City', 'xi'),
-    ('Shaw|Man Utd', 'xi'), ('van Ewijk|Coventry City', 'bench'),
+    ('Egan|Hull City', 'xi'), ('van Ewijk|Coventry City', 'bench'),
     ('B.Fernandes|Man Utd', 'xi'), ('Szoboszlai|Liverpool', 'xi'), ('Anderson|Man City', 'xi'),
     ('Hughes|Crystal Palace', 'bench'), ('Slater|Hull City', 'bench'),
     ('Haaland|Man City', 'xi'), ('João Pedro|Chelsea', 'xi'), ('Calvert-Lewin|Leeds', 'xi'),
@@ -86,8 +86,8 @@ out = {
     'marketValue': round(sum(p['price'] for p in squad), 1),
     'squad': squad, 'moves': moves,
     'captain': 'Haaland', 'vice': 'B.Fernandes',
-    'chips': {'available': ['Wildcard x2', 'Free Hit x2', 'Bench Boost x2', 'Triple Captain x2'],
-              'advice': 'Play Triple Captain on Haaland this week (GW3, home to Coventry) - the softest fixture of any elite attacker this week, tied only by GW7 Ipswich (H) through the visible schedule, so there is nothing better to wait for. Man City have had zero double gameweeks before GW19 in any of the last 3 seasons, so "wait for a DGW" is not a real plan, and the post-GW19 chip reset means firing now costs nothing long-term. Wildcard stays on hold for GW3 - community guides are split between GW4 (post-window) and GW6 (post-international-break) but the squad is healthy at 151 points and top-25% rank, so there is no structural problem to rush it for.'},
+    'chips': {'available': ['Wildcard x2', 'Free Hit x2', 'Bench Boost x2'],
+              'advice': "Hold everything. Triple Captain is already spent (Haaland, GW3, 27 points). No injury crisis - João Pedro's knee knock is a day-to-day doubt with a ready-made bench route (Slater, himself a confirmed starter for Hull this week), not a squad emergency - and no double gameweek to justify Bench Boost or Free Hit. Wildcard timing has no strong consensus (Fantasy Football Scout's chip guide gives no clear lean for this exact week), and the squad doesn't need surgery: one clear non-starter (Hughes) sat harmlessly at the bottom of the bench costs nothing to hold. All three remaining chip pairs expire at the GW19 deadline (2 Jan 2027) and do not carry over."},
     'benchOrder': ['Slater', 'van Ewijk', 'Hughes', 'Dubravka'],
     'advice': ADVICE,          # the verdict panel renders only if this is present
 

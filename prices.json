@@ -31,11 +31,11 @@
    "club": "Man City",
    "note": "opening squad, launch price"
   },
-  "Shaw": {
-   "price": 4.5,
-   "gw": 1,
-   "club": "Man Utd",
-   "note": "opening squad, launch price"
+  "Egan": {
+   "price": 4.0,
+   "gw": 3,
+   "club": "Hull City",
+   "note": "transfer in, replaced Shaw (sold)"
   },
   "van Ewijk": {
    "price": 4.0,
