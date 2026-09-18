@@ -3,13 +3,14 @@
   1,
   2,
   3,
-  4
+  4,
+  5
  ],
  "team": {
   "total": 302,
   "rank": 644217,
-  "percentile": 10,
-  "managers": 10859505,
+  "percentile": null,
+  "managers": 10872883,
   "bench": 21,
   "hits": 0,
   "best": 95,
@@ -90,6 +91,25 @@
     "best": 151,
     "prov": false,
     "rankDelta": 442363
+   },
+   {
+    "gw": 5,
+    "points": 0,
+    "gross": 0,
+    "hit": 0,
+    "transfers": 0,
+    "bench": 0,
+    "rank": 644217,
+    "gwRank": null,
+    "value": 100.5,
+    "bank": 0.5,
+    "chip": null,
+    "captain": "Haaland",
+    "captainPts": 0,
+    "avg": 0,
+    "best": null,
+    "prov": true,
+    "rankDelta": 0
    }
   ]
  },
@@ -164,6 +184,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 2,
+     "role": "xi",
+     "cap": true,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 33,
@@ -245,6 +281,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 33,
@@ -326,6 +378,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 29,
@@ -407,6 +475,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 29,
@@ -488,6 +572,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 28,
@@ -569,6 +669,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 26,
@@ -650,6 +766,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 20,
@@ -731,6 +863,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 18,
@@ -812,6 +960,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 17,
@@ -893,6 +1057,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 13,
@@ -942,6 +1122,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 8,
@@ -1072,6 +1268,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 13,
@@ -1153,6 +1365,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 6,
@@ -1234,6 +1462,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 2,
@@ -1315,6 +1559,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "5": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
