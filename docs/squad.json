@@ -1,7 +1,7 @@
 {
- "generated": "21 Sep 2026, 12:44 UTC",
- "gw": 5,
- "deadline": "2026-09-18T17:30:00Z",
+ "generated": "21 Sep 2026, 19:25 UTC",
+ "gw": 6,
+ "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
  "sellValue": 99.4,
  "marketValue": 100.1,
@@ -28,12 +28,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "BHA",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "LEE",
      "ha": "H",
@@ -56,6 +50,12 @@
      "opp": "LIV",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "HUL",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -70,7 +70,7 @@
    "clubName": "Spurs",
    "pos": "GK",
    "price": 4.0,
-   "sel": 17.3,
+   "sel": 17.2,
    "pts": 0,
    "ppg": 0.0,
    "starts": 0,
@@ -80,12 +80,6 @@
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "AVL",
-     "ha": "H",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "MUN",
@@ -108,6 +102,12 @@
      "gw": 9,
      "opp": "CRY",
      "ha": "H",
+     "fdr": 3
+    },
+    {
+     "gw": 10,
+     "opp": "LEE",
+     "ha": "A",
      "fdr": 3
     }
    ]
@@ -134,12 +134,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "BHA",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "LEE",
      "ha": "H",
@@ -162,6 +156,12 @@
      "opp": "LIV",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "HUL",
+     "ha": "H",
+     "fdr": 2
     }
    ]
   },
@@ -187,12 +187,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "BOU",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "MCI",
      "ha": "H",
@@ -215,6 +209,12 @@
      "opp": "ARS",
      "ha": "H",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "CRY",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -240,12 +240,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "SUN",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
      "gw": 6,
      "opp": "LIV",
      "ha": "A",
@@ -268,6 +262,12 @@
      "opp": "BHA",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -293,12 +293,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "NEW",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "EVE",
      "ha": "H",
@@ -321,6 +315,12 @@
      "opp": "IPS",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "ARS",
+     "ha": "A",
+     "fdr": 5
     }
    ]
   },
@@ -346,12 +346,6 @@
    "role": "bench",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "NFO",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "NEW",
      "ha": "H",
@@ -374,6 +368,12 @@
      "opp": "SUN",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "EVE",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -388,7 +388,7 @@
    "clubName": "Man Utd",
    "pos": "MID",
    "price": 12.0,
-   "sel": 39.0,
+   "sel": 38.9,
    "pts": 31,
    "ppg": 6.2,
    "starts": 5,
@@ -398,12 +398,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "FUL",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "TOT",
@@ -427,6 +421,12 @@
      "opp": "CHE",
      "ha": "A",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "AVL",
+     "ha": "H",
+     "fdr": 3
     }
    ]
   },
@@ -441,7 +441,7 @@
    "clubName": "Liverpool",
    "pos": "MID",
    "price": 7.0,
-   "sel": 33.5,
+   "sel": 33.3,
    "pts": 20,
    "ppg": 4.0,
    "starts": 5,
@@ -451,12 +451,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "BOU",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "MCI",
@@ -480,6 +474,12 @@
      "opp": "ARS",
      "ha": "H",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "CRY",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -494,7 +494,7 @@
    "clubName": "Man City",
    "pos": "MID",
    "price": 6.3,
-   "sel": 4.1,
+   "sel": 4.0,
    "pts": 15,
    "ppg": 3.0,
    "starts": 5,
@@ -504,12 +504,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "SUN",
-     "ha": "H",
-     "fdr": 2
-    },
     {
      "gw": 6,
      "opp": "LIV",
@@ -533,6 +527,12 @@
      "opp": "BHA",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -547,7 +547,7 @@
    "clubName": "Crystal Palace",
    "pos": "MID",
    "price": 4.4,
-   "sel": 7.5,
+   "sel": 7.4,
    "pts": 2,
    "ppg": 1.0,
    "starts": 0,
@@ -557,12 +557,6 @@
    "news": "",
    "role": "bench",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "LEE",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "NFO",
@@ -586,6 +580,12 @@
      "opp": "TOT",
      "ha": "A",
      "fdr": 3
+    },
+    {
+     "gw": 10,
+     "opp": "LIV",
+     "ha": "H",
+     "fdr": 4
     }
    ]
   },
@@ -611,12 +611,6 @@
    "role": "bench",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "NEW",
-     "ha": "A",
-     "fdr": 3
-    },
-    {
      "gw": 6,
      "opp": "EVE",
      "ha": "H",
@@ -639,6 +633,12 @@
      "opp": "IPS",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "ARS",
+     "ha": "A",
+     "fdr": 5
     }
    ]
   },
@@ -664,12 +664,6 @@
    "role": "xi",
    "fixtures": [
     {
-     "gw": 5,
-     "opp": "SUN",
-     "ha": "H",
-     "fdr": 2
-    },
-    {
      "gw": 6,
      "opp": "LIV",
      "ha": "A",
@@ -692,6 +686,12 @@
      "opp": "BHA",
      "ha": "H",
      "fdr": 2
+    },
+    {
+     "gw": 10,
+     "opp": "NFO",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -706,7 +706,7 @@
    "clubName": "Chelsea",
    "pos": "FWD",
    "price": 7.8,
-   "sel": 66.4,
+   "sel": 66.2,
    "pts": 33,
    "ppg": 8.2,
    "starts": 4,
@@ -716,12 +716,6 @@
    "news": "Knee injury - 75% chance of playing",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "BRE",
-     "ha": "A",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "BOU",
@@ -745,6 +739,12 @@
      "opp": "MUN",
      "ha": "H",
      "fdr": 4
+    },
+    {
+     "gw": 10,
+     "opp": "SUN",
+     "ha": "A",
+     "fdr": 3
     }
    ]
   },
@@ -759,7 +759,7 @@
    "clubName": "Leeds",
    "pos": "FWD",
    "price": 6.0,
-   "sel": 25.2,
+   "sel": 25.1,
    "pts": 22,
    "ppg": 4.4,
    "starts": 5,
@@ -769,12 +769,6 @@
    "news": "",
    "role": "xi",
    "fixtures": [
-    {
-     "gw": 5,
-     "opp": "CRY",
-     "ha": "H",
-     "fdr": 3
-    },
     {
      "gw": 6,
      "opp": "ARS",
@@ -797,6 +791,12 @@
      "gw": 9,
      "opp": "BOU",
      "ha": "A",
+     "fdr": 3
+    },
+    {
+     "gw": 10,
+     "opp": "TOT",
+     "ha": "H",
      "fdr": 3
     }
    ]
