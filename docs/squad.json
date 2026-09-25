@@ -1,5 +1,5 @@
 {
- "generated": "25 Sep 2026, 07:45 UTC",
+ "generated": "25 Sep 2026, 13:44 UTC",
  "gw": 6,
  "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
@@ -31,7 +31,7 @@
      "gw": 6,
      "opp": "LEE",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 7,
@@ -70,7 +70,7 @@
    "clubName": "Spurs",
    "pos": "GK",
    "price": 4.0,
-   "sel": 17.2,
+   "sel": 17.1,
    "pts": 0,
    "ppg": 0.0,
    "starts": 0,
@@ -102,7 +102,7 @@
      "gw": 9,
      "opp": "CRY",
      "ha": "H",
-     "fdr": 3
+     "fdr": 2
     },
     {
      "gw": 10,
@@ -137,7 +137,7 @@
      "gw": 6,
      "opp": "LEE",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 7,
@@ -202,7 +202,7 @@
      "gw": 8,
      "opp": "BHA",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 9,
@@ -255,13 +255,13 @@
      "gw": 8,
      "opp": "AVL",
      "ha": "A",
-     "fdr": 4
+     "fdr": 3
     },
     {
      "gw": 9,
      "opp": "BHA",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 10,
@@ -349,7 +349,7 @@
      "gw": 6,
      "opp": "NEW",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 7,
@@ -367,7 +367,7 @@
      "gw": 9,
      "opp": "SUN",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 10,
@@ -402,7 +402,7 @@
      "gw": 6,
      "opp": "TOT",
      "ha": "H",
-     "fdr": 3
+     "fdr": 2
     },
     {
      "gw": 7,
@@ -467,7 +467,7 @@
      "gw": 8,
      "opp": "BHA",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 9,
@@ -520,13 +520,13 @@
      "gw": 8,
      "opp": "AVL",
      "ha": "A",
-     "fdr": 4
+     "fdr": 3
     },
     {
      "gw": 9,
      "opp": "BHA",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 10,
@@ -567,13 +567,13 @@
      "gw": 7,
      "opp": "BHA",
      "ha": "A",
-     "fdr": 3
+     "fdr": 4
     },
     {
      "gw": 8,
      "opp": "NEW",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 9,
@@ -679,13 +679,13 @@
      "gw": 8,
      "opp": "AVL",
      "ha": "A",
-     "fdr": 4
+     "fdr": 3
     },
     {
      "gw": 9,
      "opp": "BHA",
      "ha": "H",
-     "fdr": 2
+     "fdr": 3
     },
     {
      "gw": 10,
@@ -706,7 +706,7 @@
    "clubName": "Chelsea",
    "pos": "FWD",
    "price": 7.7,
-   "sel": 65.5,
+   "sel": 65.4,
    "pts": 33,
    "ppg": 8.2,
    "starts": 4,
@@ -732,7 +732,7 @@
      "gw": 8,
      "opp": "TOT",
      "ha": "H",
-     "fdr": 3
+     "fdr": 2
     },
     {
      "gw": 9,
@@ -797,7 +797,7 @@
      "gw": 10,
      "opp": "TOT",
      "ha": "H",
-     "fdr": 3
+     "fdr": 2
     }
    ]
   }
