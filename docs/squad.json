@@ -1,5 +1,5 @@
 {
- "generated": "26 Sep 2026, 11:21 UTC",
+ "generated": "26 Sep 2026, 16:21 UTC",
  "gw": 6,
  "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
@@ -388,7 +388,7 @@
    "clubName": "Man Utd",
    "pos": "MID",
    "price": 11.9,
-   "sel": 38.6,
+   "sel": 38.5,
    "pts": 31,
    "ppg": 6.2,
    "starts": 5,
