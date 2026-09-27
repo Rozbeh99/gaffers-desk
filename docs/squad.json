@@ -1,5 +1,5 @@
 {
- "generated": "27 Sep 2026, 08:06 UTC",
+ "generated": "27 Sep 2026, 13:56 UTC",
  "gw": 6,
  "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
@@ -600,7 +600,7 @@
    "clubName": "Hull City",
    "pos": "MID",
    "price": 4.5,
-   "sel": 5.3,
+   "sel": 5.2,
    "pts": 15,
    "ppg": 3.0,
    "starts": 5,
