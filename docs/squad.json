@@ -1,10 +1,10 @@
 {
- "generated": "02 Oct 2026, 19:16 UTC",
+ "generated": "02 Oct 2026, 23:45 UTC",
  "gw": 6,
  "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
- "sellValue": 99.3,
- "marketValue": 99.9,
+ "sellValue": 99.2,
+ "marketValue": 99.8,
  "squad": [
   {
    "id": 1,
@@ -433,14 +433,14 @@
   {
    "id": 368,
    "name": "Szoboszlai",
-   "sell": 7.0,
-   "rise": 0.0,
+   "sell": 6.9,
+   "rise": -0.1,
    "paid": 7.0,
    "full": "Dominik Szoboszlai",
    "club": "LIV",
    "clubName": "Liverpool",
    "pos": "MID",
-   "price": 7.0,
+   "price": 6.9,
    "sel": 32.7,
    "pts": 20,
    "ppg": 4.0,
