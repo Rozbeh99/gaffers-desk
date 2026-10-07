@@ -1,5 +1,5 @@
 {
- "generated": "06 Oct 2026, 20:58 UTC",
+ "generated": "07 Oct 2026, 01:31 UTC",
  "gw": 6,
  "deadline": "2026-10-10T10:00:00Z",
  "budget": 100.0,
@@ -123,7 +123,7 @@
    "clubName": "Arsenal",
    "pos": "DEF",
    "price": 5.9,
-   "sel": 50.5,
+   "sel": 50.6,
    "pts": 29,
    "ppg": 5.8,
    "starts": 5,
