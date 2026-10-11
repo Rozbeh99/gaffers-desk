@@ -8,10 +8,10 @@
   6
  ],
  "team": {
-  "total": 367,
-  "rank": 2409826,
-  "percentile": 75,
-  "managers": 11066715,
+  "total": 386,
+  "rank": 2242800,
+  "percentile": 70,
+  "managers": 11068654,
   "bench": 23,
   "hits": 0,
   "best": 95,
@@ -119,7 +119,7 @@
     "hit": 0,
     "transfers": 1,
     "bench": 2,
-    "rank": 2242785,
+    "rank": 2242800,
     "gwRank": 7567734,
     "value": 100.4,
     "bank": 0.6,
@@ -129,7 +129,7 @@
     "avg": 54,
     "best": 131,
     "prov": true,
-    "rankDelta": -970120
+    "rankDelta": -970135
    }
   ]
  },
