@@ -9,13 +9,13 @@
  ],
  "team": {
   "total": 386,
-  "rank": 2242800,
-  "percentile": 70,
-  "managers": 11072554,
-  "bench": 23,
+  "rank": 2300533,
+  "percentile": 75,
+  "managers": 11075851,
+  "bench": 29,
   "hits": 0,
   "best": 95,
-  "avgTotal": 353,
+  "avgTotal": 354,
   "byGw": [
    {
     "gw": 1,
@@ -118,18 +118,18 @@
     "gross": 47,
     "hit": 0,
     "transfers": 1,
-    "bench": 2,
-    "rank": 2242800,
-    "gwRank": 7567734,
+    "bench": 8,
+    "rank": 2300533,
+    "gwRank": 7783957,
     "value": 100.4,
     "bank": 0.6,
     "chip": null,
     "captain": "Haaland",
     "captainPts": 6,
-    "avg": 54,
+    "avg": 55,
     "best": 131,
     "prov": true,
-    "rankDelta": -970135
+    "rankDelta": -1027868
    }
   ]
  },
@@ -1612,12 +1612,12 @@
      "prov": false
     },
     "6": {
-     "p": 0,
+     "p": 6,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
-     "a": 0,
+     "a": 1,
      "cs": 0,
      "mult": 0,
      "role": "bench",
@@ -1628,14 +1628,14 @@
      "prov": true
     }
    },
-   "own": 6,
+   "own": 12,
    "counted": 0,
    "bonus": 0,
-   "mins": 360,
+   "mins": 450,
    "goals": 0,
-   "assists": 0,
+   "assists": 1,
    "cs": 0,
-   "starts": 4
+   "starts": 5
   },
   {
    "id": 212,
