@@ -8,14 +8,14 @@
   6
  ],
  "team": {
-  "total": 386,
-  "rank": 2300533,
+  "total": 388,
+  "rank": 2309988,
   "percentile": 75,
-  "managers": 11076935,
+  "managers": 11079984,
   "bench": 29,
   "hits": 0,
   "best": 95,
-  "avgTotal": 354,
+  "avgTotal": 357,
   "byGw": [
    {
     "gw": 1,
@@ -126,9 +126,9 @@
     "chip": null,
     "captain": "Haaland",
     "captainPts": 6,
-    "avg": 55,
+    "avg": 58,
     "best": 131,
-    "prov": true,
+    "prov": false,
     "rankDelta": -1027868
    }
   ]
@@ -235,7 +235,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 45,
@@ -348,7 +348,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 45,
@@ -461,7 +461,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 38,
@@ -574,7 +574,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 36,
@@ -687,7 +687,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 33,
@@ -800,7 +800,7 @@
      "vice": true,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 32,
@@ -913,7 +913,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 25,
@@ -1026,7 +1026,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 24,
@@ -1139,7 +1139,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 20,
@@ -1317,7 +1317,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 10,
@@ -1479,7 +1479,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 17,
@@ -1512,7 +1512,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 1,
@@ -1625,7 +1625,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 12,
@@ -1738,7 +1738,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 2,
@@ -1851,7 +1851,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 0,
