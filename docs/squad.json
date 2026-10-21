@@ -1,10 +1,10 @@
 {
- "generated": "20 Oct 2026, 21:34 UTC",
+ "generated": "21 Oct 2026, 00:36 UTC",
  "gw": 8,
  "deadline": "2026-10-23T17:30:00Z",
  "budget": 100.0,
- "sellValue": 99.1,
- "marketValue": 99.9,
+ "sellValue": 99.0,
+ "marketValue": 99.8,
  "squad": [
   {
    "id": 1,
@@ -539,14 +539,14 @@
   {
    "id": 212,
    "name": "Hughes",
-   "sell": 4.4,
-   "rise": -0.1,
+   "sell": 4.3,
+   "rise": -0.2,
    "paid": 4.5,
    "full": "Will Hughes",
    "club": "CRY",
    "clubName": "Crystal Palace",
    "pos": "MID",
-   "price": 4.4,
+   "price": 4.3,
    "sel": 6.1,
    "pts": 3,
    "ppg": 1.0,
