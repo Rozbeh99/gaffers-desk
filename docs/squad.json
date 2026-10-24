@@ -1,5 +1,5 @@
 {
- "generated": "23 Oct 2026, 23:07 UTC",
+ "generated": "24 Oct 2026, 04:32 UTC",
  "gw": 8,
  "deadline": "2026-10-23T17:30:00Z",
  "budget": 100.0,
@@ -441,7 +441,7 @@
    "clubName": "Liverpool",
    "pos": "MID",
    "price": 6.8,
-   "sel": 16.3,
+   "sel": 16.2,
    "pts": 21,
    "ppg": 3.5,
    "starts": 6,
