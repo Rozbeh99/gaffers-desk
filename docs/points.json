@@ -13,7 +13,7 @@
   "total": 498,
   "rank": 2380204,
   "percentile": 50,
-  "managers": 11181663,
+  "managers": 11184447,
   "bench": 32,
   "hits": 0,
   "best": 95,
@@ -168,7 +168,7 @@
     "captainPts": 8,
     "avg": 45,
     "best": 120,
-    "prov": true,
+    "prov": false,
     "rankDelta": -70529
    }
   ]
@@ -307,7 +307,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 66,
@@ -452,7 +452,7 @@
      "vice": false,
      "subOn": false,
      "subOff": true,
-     "prov": true
+     "prov": false
     }
    },
    "own": 47,
@@ -597,7 +597,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 49,
@@ -742,7 +742,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 45,
@@ -887,7 +887,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 38,
@@ -1032,7 +1032,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 37,
@@ -1177,7 +1177,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 35,
@@ -1322,7 +1322,7 @@
      "vice": true,
      "subOn": false,
      "subOff": true,
-     "prov": true
+     "prov": false
     }
    },
    "own": 33,
@@ -1548,7 +1548,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 18,
@@ -1790,7 +1790,7 @@
      "vice": false,
      "subOn": true,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 20,
@@ -1904,7 +1904,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 3,
@@ -1953,7 +1953,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 3,
@@ -2098,7 +2098,7 @@
      "vice": false,
      "subOn": true,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 15,
@@ -2243,7 +2243,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 3,
@@ -2388,7 +2388,7 @@
      "vice": false,
      "subOn": false,
      "subOff": false,
-     "prov": true
+     "prov": false
     }
    },
    "own": 0,
