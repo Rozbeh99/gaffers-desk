@@ -7,13 +7,14 @@
   5,
   6,
   7,
-  8
+  8,
+  9
  ],
  "team": {
   "total": 498,
   "rank": 2380204,
-  "percentile": 50,
-  "managers": 11205806,
+  "percentile": null,
+  "managers": 11208381,
   "bench": 32,
   "hits": 0,
   "best": 95,
@@ -170,6 +171,25 @@
     "best": 120,
     "prov": false,
     "rankDelta": -70529
+   },
+   {
+    "gw": 9,
+    "points": 0,
+    "gross": 0,
+    "hit": 0,
+    "transfers": 2,
+    "bench": 0,
+    "rank": 2380204,
+    "gwRank": null,
+    "value": 100.2,
+    "bank": 2.6,
+    "chip": null,
+    "captain": "Haaland",
+    "captainPts": 0,
+    "avg": 0,
+    "best": null,
+    "prov": true,
+    "rankDelta": 0
    }
   ]
  },
@@ -308,6 +328,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 2,
+     "role": "xi",
+     "cap": true,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 66,
@@ -598,6 +634,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 49,
@@ -743,6 +795,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 45,
@@ -888,6 +956,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 38,
@@ -1033,6 +1117,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 37,
@@ -1178,6 +1278,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 35,
@@ -1323,6 +1439,22 @@
      "subOn": false,
      "subOff": true,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 33,
@@ -1549,6 +1681,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 18,
@@ -1791,6 +1939,22 @@
      "subOn": true,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 20,
@@ -1954,6 +2118,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 3,
@@ -2099,6 +2279,22 @@
      "subOn": true,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 15,
@@ -2244,6 +2440,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 3,
@@ -2389,6 +2601,88 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 0,
+   "counted": 0,
+   "bonus": 0,
+   "mins": 0,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 0
+  },
+  {
+   "id": 68,
+   "name": "Tavernier",
+   "full": "Marcus Tavernier",
+   "club": "BOU",
+   "pos": "MID",
+   "gws": {
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 0,
+   "counted": 0,
+   "bonus": 0,
+   "mins": 0,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 0
+  },
+  {
+   "id": 79,
+   "name": "Evanilson",
+   "full": "Francisco Evanilson de Lima Barbosa",
+   "club": "BOU",
+   "pos": "FWD",
+   "gws": {
+    "9": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
