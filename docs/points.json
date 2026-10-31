@@ -14,7 +14,7 @@
   "total": 498,
   "rank": 2380204,
   "percentile": null,
-  "managers": 11208381,
+  "managers": 11212499,
   "bench": 32,
   "hits": 0,
   "best": 95,
@@ -185,7 +185,7 @@
     "bank": 2.6,
     "chip": null,
     "captain": "Haaland",
-    "captainPts": 0,
+    "captainPts": 2,
     "avg": 0,
     "best": null,
     "prov": true,
@@ -330,10 +330,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
-     "c": 0,
+     "p": 2,
+     "c": 4,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -346,14 +346,14 @@
      "prov": true
     }
    },
-   "own": 66,
-   "counted": 132,
+   "own": 68,
+   "counted": 136,
    "bonus": 14,
-   "mins": 709,
+   "mins": 799,
    "goals": 9,
    "assists": 0,
    "cs": 3,
-   "starts": 8
+   "starts": 9
   },
   {
    "id": 165,
@@ -1280,10 +1280,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
-     "c": 0,
+     "p": 2,
+     "c": 2,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1296,14 +1296,14 @@
      "prov": true
     }
    },
-   "own": 35,
-   "counted": 35,
+   "own": 37,
+   "counted": 37,
    "bonus": 7,
-   "mins": 683,
+   "mins": 773,
    "goals": 3,
    "assists": 1,
    "cs": 4,
-   "starts": 8
+   "starts": 9
   },
   {
    "id": 426,
@@ -1441,10 +1441,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
-     "c": 0,
+     "p": 2,
+     "c": 2,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1457,14 +1457,14 @@
      "prov": true
     }
    },
-   "own": 33,
-   "counted": 33,
+   "own": 35,
+   "counted": 35,
    "bonus": 3,
-   "mins": 630,
+   "mins": 720,
    "goals": 3,
    "assists": 1,
    "cs": 0,
-   "starts": 7
+   "starts": 8
   },
   {
    "id": 368,
@@ -1683,10 +1683,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 45,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1699,14 +1699,14 @@
      "prov": true
     }
    },
-   "own": 18,
-   "counted": 18,
+   "own": 19,
+   "counted": 19,
    "bonus": 0,
-   "mins": 527,
+   "mins": 572,
    "goals": 0,
    "assists": 0,
    "cs": 1,
-   "starts": 6
+   "starts": 7
   },
   {
    "id": 481,
@@ -1804,6 +1804,39 @@
    "assists": 0,
    "cs": 2,
    "starts": 5
+  },
+  {
+   "id": 79,
+   "name": "Evanilson",
+   "full": "Francisco Evanilson de Lima Barbosa",
+   "club": "BOU",
+   "pos": "FWD",
+   "gws": {
+    "9": {
+     "p": 9,
+     "c": 9,
+     "b": 3,
+     "m": 75,
+     "g": 1,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 9,
+   "counted": 9,
+   "bonus": 3,
+   "mins": 75,
+   "goals": 1,
+   "assists": 0,
+   "cs": 1,
+   "starts": 1
   },
   {
    "id": 290,
@@ -1941,10 +1974,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
+     "p": 2,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 89,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1957,14 +1990,14 @@
      "prov": true
     }
    },
-   "own": 20,
+   "own": 22,
    "counted": 4,
    "bonus": 0,
-   "mins": 675,
+   "mins": 764,
    "goals": 0,
    "assists": 1,
    "cs": 3,
-   "starts": 8
+   "starts": 9
   },
   {
    "id": 423,
@@ -2146,6 +2179,39 @@
    "starts": 1
   },
   {
+   "id": 68,
+   "name": "Tavernier",
+   "full": "Marcus Tavernier",
+   "club": "BOU",
+   "pos": "MID",
+   "gws": {
+    "9": {
+     "p": 3,
+     "c": 3,
+     "b": 0,
+     "m": 90,
+     "g": 0,
+     "a": 0,
+     "cs": 1,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 3,
+   "counted": 3,
+   "bonus": 0,
+   "mins": 90,
+   "goals": 0,
+   "assists": 0,
+   "cs": 1,
+   "starts": 1
+  },
+  {
    "id": 175,
    "name": "van Ewijk",
    "full": "Milan van Ewijk",
@@ -2281,10 +2347,10 @@
      "prov": false
     },
     "9": {
-     "p": 0,
+     "p": 4,
      "c": 0,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -2297,14 +2363,14 @@
      "prov": true
     }
    },
-   "own": 15,
+   "own": 19,
    "counted": 2,
    "bonus": 0,
-   "mins": 630,
+   "mins": 720,
    "goals": 0,
    "assists": 1,
    "cs": 0,
-   "starts": 7
+   "starts": 8
   },
   {
    "id": 212,
@@ -2612,72 +2678,6 @@
      "cs": 0,
      "mult": 0,
      "role": "bench",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 0,
-   "counted": 0,
-   "bonus": 0,
-   "mins": 0,
-   "goals": 0,
-   "assists": 0,
-   "cs": 0,
-   "starts": 0
-  },
-  {
-   "id": 68,
-   "name": "Tavernier",
-   "full": "Marcus Tavernier",
-   "club": "BOU",
-   "pos": "MID",
-   "gws": {
-    "9": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
-     "cap": false,
-     "vice": false,
-     "subOn": false,
-     "subOff": false,
-     "prov": true
-    }
-   },
-   "own": 0,
-   "counted": 0,
-   "bonus": 0,
-   "mins": 0,
-   "goals": 0,
-   "assists": 0,
-   "cs": 0,
-   "starts": 0
-  },
-  {
-   "id": 79,
-   "name": "Evanilson",
-   "full": "Francisco Evanilson de Lima Barbosa",
-   "club": "BOU",
-   "pos": "FWD",
-   "gws": {
-    "9": {
-     "p": 0,
-     "c": 0,
-     "b": 0,
-     "m": 0,
-     "g": 0,
-     "a": 0,
-     "cs": 0,
-     "mult": 1,
-     "role": "xi",
      "cap": false,
      "vice": false,
      "subOn": false,
