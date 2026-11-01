@@ -11,14 +11,14 @@
   9
  ],
  "team": {
-  "total": 498,
-  "rank": 2380204,
-  "percentile": null,
-  "managers": 11214523,
-  "bench": 32,
+  "total": 520,
+  "rank": 3157913,
+  "percentile": 75,
+  "managers": 11215329,
+  "bench": 39,
   "hits": 0,
   "best": 95,
-  "avgTotal": 461,
+  "avgTotal": 492,
   "byGw": [
    {
     "gw": 1,
@@ -174,22 +174,22 @@
    },
    {
     "gw": 9,
-    "points": 0,
-    "gross": 0,
+    "points": 22,
+    "gross": 22,
     "hit": 0,
     "transfers": 2,
-    "bench": 0,
-    "rank": 2380204,
-    "gwRank": null,
+    "bench": 7,
+    "rank": 3157913,
+    "gwRank": 8124635,
     "value": 100.2,
     "bank": 2.6,
     "chip": null,
     "captain": "Haaland",
     "captainPts": 2,
-    "avg": 0,
-    "best": null,
+    "avg": 31,
+    "best": 122,
     "prov": true,
-    "rankDelta": 0
+    "rankDelta": -777709
    }
   ]
  },
