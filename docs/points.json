@@ -14,7 +14,7 @@
   "total": 534,
   "rank": 2992132,
   "percentile": 70,
-  "managers": 11222144,
+  "managers": 11222915,
   "bench": 39,
   "hits": 0,
   "best": 95,
@@ -797,8 +797,8 @@
      "prov": false
     },
     "9": {
-     "p": 8,
-     "c": 8,
+     "p": 6,
+     "c": 6,
      "b": 0,
      "m": 90,
      "g": 0,
@@ -813,8 +813,8 @@
      "prov": true
     }
    },
-   "own": 53,
-   "counted": 53,
+   "own": 51,
+   "counted": 51,
    "bonus": 3,
    "mins": 699,
    "goals": 1,
