@@ -1,5 +1,5 @@
 /* The Gaffer's Desk - offline shell. Bumping CACHE evicts the old one. */
-var CACHE = 'gaffer-03Nov20261612UTC';
+var CACHE = 'gaffer-03Nov20262146UTC';
 var SHELL = ['./', './index.html', './manifest.webmanifest',
              './icon-180.png', './icon-192.png', './icon-512.png'];
 
