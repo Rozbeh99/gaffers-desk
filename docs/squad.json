@@ -1,5 +1,5 @@
 {
- "generated": "04 Nov 2026, 02:17 UTC",
+ "generated": "04 Nov 2026, 12:04 UTC",
  "gw": 10,
  "deadline": "2026-11-06T18:30:00Z",
  "budget": 100.0,
@@ -706,7 +706,7 @@
    "clubName": "Chelsea",
    "pos": "FWD",
    "price": 7.7,
-   "sel": 39.8,
+   "sel": 39.6,
    "pts": 47,
    "ppg": 7.8,
    "starts": 6,
