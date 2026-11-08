@@ -1,5 +1,5 @@
 {
- "generated": "08 Nov 2026, 01:25 UTC",
+ "generated": "08 Nov 2026, 08:57 UTC",
  "gw": 10,
  "deadline": "2026-11-06T18:30:00Z",
  "budget": 100.0,
@@ -17,7 +17,7 @@
    "clubName": "Arsenal",
    "pos": "GK",
    "price": 6.2,
-   "sel": 47.2,
+   "sel": 47.3,
    "pts": 60,
    "ppg": 6.0,
    "starts": 10,
