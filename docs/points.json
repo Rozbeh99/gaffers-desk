@@ -9,13 +9,14 @@
   7,
   8,
   9,
-  10
+  10,
+  11
  ],
  "team": {
   "total": 583,
   "rank": 3684640,
-  "percentile": 75,
-  "managers": 11309056,
+  "percentile": null,
+  "managers": 11311704,
   "bench": 42,
   "hits": 0,
   "best": 95,
@@ -210,6 +211,25 @@
     "best": 139,
     "prov": false,
     "rankDelta": -265313
+   },
+   {
+    "gw": 11,
+    "points": 0,
+    "gross": 0,
+    "hit": 0,
+    "transfers": 0,
+    "bench": 0,
+    "rank": 3684640,
+    "gwRank": null,
+    "value": 100.3,
+    "bank": 2.6,
+    "chip": null,
+    "captain": "Haaland",
+    "captainPts": 1,
+    "avg": 0,
+    "best": null,
+    "prov": true,
+    "rankDelta": -217454
    }
   ]
  },
@@ -380,16 +400,32 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 1,
+     "c": 2,
+     "b": 0,
+     "m": 4,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 2,
+     "role": "xi",
+     "cap": true,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
-   "own": 70,
-   "counted": 140,
+   "own": 71,
+   "counted": 142,
    "bonus": 14,
-   "mins": 889,
+   "mins": 893,
    "goals": 9,
    "assists": 0,
    "cs": 3,
-   "starts": 10
+   "starts": 11
   },
   {
    "id": 1,
@@ -557,6 +593,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 60,
@@ -879,6 +931,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 57,
@@ -1056,6 +1124,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 45,
@@ -1233,6 +1317,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 43,
@@ -1410,6 +1510,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 39,
@@ -1587,16 +1703,32 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 1,
+     "c": 0,
+     "b": 0,
+     "m": 4,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
-   "own": 37,
+   "own": 38,
    "counted": 37,
    "bonus": 4,
-   "mins": 720,
+   "mins": 724,
    "goals": 1,
    "assists": 1,
    "cs": 3,
-   "starts": 9
+   "starts": 10
   },
   {
    "id": 277,
@@ -1732,6 +1864,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 21,
@@ -1894,6 +2042,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 18,
@@ -2040,6 +2204,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 6,
@@ -2217,6 +2397,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 24,
@@ -2298,6 +2494,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 4,
@@ -2589,6 +2801,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 20,
@@ -2766,6 +2994,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 4,
@@ -2943,6 +3187,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "11": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
