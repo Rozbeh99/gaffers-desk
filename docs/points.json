@@ -16,7 +16,7 @@
   "total": 613,
   "rank": 3364860,
   "percentile": 20,
-  "managers": 11316493,
+  "managers": 11319044,
   "bench": 45,
   "hits": 0,
   "best": 95,
@@ -1319,10 +1319,10 @@
      "prov": false
     },
     "11": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 58,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1335,14 +1335,14 @@
      "prov": true
     }
    },
-   "own": 45,
-   "counted": 45,
+   "own": 46,
+   "counted": 46,
    "bonus": 3,
-   "mins": 810,
+   "mins": 868,
    "goals": 4,
    "assists": 2,
    "cs": 0,
-   "starts": 9
+   "starts": 10
   },
   {
    "id": 356,
@@ -1512,10 +1512,10 @@
      "prov": false
     },
     "11": {
-     "p": 0,
-     "c": 0,
+     "p": 1,
+     "c": 1,
      "b": 0,
-     "m": 0,
+     "m": 58,
      "g": 0,
      "a": 0,
      "cs": 0,
@@ -1528,14 +1528,14 @@
      "prov": true
     }
    },
-   "own": 43,
-   "counted": 43,
+   "own": 44,
+   "counted": 44,
    "bonus": 1,
-   "mins": 900,
+   "mins": 958,
    "goals": 0,
    "assists": 0,
    "cs": 4,
-   "starts": 10
+   "starts": 11
   },
   {
    "id": 388,
@@ -2399,13 +2399,13 @@
      "prov": false
     },
     "11": {
-     "p": 0,
-     "c": 0,
+     "p": 3,
+     "c": 3,
      "b": 0,
-     "m": 0,
+     "m": 90,
      "g": 0,
      "a": 0,
-     "cs": 0,
+     "cs": 1,
      "mult": 1,
      "role": "xi",
      "cap": false,
@@ -2415,14 +2415,14 @@
      "prov": true
     }
    },
-   "own": 24,
-   "counted": 4,
+   "own": 27,
+   "counted": 7,
    "bonus": 0,
-   "mins": 854,
+   "mins": 944,
    "goals": 0,
    "assists": 1,
-   "cs": 3,
-   "starts": 10
+   "cs": 4,
+   "starts": 11
   },
   {
    "id": 41,
