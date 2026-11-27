@@ -10,13 +10,14 @@
   8,
   9,
   10,
-  11
+  11,
+  12
  ],
  "team": {
   "total": 626,
   "rank": 3308029,
-  "percentile": 20,
-  "managers": 11336314,
+  "percentile": null,
+  "managers": 11339455,
   "bench": 45,
   "hits": 0,
   "best": 95,
@@ -230,6 +231,25 @@
     "best": 106,
     "prov": false,
     "rankDelta": 115674
+   },
+   {
+    "gw": 12,
+    "points": 0,
+    "gross": 0,
+    "hit": 0,
+    "transfers": 2,
+    "bench": 0,
+    "rank": 3308029,
+    "gwRank": null,
+    "value": 100.1,
+    "bank": 2.6,
+    "chip": null,
+    "captain": "B.Fernandes",
+    "captainPts": 0,
+    "avg": 0,
+    "best": null,
+    "prov": true,
+    "rankDelta": 43483
    }
   ]
  },
@@ -416,6 +436,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": true,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 72,
@@ -609,6 +645,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 61,
@@ -947,6 +999,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 58,
@@ -1140,6 +1208,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 49,
@@ -1333,6 +1417,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 48,
@@ -1526,6 +1626,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 2,
+     "role": "xi",
+     "cap": true,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 47,
@@ -1719,6 +1835,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 39,
@@ -1784,6 +1916,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 24,
@@ -1945,6 +2093,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 21,
@@ -2220,6 +2384,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 14,
@@ -2413,6 +2593,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 27,
@@ -2703,6 +2899,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 21,
@@ -3010,6 +3222,22 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    },
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 0,
+     "role": "bench",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 4,
@@ -3203,6 +3431,72 @@
      "subOn": false,
      "subOff": false,
      "prov": false
+    }
+   },
+   "own": 0,
+   "counted": 0,
+   "bonus": 0,
+   "mins": 0,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 0
+  },
+  {
+   "id": 109,
+   "name": "Verbruggen",
+   "full": "Bart Verbruggen",
+   "club": "BHA",
+   "pos": "GK",
+   "gws": {
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
+    }
+   },
+   "own": 0,
+   "counted": 0,
+   "bonus": 0,
+   "mins": 0,
+   "goals": 0,
+   "assists": 0,
+   "cs": 0,
+   "starts": 0
+  },
+  {
+   "id": 183,
+   "name": "Rudoni",
+   "full": "Jack Rudoni",
+   "club": "COV",
+   "pos": "MID",
+   "gws": {
+    "12": {
+     "p": 0,
+     "c": 0,
+     "b": 0,
+     "m": 0,
+     "g": 0,
+     "a": 0,
+     "cs": 0,
+     "mult": 1,
+     "role": "xi",
+     "cap": false,
+     "vice": false,
+     "subOn": false,
+     "subOff": false,
+     "prov": true
     }
    },
    "own": 0,
