@@ -15,13 +15,13 @@
  ],
  "team": {
   "total": 626,
-  "rank": 3308029,
-  "percentile": null,
-  "managers": 11339455,
+  "rank": 3451274,
+  "percentile": 100,
+  "managers": 11340162,
   "bench": 45,
   "hits": 0,
   "best": 95,
-  "avgTotal": 598,
+  "avgTotal": 601,
   "byGw": [
    {
     "gw": 1,
@@ -239,17 +239,17 @@
     "hit": 0,
     "transfers": 2,
     "bench": 0,
-    "rank": 3308029,
-    "gwRank": null,
+    "rank": 3451274,
+    "gwRank": 10925093,
     "value": 100.1,
     "bank": 2.6,
     "chip": null,
     "captain": "B.Fernandes",
     "captainPts": 0,
-    "avg": 0,
-    "best": null,
+    "avg": 3,
+    "best": 67,
     "prov": true,
-    "rankDelta": 43483
+    "rankDelta": -99762
    }
   ]
  },
